@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: Home
+  url: /
+  excerpt:
+  image:
+  
+- title: Course Information
+  url: /course-info
+  excerpt:
+  image:
+  
+- title: Homework
+  url: /homework
+  excerpt:
+  image:
