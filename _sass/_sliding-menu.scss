@@ -78,17 +78,12 @@
 			color: $white;
 			text-decoration: none;
 		}
-		
 		.title {
 			display: block;
 			font-family: $alt-font;
 			@include font-size(32,no);
 			font-weight: 700;
-			@include media($medium) {
-				margin-left: 170px;
-			}
 		}
-		
 	}
 	.sub-menu-item > li a {
 		display: block;
