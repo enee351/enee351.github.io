@@ -40,6 +40,9 @@
 	font-weight: 700;
 	@include font-size(20, no);
 	text-transform: uppercase;
+    &:hover > span {
+    	color: $link-color;
+    }
 }
 .site-title > span {
 	@include font-size(12, no);
