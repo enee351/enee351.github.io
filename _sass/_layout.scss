@@ -14,6 +14,7 @@
     -webkit-box-shadow: 0px 1px 15px 0px rgba(5, 20, 25, 0.75);
 	-moz-box-shadow:    0px 1px 15px 0px rgba(5, 20, 25, 0.75);
 	box-shadow:         0px 1px 15px 0px rgba(5, 20, 25, 0.75);
+    padding: (.25 * $masthead-height) 0;
 }
 #masthead-bottom {
 	height: 400px;
