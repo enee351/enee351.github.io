@@ -188,6 +188,7 @@
 		@include media($medium) {
 			@include span-columns(12);
 		}
+        position: relative;
 	}
 	.toc {
 		@include media($medium) {
@@ -196,6 +197,8 @@
 		@include media($large) {
 			@include span-columns(2 of 12);
 		}
+        position: absolute;
+        bottom: 10px;
 	}
 	.page-title {
 		@include fill-parent;
