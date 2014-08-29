@@ -32,7 +32,6 @@
 	@include media($large) {
 		@include span-columns(5);
 	}
-	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
 	text-decoration: none;
 	color: $white;
@@ -62,7 +61,6 @@
 			position: relative;
 			display: block;
 			margin-right: $gutter;
-			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height);
 			height: $masthead-height;
 			font-family: $alt-font;
 			&:before,
