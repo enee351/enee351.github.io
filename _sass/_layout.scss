@@ -37,7 +37,6 @@
 	font-family: $alt-font;
 	font-weight: 700;
 	@include font-size(20, no);
-	
 	text-transform: uppercase;
 }
 .smaller {
@@ -111,7 +110,6 @@
 		a {
 			font-weight: 700;
 			@include font-size(16,no);
-			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: $white;
 			text-transform: uppercase;
 		}
