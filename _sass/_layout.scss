@@ -30,7 +30,8 @@
 	-moz-box-shadow:    inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
 	box-shadow:         inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
     content: '';
-    position: relative;
+    position: fixed;
+    top: 0
     z-index: -1;
 }
 #masthead-bottom .org {
