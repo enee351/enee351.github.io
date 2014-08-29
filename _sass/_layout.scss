@@ -162,7 +162,7 @@
 #main {
 	.inner-wrap {
 		@include media($medium) {
-			@include span-columns(11);
+			@include span-columns(12);
 		}
 	}
 	.toc {
@@ -170,7 +170,7 @@
 			@include row($direction: RTL);
 		}
 		@include media($large) {
-			@include span-columns(2 of 11);
+			@include span-columns(2 of 12);
 		}
 	}
 	.page-title {
