@@ -38,6 +38,10 @@
     font-family: $alt-font;
     border-radius: $border-radius;
     background: rgba(0, 0, 0, 0.5);
+    &:hover {
+    	color: $white;
+        background: rgba(50, 50, 50, 0.5);
+    }
 }
 .site-title {
 	@include row;
