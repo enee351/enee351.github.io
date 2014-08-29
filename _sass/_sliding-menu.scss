@@ -147,10 +147,12 @@
 .lines-button:hover {
 	.lines {
 		&:before { 
-			top: $button-size/3; 
+			top: $button-size/3;
+            transition: 0.1s;
 		}
 		&:after { 
-			top: -$button-size/3; 
+			top: -$button-size/3;
+            transition: 0.1s;
 		}
 	}
 }
