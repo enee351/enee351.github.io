@@ -17,7 +17,7 @@ Download a copy [here](http://enee459c.github.io/syllabus/syllabus-ENEE-459-c.pd
 
 ##ENEE459C: Computer Security
 ##Fall 2014
-
+ 
 
 **Course description:**
 Computer systems have become a vital part of our everyday professional and
