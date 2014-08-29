@@ -14,4 +14,6 @@ toc: true
 ---
 
 ##Homework Policy
-Homework policy here...
+Read the [Academic Integrity](http://www.faculty.umd.edu/teach/integrity.html) first.
+
+Homework policy specific to this class?
