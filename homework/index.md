@@ -17,11 +17,3 @@ toc: true
 Read the [Academic Integrity](http://www.faculty.umd.edu/teach/integrity.html) first.
 
 Homework policy specific to this class?
-
-##Homework Calendar
-|            	| Date assigned 	| Due Date 	| Deadline 	|
-|------------	|---------------	|----------	|----------	|
-| Homework 1 	|               	|          	|          	|
-| Homework 2 	|               	|          	|          	|
-| Homework 3 	|               	|          	|          	|
-| Homework 4 	|               	|          	|          	|
