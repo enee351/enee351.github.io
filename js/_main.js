@@ -44,7 +44,7 @@ $(document).ready(function(){
  **/
 
 $(document).ready(function(){
-    jQuery('.toc').stickyfloat({duration: 200});
+    jQuery('#toc').stickyfloat({duration: 200});
 });
 (function($){
     var w = window,
