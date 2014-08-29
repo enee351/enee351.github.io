@@ -10,7 +10,17 @@
   excerpt:
   image:
   
+- title: Calendar
+  url: /calendar
+  excerpt:
+  image:
+  
 - title: Homework
   url: /homework
+  excerpt:
+  image:
+  
+- title: Syllabus
+  url: /syllabus
   excerpt:
   image:
