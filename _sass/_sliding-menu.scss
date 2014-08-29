@@ -214,8 +214,8 @@
 				//set transform origin
 			-webkit-transform-origin: 50% 50%;
 							transform-origin: 50% 50%;
-				transition: top .3s .6s ease, -webkit-transform .3s ease;
-				transition: top .3s .6s ease, transform .3s ease;
+				transition: top .1s .3s ease, -webkit-transform .1s ease;
+				transition: top .1s .3s ease, transform .1s ease;
 			}
 		}
 }
