@@ -182,14 +182,7 @@
 
 // MAIN
 // --------------------------------------------------
-
-#main {
-	.inner-wrap {
-		@include media($medium) {
-			@include span-columns(12);
-		}
-	}
-	.toc {
+.toc {
 		@include media($medium) {
 			@include row($direction: RTL);
 		}
@@ -202,6 +195,13 @@
         width: 100%;
         z-index: 999;
 	}
+#main {
+	.inner-wrap {
+		@include media($medium) {
+			@include span-columns(12);
+		}
+	}
+	
 	.page-title {
 		@include fill-parent;
 	}
