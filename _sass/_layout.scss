@@ -40,7 +40,7 @@
 	font-weight: 700;
 	@include font-size(20, no);
 	text-transform: uppercase;
-    &:hover > span {
+    &:hover, &:hover > span {
     	color: $white;
     }
 }
