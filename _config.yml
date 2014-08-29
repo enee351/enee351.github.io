@@ -16,7 +16,7 @@ sass:
     style: compressed
 permalink: /:categories/:title/
 markdown: kramdown
-krandown:
+kramdown:
 	input: GFM
 highlighter: pygments
 gems:
