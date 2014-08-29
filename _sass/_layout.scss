@@ -198,6 +198,8 @@
 			@include span-columns(2 of 12);
 		}
         position: absolute;
+        right: 0;
+        top: 0;
 	}
 	.page-title {
 		@include fill-parent;
