@@ -199,11 +199,18 @@
 #main {
 	.inner-wrap {
 		@include media($medium) {
-			@include span-columns(10);
+			@include span-columns(12);
 		}
         float: left;
 	}
-    /* .toc here originally */
+    .space {
+		@include media($medium) {
+			@include row($direction: RTL);
+		}
+		@include media($large) {
+			@include span-columns(2 of 12);
+		}
+    }
 	.page-title {
 		@include fill-parent;
 	}
@@ -211,10 +218,10 @@
 		.page-content {
 			@include media($medium) {
 				@include row($direction: RTL);
-				//@include span-columns(10 of 10);
+				//@include span-columns(10 of 12);
 			}
 			@include media($large) {
-				@include span-columns(10 of 10);
+				@include span-columns(10 of 12);
 			}
 			// larger font for intro paragraph
 			> p {
