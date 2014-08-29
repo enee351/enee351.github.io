@@ -209,7 +209,7 @@
 // three-lines to x method 2
 .lines-button.x2{
 		.lines{
-			/*transition: background .3s .5s ease;*/
+			transition: background .3s .5s ease;
 			&:before, &:after{
 				//set transform origin
 			-webkit-transform-origin: 50% 50%;
