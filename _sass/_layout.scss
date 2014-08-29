@@ -32,11 +32,11 @@
     position: absolute;
     bottom: 15px;
     left: 20px;
-    padding 10px: 
+    padding 10px; 
     color: $white;
     @include font-size(16, no);
     font-family: $alt-font;
-    border-radius: 3px;
+    border-radius: $border-radius;
     background: rgba(0, 0, 0, 0.5);
 }
 .site-title {
