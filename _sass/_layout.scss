@@ -43,9 +43,6 @@
 }
 .site-title > span {
 	@include font-size(12, no);
-    &:hover {
-    	color: $white;
-    }
 }
 
 
