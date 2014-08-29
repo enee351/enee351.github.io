@@ -12,8 +12,8 @@ ads: false
 published: true
 ---
 
-##ENEE459C: Computer Security
-###Fall 2014
+#ENEE459C: Computer Security
+##Fall 2014
 
 
 **Course description:**
