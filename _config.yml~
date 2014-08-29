@@ -15,7 +15,7 @@ sass:
     sass_dir: _sass
     style: compressed
 permalink: /:categories/:title/
-markdown: redcarpet2
+markdown: redcarpet3
 redcarpet:
 	extensions: ["hard_wrap", "no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough", "superscript"]
 highlighter: pygments
