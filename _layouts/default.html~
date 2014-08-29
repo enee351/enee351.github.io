@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ site.title }}: {{ site.sub-title}} ({{ site.semester }})</title>
+    {% include open-graph.html %}
 
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/favicon.ico" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">

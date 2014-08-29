@@ -5,15 +5,6 @@ published: true
 
 <div id="main" role="main">			
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
-		{% if page.image.feature %}
-		<div class="page-feature">
-			<div class="page-image">
-				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
-				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
-			</div><!-- /.page-image -->
-		</div><!-- /.page-feature -->
-		{% endif %}
-		{% if page.categories %}{% include breadcrumbs.html %}{% endif %}
 		<div class="page-title">
 			<h1>{{ page.title }}</h1>
 		</div>
@@ -23,7 +14,6 @@ published: true
 				{{ content }}
 			<hr />
 				<footer class="page-footer">
-					{% if page.categories %}{% include page-author.html %}{% endif %}
 					{% include page-meta.html %}
 				</footer><!-- /.footer -->
 			</div><!-- /.content -->

@@ -5,7 +5,6 @@
         {% assign domain = site.url %}
       {% endunless %}
 			<a href="{{ domain }}{{ link.url }}" class="title">{{ link.title }}</a>
-		</li>{% endfor %}
 	</ul>
 </nav>
 <button type="button" class="js-menu-trigger sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
