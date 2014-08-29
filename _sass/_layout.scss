@@ -17,7 +17,7 @@
 }
 #masthead-bottom {
 	height: 300px;
-    margin-top: $masthead-height;
+    margin-top: $masthead-height + .5 % $masthead-height;
     display: block;
     background: url(../images/security.jpg) no-repeat;
 	-webkit-box-shadow: inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
