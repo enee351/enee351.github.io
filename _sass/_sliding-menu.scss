@@ -7,8 +7,10 @@
 	top: $gutter;
 	right: $gutter;
 	display: block;
-    @include media($medium),
-    @include media($large){
+    @include media($medium) {
+		display: none;
+	}
+    @include media($large) {
 		display: none;
 	}
 	width: $button-size * 2;
