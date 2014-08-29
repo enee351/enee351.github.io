@@ -71,6 +71,19 @@
 .site-title > span {
 	@include font-size(12, no);
 }
+.toc {
+	@include media($medium) {
+		@include row($direction: RTL);
+	}
+	@include media($large) {
+		@include span-columns(2 of 12);
+	}
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100%;
+    z-index: 999;
+}
 
 
 // NAVIGATIONS
@@ -182,19 +195,7 @@
 
 // MAIN
 // --------------------------------------------------
-.toc {
-		@include media($medium) {
-			@include row($direction: RTL);
-		}
-		@include media($large) {
-			@include span-columns(2 of 12);
-		}
-        position: fixed;
-        bottom: 10px;
-        right: 10px;
-        width: 100%;
-        z-index: 999;
-	}
+
 #main {
 	.inner-wrap {
 		@include media($medium) {
