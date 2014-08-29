@@ -41,7 +41,7 @@
 	@include font-size(20, no);
 	text-transform: uppercase;
     &:hover > span {
-    	color: $black;
+    	color: $white;
     }
 }
 .site-title > span {
