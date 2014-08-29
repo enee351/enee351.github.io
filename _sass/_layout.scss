@@ -14,24 +14,24 @@
     -webkit-box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.85);
 	-moz-box-shadow:    0px 2px 15px 0px rgba(0, 0, 0, 0.85);
 	box-shadow:         0px 2px 15px 0px rgba(0, 0, 0, 0.85);
-    height: 1.5 * $masthead-height;
-    padding: (.3 * $masthead-height) 0 (.2 * $masthead-height) 0;
+    padding: 0;
 }
 #masthead-bottom {
 	height: 300px;
-    margin-top: 1.5 * $masthead-height;
+    margin-top: 1.75 * $masthead-height;
     display: block;
     background: url(../images/security.jpg) no-repeat;
 	-webkit-box-shadow: inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
 	-moz-box-shadow:    inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
 	box-shadow:         inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
-    content: '';
+    content: "";
 }
 .site-title {
 	@include row;
 	@include media($large) {
 		@include span-columns(5);
 	}
+	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
 	text-decoration: none;
 	color: $white;
@@ -61,6 +61,7 @@
 			position: relative;
 			display: block;
 			margin-right: $gutter;
+			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height);
 			height: $masthead-height;
 			font-family: $alt-font;
 			&:before,
