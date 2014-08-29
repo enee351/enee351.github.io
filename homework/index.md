@@ -11,6 +11,7 @@ image:
 ads: false
 published: true
 toc: true
+toc-name: homework
 ---
 
 ##Homework
