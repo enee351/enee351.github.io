@@ -134,10 +134,9 @@
 				width: 100%;
 			}
 		}
-        .home a:after {
-            	background: $white;
-				width: 100%;
-			}
+        .home a {
+            text-decoration: underline;
+		}
 	}
 }
 
