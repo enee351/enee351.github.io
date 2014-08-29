@@ -16,11 +16,15 @@ toc: true
 ##Homework Policy
 Read the [Academic Integrity](http://www.faculty.umd.edu/teach/integrity.html) first.
 
+Homework policy specific to this class?
+
 http://www.google.com
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+##Homework Calendar
 
-Homework policy specific to this class?
+		   | Date Assigned | Due Date | Deadline
+---------- | ------------- | -------- |
+Homework 1 |               |          |
+Homework 2 |               |          |
+Homework 3 |               |          |
+Homework 4 |               |          |
