@@ -43,7 +43,8 @@
         	color: $white;
         }
     }
-    &:hover {
+    &:hover,
+    &:hover a{
         background-color: rgba(0, 0, 0, 0.7);
     }
 }
