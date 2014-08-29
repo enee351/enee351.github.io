@@ -25,6 +25,7 @@
 	-moz-box-shadow:    inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
 	box-shadow:         inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
     content: '';
+    position: relative;
 }
 #masthead-bottom .org {
 	height: 50px;
