@@ -77,17 +77,7 @@
 			color: $white;
 			text-decoration: none;
 		}
-		.teaser {
-			width: 150px;
-			border: 2px solid $white;
-			margin-bottom: ($gutter / 2);
-			@include media($medium) {
-				position: absolute;
-				top: 20px;
-				left: 0;
-				margin-bottom: 0;
-			}
-		}
+		
 		.title {
 			display: block;
 			font-family: $alt-font;
@@ -97,13 +87,7 @@
 				margin-left: 170px;
 			}
 		}
-		.excerpt {
-			color: $white;
-			margin-top: 0;
-			@include media($medium) {
-				margin-left: 170px;
-			}
-		}
+		
 	}
 	.sub-menu-item > li a {
 		display: block;
