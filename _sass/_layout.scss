@@ -48,7 +48,7 @@
         text-decoration: none;
         @include font-size(16, no);
     }
-    ul {
+    ul li a {
     	@include font-size(16, no);
     }
     &:hover,
