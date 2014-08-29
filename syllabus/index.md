@@ -12,8 +12,7 @@ ads: false
 published: true
 ---
 
-##Syllabus
-Download a copy [here](http://enee459c.github.io/syllabus/syllabus-ENEE-459-c.pdf).
+Download a copy of the syllabus [here](http://enee459c.github.io/syllabus/syllabus-ENEE-459-c.pdf).
   
   
 ###ENEE459C: Computer Security
