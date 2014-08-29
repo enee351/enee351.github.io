@@ -59,6 +59,7 @@
 	height: $masthead-height;
 	text-decoration: none;
 	color: $white;
+    line-height: .5 * $masthead-height; // half the height to center vertically
 	font-family: $alt-font;
 	font-weight: 700;
 	@include font-size(20, no);
