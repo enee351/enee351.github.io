@@ -27,4 +27,4 @@ Homework 4 | TBA           | TBA      | TBA
 ###Policy
 Please read [Academic Integrity](http://www.faculty.umd.edu/teach/integrity.html) first.
 
-Homework policy specific to this class?
+Homework policy specific to this class...awaiting Prof. Papamanthou's decision.
