@@ -37,6 +37,7 @@
 
     <div id="page-wrapper">
       {% include browser-upgrade.html %}
+      {% if page.toc == true %}{% include sidebar.html %}{% endif %}
 
       {{ content }}
 
@@ -45,8 +46,6 @@
 
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
-    
-    {% if page.toc == true %}{% include sidebar.html %}{% endif %}
 
   </body>
 
