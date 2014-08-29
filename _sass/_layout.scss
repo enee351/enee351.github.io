@@ -170,7 +170,7 @@
 			@include row($direction: RTL);
 		}
 		@include media($large) {
-			@include span-columns(2 of 9);
+			@include span-columns(2 of 11);
 		}
 	}
 	.page-title {
