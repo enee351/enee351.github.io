@@ -32,16 +32,16 @@ digital signatures, access control, as well as network security, web security an
 cloud security. The class will provide the students with the necessary tools for
 designing secure computer systems and programs and for defending against
 malicious threats (e.g., viruses, worms, denial of service).
-
+ 
 
 **Course prerequisites:**
 ENEE 150 or CMSC132 or permission of the instructor.
-
+ 
 
 **Topic prerequisites:**
 Knowledge of programming and basic knowledge of algorithms and data
 structures.
-
+ 
 
 **Core topics:**
 
@@ -61,18 +61,18 @@ security).
 cash).
 9. Malicious software (backdoors, viruses, worms, rootkits, static and dynamic
 analysis).
-
+ 
 
 **Grading policy:**
 Class participation: 10%  
 5 Homeworks: 40%  
 Midterm exam: 20%  
 Final exam: 30%  
-
+ 
 
 **Readings:**
 Slides and selected research papers will be provided.
-
+ 
 
 **References:**
 
