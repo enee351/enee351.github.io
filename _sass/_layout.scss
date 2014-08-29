@@ -47,7 +47,7 @@
     	color: rgba(255, 255, 255, 0.9);
         text-decoration: none;
     }
-    ul {
+    ul li {
     	@include font-size(16, no);
     }
     &:hover,
