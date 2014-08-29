@@ -1,12 +1,10 @@
-<nav class = "toc">
-	<ul>
-		{% for link in site.data.sidebar %}
-    	{% if link.url contains 'http' %}
-        	{% assign domain = '' %}
-        	{% else %}
-        	{% assign domain = site.url %}
-    	{% endif %}
-    	<li class = "h3"><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-  		{% endfor %}
-	</ul>
-</nav>
+<ul>
+	{% for link in site.data.sidebar %}
+   	{% if link.url contains 'http' %}
+       	{% assign domain = '' %}
+       	{% else %}
+       	{% assign domain = site.url %}
+   	{% endif %}
+   	<li class = "h3"><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+	{% endfor %}
+</ul>
