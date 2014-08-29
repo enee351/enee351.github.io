@@ -135,10 +135,12 @@
 						transform-origin: $button-size/14 center;
 	}
 	&:before { 
-		top: $button-size/4; 
+		top: $button-size/4;
+        transition: 0.1s;
 	}
 	&:after { 
-		top: -$button-size/4; 
+		top: -$button-size/4;
+        transition: 0.1s;
 	}
 }
 // common to all three-liners
