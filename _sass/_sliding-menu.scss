@@ -117,9 +117,9 @@
 @mixin line {
 	display: inline-block;
 	width: $button-size;
-	height: $button-size/8;
+	height: $button-size/7;
 	background: $white;
-	border-radius: $button-size/16; 
+	border-radius: $button-size/14; 
 	transition: $transition;
 }
 // common to all three-liners
@@ -131,8 +131,8 @@
 		position: absolute;
 		left:0;
 		content: '';
-		-webkit-transform-origin: $button-size/16 center;
-						transform-origin: $button-size/16 center;
+		-webkit-transform-origin: $button-size/14 center;
+						transform-origin: $button-size/14 center;
 	}
 	&:before { 
 		top: $button-size/4; 
