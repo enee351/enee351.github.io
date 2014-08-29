@@ -117,7 +117,7 @@
 @mixin line {
 	display: inline-block;
 	width: $button-size;
-	height: $button-size/7;
+	height: $button-size/7.5;
 	background: $white;
 	border-radius: $button-size/14; 
 	transition: $transition;
@@ -135,20 +135,20 @@
 						transform-origin: $button-size/14 center;
 	}
 	&:before { 
-		top: $button-size/3.5; 
+		top: $button-size/4; 
 	}
 	&:after { 
-		top: -$button-size/3.5; 
+		top: -$button-size/4; 
 	}
 }
 // common to all three-liners
 .lines-button:hover {
 	.lines {
 		&:before { 
-			top: $button-size/3; 
+			top: $button-size/3.5; 
 		}
 		&:after { 
-			top: -$button-size/3; 
+			top: -$button-size/3.5; 
 		}
 	}
 }
