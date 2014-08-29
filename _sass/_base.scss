@@ -4,7 +4,6 @@
 body {
 	font-family: $base-font;
 	color: $text-color;
-    width: 100%;
 	@include font-size(16);
 }
 
