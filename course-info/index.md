@@ -19,7 +19,7 @@ Charalampos (Babis) Papamanthou
 ECE Department  
 Email: cpap at umd.edu  
 Office: 3409 A.V. Williams Building  
-Office hours: [to be determined]  
+Office hours: TBA  
 
 ###TA
 Sailunsi Chen  
