@@ -183,7 +183,7 @@
 				//@include span-columns(10 of 12);
 			}
 			@include media($large) {
-				@include span-columns(9 10f 12);
+				@include span-columns(10 of 12);
 			}
 			// larger font for intro paragraph
 			> p {
