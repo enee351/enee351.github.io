@@ -34,7 +34,7 @@
     bottom: 0;
     color: $white;
     @include font-size(16, no);
-    font: $alt-font;
+    font-family: $alt-font;
 }
 .site-title {
 	@include row;
