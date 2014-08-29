@@ -17,7 +17,7 @@ sass:
 permalink: /:categories/:title/
 markdown: kramdown
 kramdown:
-	input: GFM
+  input: GFM
 highlighter: pygments
 gems:
   - jekyll-sitemap
