@@ -36,6 +36,8 @@
     color: $white;
     @include font-size(16, no);
     font-family: $alt-font;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.5);
 }
 .site-title {
 	@include row;
