@@ -85,9 +85,6 @@
     @include media($medium) {
     	display: block;
     }
-    @include media($large) {
-    	display: block;
-    }
 }
 
 
