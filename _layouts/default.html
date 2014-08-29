@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ site.title }}</title>
+    <title>{{ site.title }}: {{ site.sub-title}} ({{ site.semester }})</title>
     {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     {% if page.author %}
