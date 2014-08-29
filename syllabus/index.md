@@ -16,6 +16,7 @@ published: true
 Download a copy [here](http://enee459c.github.io/syllabus/syllabus-ENEE-459-c.pdf).
 
 ##ENEE459C: Computer Security
+
 ##Fall 2014
  
 
