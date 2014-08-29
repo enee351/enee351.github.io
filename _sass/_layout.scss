@@ -7,7 +7,7 @@
 	.inner-wrap {
 		@include outer-container;
 	}
-    background: #0f2433;
+    background: rgba(13, 32, 46, 0.75);
     position: fixed;
     top: 0;
     width: 100%;
