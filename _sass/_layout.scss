@@ -38,15 +38,17 @@
     bottom: 15px;
     left: 0;
     padding: 10px 10px 10px 50px; 
-    @include font-size(16, no);
     font-family: $alt-font;
-    color: rgba(255, 255, 255, 0.9);
+    /*color: rgba(255, 255, 255, 0.9);*/
     border-radius: 0 4px 4px 0;
     background-color: rgba(0, 0, 0, 0.55);
     transition: background-color 0.3s ease;
     a {
     	color: rgba(255, 255, 255, 0.9);
         text-decoration: none;
+    }
+    ul {
+    	@include font-size(16, no);
     }
     &:hover,
     &:hover a {
