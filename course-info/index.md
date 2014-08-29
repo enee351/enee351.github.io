@@ -29,9 +29,6 @@ Office hours: Thursday 3:30pm-4:30pm
 
 ###Lectures
 TuThu 12:30pm-1:45pm, PHY 1219
-1. item
-2. item
-3. item
 
 
 *	Lectures will be published on this webpage after class.
