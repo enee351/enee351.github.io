@@ -28,6 +28,8 @@ h2 {
 }
 h3 {
 	@include font-size(28);
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 h4 {
 	@include font-size(24);
@@ -37,10 +39,6 @@ h5 {
 }
 h6 {
 	@include font-size(18);
-}
-
-h3 ~ p {
- margin-top: 0;
 }
 
 u,
