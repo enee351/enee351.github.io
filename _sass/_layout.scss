@@ -201,7 +201,7 @@
 		@include media($medium) {
 			@include span-columns(10);
 		}
-        float:left;
+        float: left;
 	}
     /* .toc here originally */
 	.page-title {
