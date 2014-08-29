@@ -19,7 +19,7 @@ Read the [Academic Integrity](http://www.faculty.umd.edu/teach/integrity.html) f
 Homework policy specific to this class?
 
 ##Homework Calendar
-  | Date Assigned | Due Date | Deadline
+Assignment | Date Assigned | Due Date | Deadline
 ---------- | ------------- | -------- |
 Homework 1 |               |          |
 Homework 2 |               |          |
