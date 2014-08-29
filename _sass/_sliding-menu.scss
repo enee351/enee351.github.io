@@ -135,24 +135,20 @@
 						transform-origin: $button-size/14 center;
 	}
 	&:before { 
-		top: $button-size/4;
-        transition: 0.1s;
+		top: $button-size/4; 
 	}
 	&:after { 
-		top: -$button-size/4;
-        transition: 0.1s;
+		top: -$button-size/4; 
 	}
 }
 // common to all three-liners
 .lines-button:hover {
 	.lines {
 		&:before { 
-			top: $button-size/3;
-            transition: 0.1s;
+			top: $button-size/3.5; 
 		}
 		&:after { 
-			top: -$button-size/3;
-            transition: 0.1s;
+			top: -$button-size/3.5; 
 		}
 	}
 }
