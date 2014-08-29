@@ -51,6 +51,9 @@
 		<!--
 	  -->
     </div>
+    <nav id="toc" class="toc">
+              {% if page.toc == true %}{% include sidebar.html %}{% endif %}
+              </nav><!-- /.toc -->
 
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
