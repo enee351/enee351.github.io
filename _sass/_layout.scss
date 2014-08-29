@@ -198,10 +198,9 @@
 #main {
 	.inner-wrap {
 		@include media($medium) {
-			@include span-columns(12);
+			@include span-columns(10);
 		}
 	}
-	
 	.page-title {
 		@include fill-parent;
 	}
@@ -209,10 +208,10 @@
 		.page-content {
 			@include media($medium) {
 				@include row($direction: RTL);
-				//@include span-columns(10 of 12);
+				//@include span-columns(10 of 10);
 			}
 			@include media($large) {
-				@include span-columns(10 of 12);
+				@include span-columns(10 of 10);
 			}
 			// larger font for intro paragraph
 			> p {
