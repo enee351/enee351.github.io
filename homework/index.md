@@ -17,12 +17,12 @@ toc: true
 
 ###Calendar
 
-Assignment | Date Posted | Due Date | Deadline
----------- | ----------- | -------- | --------
-Homework 1 | TBA         | TBA      | TBA
-Homework 2 | TBA         | TBA      | TBA
-Homework 3 | TBA         | TBA      | TBA
-Homework 4 | TBA         | TBA      | TBA
+Assignment | Date Posted | Due Date
+---------- | ----------- | --------
+Homework 1 | TBA         | TBA     
+Homework 2 | TBA         | TBA     
+Homework 3 | TBA         | TBA     
+Homework 4 | TBA         | TBA     
 
 ###Policy
 Please read [Academic Integrity](http://www.faculty.umd.edu/teach/integrity.html) first.
