@@ -37,7 +37,7 @@
     @include font-size(16, no);
     font-family: $alt-font;
     border-radius: $border-radius;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.5);
     transition: background-color 0.3s ease;
     &:hover {
     	color: $white;
