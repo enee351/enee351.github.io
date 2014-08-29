@@ -18,4 +18,9 @@ Read the [Academic Integrity](http://www.faculty.umd.edu/teach/integrity.html) f
 
 https://www.google.com
 
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
 Homework policy specific to this class?
