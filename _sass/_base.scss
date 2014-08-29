@@ -42,7 +42,8 @@ h6 {
 	@include font-size(18);
 }
 
-h3 ~ p {
+h3 ~ p,
+h3 ~ table {
 	margin-top: 0;
 }
 
