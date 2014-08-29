@@ -10,9 +10,7 @@
     @include media($medium) {
 		display: none;
 	}
-    @include media($large) {
-		display: none;
-	}
+    
 	width: $button-size * 2;
 	height: $button-size * 2;
 	background: #000;
