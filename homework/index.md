@@ -16,7 +16,7 @@ toc: true
 ##Homework Policy
 Read the [Academic Integrity](http://www.faculty.umd.edu/teach/integrity.html) first.
 
-https://www.google.com
+http://www.google.com
 
 First Header  | Second Header
 ------------- | -------------
