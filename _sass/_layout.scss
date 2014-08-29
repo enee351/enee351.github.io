@@ -211,6 +211,7 @@
 			@include span-columns(2 of 12);
 		}
         content: '';
+        height: 1px;
     }
 	.page-title {
 		@include fill-parent;
