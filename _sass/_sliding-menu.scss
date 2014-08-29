@@ -7,6 +7,9 @@
 	top: $gutter;
 	right: $gutter;
 	display: block;
+    @include media($medium) {
+		@include display: none;
+	}
 	width: $button-size * 2;
 	height: $button-size * 2;
 	background: #000;
