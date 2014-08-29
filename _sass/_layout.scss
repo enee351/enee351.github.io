@@ -138,7 +138,7 @@
 }
 
 .top-menu {
-	display: none;
+	display: block;
 	position: relative;
 	@include media($medium) {
 		@include span-columns(12);
