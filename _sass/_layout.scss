@@ -91,6 +91,7 @@
 
 .menu {
 	float: right;
+    ul {float:right;}
 	li {
 		float: left;
 		&:last-child a {
