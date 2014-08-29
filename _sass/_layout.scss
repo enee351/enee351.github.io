@@ -133,6 +133,10 @@
 			&:hover:after {
 				width: 100%;
 			}
+            .home:after {
+            	background: $white;
+				width: 100%;
+			}
 		}
 	}
 }
