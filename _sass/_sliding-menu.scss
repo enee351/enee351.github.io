@@ -5,7 +5,7 @@
 .sliding-menu-button {
 	position: fixed;
 	top: 15px;
-	right: $gutter;
+	right: 15px;
 	display: block;
     @include media($medium) {
 		display: none;
