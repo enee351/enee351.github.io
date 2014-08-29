@@ -188,6 +188,7 @@
 		@include media($medium) {
 			@include span-columns(12);
 		}
+        position: relative;
 	}
 	.toc {
 		@include media($medium) {
