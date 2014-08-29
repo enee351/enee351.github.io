@@ -25,7 +25,7 @@ Office hours: [to be determined]
 Sailunsi Chen  
 Email: sailunsi at umd.edu  
 Office: 3427 A.V. Williams Building  
-Office hours: Thursday 3:30pm - 4:30pm  
+Office hours: Thursday 3:30pm-4:30pm  
 
 ###Lectures
 Tuesday and Thursday, 12:30pm-1:45pm, SPH 0308  
