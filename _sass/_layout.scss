@@ -20,6 +20,7 @@
 	-webkit-box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.85);
 	-moz-box-shadow:    inset 0px 0px 15px 0px rgba(0, 0, 0, 0.85);
 	box-shadow:         inset 0px 0px 15px 0px rgba(0, 0, 0, 0.85);
+    content: "";
 }
 .site-title {
 	@include row;
