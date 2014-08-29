@@ -13,6 +13,7 @@ p {
 
 li {
 	@include font-size(18,16,24);
+    margin-bottom: 10px;
 }
 
 // Headings
