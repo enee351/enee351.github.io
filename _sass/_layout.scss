@@ -196,6 +196,7 @@
 		@include media($large) {
 			@include span-columns(2 of 12);
 		}
+        position: absolute;
 	}
 	.page-title {
 		@include fill-parent;
