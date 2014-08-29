@@ -3,4 +3,6 @@ layout: {{ layout }}
 title: {{ title }}
 date: {{ date }}
 modified:
+published:
+toc:
 ---

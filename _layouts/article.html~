@@ -26,7 +26,11 @@ published: true
 					{% if page.categories %}{% include page-author.html %}{% endif %}
 					{% include page-meta.html %}
 				</footer><!-- /.footer -->
+				<aside>
+					{% if page.comments == true %}{% include comments.html %}{% endif %}
+				</aside>
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
+		{% if page.ads != false %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
