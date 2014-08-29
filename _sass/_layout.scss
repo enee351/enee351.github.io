@@ -43,7 +43,7 @@
 
 .menu {
 	li {
-		float: right;
+		float: left;
 		&:last-child a {
 			@include media($medium) {
 				margin-right: 0; // remove spacing from last menu link
