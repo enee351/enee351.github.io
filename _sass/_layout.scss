@@ -46,6 +46,9 @@
     	color: #aff8f8;
         background-color: rgba(0, 0, 0, 0.7);
     }
+    &:hover a:hover {
+        color: $white;
+    }
 }
 .site-title {
 	@include row;
