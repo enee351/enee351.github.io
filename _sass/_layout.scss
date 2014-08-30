@@ -20,18 +20,6 @@
 	box-shadow:         0px 1px 15px 0px rgba(5, 20, 25, 0.75);
     padding: (.25 * $masthead-height) $gutter;
 }
-#masthead-bottom {
-	height: 400px;
-    width: 100%;
-    display: block;
-    /*background: url(../images/banner.jpg) no-repeat;
-    background-size: cover;*/
-    background: transparent;
-	-webkit-box-shadow: inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
-	-moz-box-shadow:    inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
-	box-shadow:         inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
-    position: relative;
-}
 #masthead-back {
 	height: 400px;
     width: 100%;
@@ -42,6 +30,15 @@
     top: 0;
     z-index: -1;
     content: '';
+}
+#masthead-bottom {
+	height: 400px;
+    display: block;
+    background: transparent;
+	-webkit-box-shadow: inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
+	-moz-box-shadow:    inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
+	box-shadow:         inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
+    position: relative;
 }
 #masthead-bottom .org {
     position: absolute;
