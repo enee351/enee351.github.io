@@ -191,9 +191,9 @@
     background: $white;
     padding-top: 30px;
     display: table;
-    -webkit-box-shadow: 0px transparent, 0px -2px 15px 0px rgba(0, 0, 0, 0.85), 0px transparent, 0px transparent;
-	-moz-box-shadow:    0px transparent, 0px -2px 15px 0px rgba(0, 0, 0, 0.85), 0px transparent, 0px transparent;
-	box-shadow:         0px transparent, 0px -2px 15px 0px rgba(0, 0, 0, 0.85), 0px transparent, 0px transparent;
+    -webkit-box-shadow: 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
+	-moz-box-shadow:    0px -2px 15px 0px rgba(0, 0, 0, 0.85);
+	box-shadow:         0px -2px 15px 0px rgba(0, 0, 0, 0.85);
 }
 
 
