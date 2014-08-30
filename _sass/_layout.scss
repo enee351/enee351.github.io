@@ -184,6 +184,7 @@
 	&.slide {
 		@include transform(translate(-60rem,0));
 	}
+    background: $white;
 }
 
 
