@@ -37,8 +37,11 @@
 	height: 400px;
     width: 100%;
     display: block;
-    /*background: url(../images/banner.jpg) no-repeat;
-    background-size: cover;*/
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: -1;
 }
 #masthead-bottom .org {
     position: absolute;
