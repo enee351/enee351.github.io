@@ -9,11 +9,11 @@ body {
 }
 
 p {
-	@include font-size(16,yes,28);
+	@include font-size(14,yes,28);
 }
 
 li {
-	@include font-size(16,14,24);
+	@include font-size(14,12,24);
     margin-bottom: 10px;
 }
 
