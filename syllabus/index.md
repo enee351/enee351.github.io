@@ -65,4 +65,6 @@ Slides and selected research papers will be provided.
 2. Introduction to Modern Cryptography (Katz and Lindell, Chapman & Hall/CRC, 2007).
 3. Handbook of Applied Cryptography (Menezes, van Oorschot, Vanstone, CRC press, 1996).
 
+<br />
+
 Download a copy of the syllabus [here](http://enee459c.github.io/syllabus/syllabus-ENEE-459-c.pdf).
