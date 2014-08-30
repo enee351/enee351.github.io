@@ -7,9 +7,7 @@ published: true
 toc: true
 ---
 
-##Homeworks
-
-######Please read [academic integrity](http://www.faculty.umd.edu/teach/integrity.html) first.
+*Homeworks*
 
 Assignment | Date Posted | Due Date
 ---------- | ----------- | --------
