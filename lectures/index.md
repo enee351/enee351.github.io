@@ -6,7 +6,7 @@ modified: null
 published: true
 ---
 
-##Course Calendar
+*Lectures*
 
  Date | Lecture                                                        | Slides     | Readings                            |
 ------|----------------------------------------------------------------|------------|-------------------------------------|
