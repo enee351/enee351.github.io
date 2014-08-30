@@ -135,20 +135,20 @@
 						transform-origin: $button-size/14 center;
 	}
 	&:before { 
-		top: $button-size/3.7; 
+		top: $button-size/4; 
 	}
 	&:after { 
-		top: -$button-size/3.7; 
+		top: -$button-size/4; 
 	}
 }
 // common to all three-liners
 .lines-button:hover {
 	.lines {
 		&:before { 
-			top: $button-size/3; 
+			top: $button-size/3.3; 
 		}
 		&:after { 
-			top: -$button-size/3; 
+			top: -$button-size/3.5; 
 		}
 	}
 }
@@ -209,13 +209,13 @@
 // three-lines to x method 2
 .lines-button.x2{
 		.lines{
-			transition: background .3s .5s ease;
+			/*transition: background .3s .5s ease;*/
 			&:before, &:after{
 				//set transform origin
 			-webkit-transform-origin: 50% 50%;
 							transform-origin: 50% 50%;
-				transition: top .3s .1s ease, -webkit-transform .1s ease;
-				transition: top .3s .1s ease, transform .1s ease;
+				transition: top .3s .3s ease, -webkit-transform .3s ease;
+				transition: top .3s .3s ease, transform .3s ease;
 			}
 		}
 }
