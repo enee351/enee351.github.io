@@ -6,12 +6,12 @@ body {
 	color: $text-color;
 	@include font-size(16);
     background: url(../images/banner.jpg) no-repeat fixed;
-    background-size: 100% auto;
 }
 
 p {
 	@include font-size(14,yes,28);
     margin-bottom: 0;
+    line
 }
 
 li {
