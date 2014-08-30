@@ -403,7 +403,8 @@
         color: #222;
 		&:hover,
 		&:focus {
-			background: lighten($border-color,5);
+			/*background: lighten($border-color,5);*/
+            background: #42b6db;
 		}
 	}
 }
