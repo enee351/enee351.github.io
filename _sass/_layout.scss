@@ -270,33 +270,6 @@
 			}
 		}
 	}
-	.ads {
-		position: relative;
-		text-align: center;
-		margin-top: $gutter;
-		margin-left: -$gutter;
-		margin-right: -$gutter;
-		padding: 10px 0 20px;
-		background: lighten($border-color,5);
-		@include media($medium) {
-			@include span-columns(3);
-			margin-left: 0;
-			margin-right: 0;
-		}
-		&:after {
-			content: 'Advertisement';
-			position: absolute;
-			bottom: 0;
-			width: 100%;
-			text-align: center;
-			display: block;
-			@include font-size(9,no);
-			font-family: $alt-font;
-		}
-		ins {
-			border-width: 0;
-		}
-	}
 }
 // page lead
 .page-lead {
@@ -334,51 +307,6 @@
 		@include media($large) {
 			@include font-size(32);
 		}
-	}
-}
-// page header
-.page-feature {
-	@include fill-parent;
-	// expand image to cover full width of header
-	img {
-		width: 100%;
-	}
-}
-// make image flush with edges on small screens
-.page-image {	
-	position: relative;
-	margin-left: -1 * $gutter;
-	margin-right: -1 * $gutter;
-	// Feature Image Caption
-	.image-credit {
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		margin: 0 auto;
-		padding: 10px 15px;
-		background-color: rgba($black,.5);
-		color: $white;
-		font-family: $alt-font;
-		@include font-size(12,no);
-		text-align: right;
-		z-index: 10;
-		a {
-			color: $white;
-			text-decoration: none;
-		}
-	}
-}
-// breadcrumbs
-.breadcrumbs { 
-	@include row;
-	margin-top: $gutter;
-	@include font-size(10,no);
-	a {
-		display: inline-block;
-		font-family: $alt-font;
-		font-weight: 700;
-		text-align: left;
-		text-transform: uppercase;
 	}
 }
 // table of contents
@@ -430,89 +358,6 @@
 	.post-title {
 		@include font-size(18,no);
 	}
-	.post-excerpt {
-		@include font-size(16);
-	}
-	.post-teaser {
-		position: relative;
-		display: block;
-		&:after {
-			content: '';
-			position: absolute;
-			width: 100%;
-			height: 100%;
-			top: 0;
-			left: 0;
-			background: rgba($base-color,0);
-			pointer-events: none;
-			@include transition(background 0.3s);
-		}
-		&:hover {
-			&:after {
-				background: rgba($base-color,0.2);
-			}
-		}
-	}
-}
-// footnotes
-.footnotes {
-	font-family: $alt-font;
-	p, li {
-		@include font-size(12,no);
-	}
-	&:before {
-		content: 'Footnotes:';
-		font-weight: 700;
-	}
-}
-// page footer
-.page-footer {
-	position: relative;
-}
-.author-image {
-	position: absolute;
-	left: 0;
-	img {
-		width: 80px;
-		height: 80px;
-		border-radius: $border-radius;
-	}
-}
-.author-content {
-	word-wrap: break-word;
-	padding-left: 100px; //avatar width + 20px padding
-	min-height: 80px; //mirrors avatar height
-}
-.author-name {
-	@include font-size(20,no);
-}
-.author-bio {
-	margin-top: 0;
-	@include font-size(16);
-}
-
-
-// SCROLL ARROW CUE
-// --------------------------------------------------
-
-#scroll-cue {
-	position: fixed;
-	bottom: 100px;
-	@include media($short) {
-		bottom: 0;
-	}
-	left: 50%;
-	width: 2 * $button-size;
-	height: 2 * $button-size;
-	text-align: center;
-	cursor: pointer;
-	color: $white;
-	@include font-size(12);
-	font-family: $alt-font;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-	letter-spacing: 2px;
 }
 
 
