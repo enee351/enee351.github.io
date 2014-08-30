@@ -400,6 +400,7 @@
 		display: block;
 		padding: (.25 * $gutter) (.5 * $gutter);
 		border-left: 2px solid transparent;
+        color: #222;
 		&:hover,
 		&:focus {
 			background: lighten($border-color,5);
