@@ -22,7 +22,7 @@ Office hours: Thursday 3:30pm-4:30pm
 
 ###Administrivia
 
-*	Tuesday and Thursday 12:30pm-1:45pm, PHY 1219
+*	Lectures will be on Tuesday and Thursday at 12:30pm-1:45pm in PHY 1219.
 *	Lectures will be published on this webpage after class.
 *	Homework and programming assignments will be published on this webpage, but should be submitted through Canvas.
 *	Discussions will be managed on Canvas. Please do use the discussions on Canvas and do not email the instructor or the TA individually with course-related questions.
