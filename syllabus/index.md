@@ -6,12 +6,12 @@ modified: null
 published: true
 ---
 
+Download a copy of the syllabus [here](http://enee459c.github.io/syllabus/syllabus-ENEE-459-c.pdf).
+
 ##ENEE459C: Computer Security
 
 ###Fall 2014
 <br />
-
-Download a copy of the syllabus [here](http://enee459c.github.io/syllabus/syllabus-ENEE-459-c.pdf).
 
 **Course description:**
 Computer systems have become a vital part of our everyday professional and personal life and are being used for several critical tasks (e.g., online banking, social networking). These tasks can however expose the users to various security threats (e.g., credit card number theft, personal information leakage). Therefore there is a need for designing secure computer systems.
