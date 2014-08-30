@@ -21,12 +21,10 @@ This course teaches both theoretical and practical concepts of computer systems 
 
 **Course prerequisites:**
 ENEE 150 or CMSC132 or permission of the instructor.
-
 <br />
 
 **Topic prerequisites:**
 Knowledge of programming and basic knowledge of algorithms and data structures.
-
 <br />
 
 **Core topics:**
@@ -40,7 +38,6 @@ Knowledge of programming and basic knowledge of algorithms and data structures.
 7. Web security (XSS attacks, browser vulnerabilities, SQL injection attacks).
 8. Applications security (digital rights management (DRM), email security, e-cash).
 9. Malicious software (backdoors, viruses, worms, rootkits, static and dynamic analysis).
-
 <br />
 
 **Grading policy:**
@@ -48,12 +45,10 @@ Class participation: 10%
 5 Homeworks: 40%
 Midterm exam: 20%
 Final exam: 30%
-
 <br />
 
 **Readings:**
 Slides and selected research papers will be provided.
-
 <br />
 
 **References:**
