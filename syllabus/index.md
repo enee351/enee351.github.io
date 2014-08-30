@@ -21,7 +21,7 @@ This course teaches both theoretical and practical concepts of computer systems 
 <br />
 
 **Course prerequisites:**
-ENEE 150 or CMSC132 or permission of the instructor.
+ENEE150 or CMSC132 or permission of the instructor.
 
 <br />
 
