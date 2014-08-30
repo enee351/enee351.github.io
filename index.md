@@ -24,5 +24,6 @@ Office hours: Thursday 3:30pm-4:30pm
 
 *	Lectures will be held on Tuesday and Thursday at 12:30pm-1:45pm in PHY 1219.
 *	Lectures will be published on this webpage after class.
-*	Homework and programming assignments will be published on this webpage, but should be submitted through Canvas.
+*	Homework and programming assignments will be published on this webpage, but should be submitted through Canvas. No late submissions will be accepted.
+*	Read and strictly adhere to [academic integrity](http://www.faculty.umd.edu/teach/integrity.html). 
 *	Discussions will be managed on Canvas. Please do use the discussions on Canvas and do not email the instructor or the TA individually with course-related questions.
