@@ -31,6 +31,8 @@ h2 {
 }
 h3 {
 	@include font-size(20);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 h4 {
 	@include font-size(18);
