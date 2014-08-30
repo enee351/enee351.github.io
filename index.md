@@ -5,7 +5,7 @@ title: ""
 published: true
 ---
 
-##Course Information
+*Home*
 
 ###Instructor
 [Charalampos (Babis) Papamanthou](http://www.ece.umd.edu/~cpap) 
