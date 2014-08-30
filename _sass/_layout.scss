@@ -175,7 +175,7 @@
 // --------------------------------------------------
 
 #page-wrapper {
-	padding: 30 $gutter 0 $gutter; // add white space for smaller screens
+	padding: 0 $gutter; // add white space for smaller screens
 	@include size(100% 100%);
 	-webkit-overflow-scrolling: touch;
 	z-index: 2;
@@ -185,6 +185,7 @@
 		@include transform(translate(-60rem,0));
 	}
     background: $white;
+    padding-top: 30px;
 }
 
 
