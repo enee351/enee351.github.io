@@ -37,7 +37,7 @@ $table-background            	: $body-color;
 $table-header-color          	: lighten($table-background, 10);
 $table-hover-color           	: #fafafa;
 $table-stripe-color          	: darken($table-background, 4);
-$table-stripe-color-hover    	: darken($table-stripe-color, 5)
+$table-stripe-color-hover    	: darken($table-stripe-color, 5);
 
 
 // Form variables
