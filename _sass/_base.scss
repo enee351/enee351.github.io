@@ -134,6 +134,7 @@ table {
 	margin: ((0px + $doc-line-height) / 2) 0;
 	margin: ((0rem + ($doc-line-height / $doc-font-size)) / 2) 0;
 	width: 100%;
+    @include font-size(14,no);
 }
 tbody {
 	tr:hover > td, tr:hover > th {
