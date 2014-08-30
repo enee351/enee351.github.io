@@ -20,7 +20,7 @@ Email: sailunsi at umd.edu
 Office: 3427 A.V. Williams Building
 Office hours: Thursday 3:30pm-4:30pm
 
-###Lectures
+###Administrivia
 
 *	Tuesday and Thursday 12:30pm-1:45pm, PHY 1219
 *	Lectures will be published on this webpage after class.
