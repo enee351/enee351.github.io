@@ -30,7 +30,6 @@
 	-webkit-box-shadow: inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
 	-moz-box-shadow:    inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
 	box-shadow:         inset 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
-    content: '';
     position: relative;
 }
 #masthead-back {
@@ -42,6 +41,7 @@
     position: fixed;
     top: 0;
     z-index: -1;
+    content: '';
 }
 #masthead-bottom .org {
     position: absolute;
