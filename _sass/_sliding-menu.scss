@@ -135,20 +135,20 @@
 						transform-origin: $button-size/14 center;
 	}
 	&:before { 
-		top: $button-size/4; 
+		top: $button-size/3.7; 
 	}
 	&:after { 
-		top: -$button-size/4; 
+		top: -$button-size/3.7; 
 	}
 }
 // common to all three-liners
 .lines-button:hover {
 	.lines {
 		&:before { 
-			top: $button-size/3.3; 
+			top: $button-size/3; 
 		}
 		&:after { 
-			top: -$button-size/3.5; 
+			top: -$button-size/3; 
 		}
 	}
 }
@@ -214,8 +214,8 @@
 				//set transform origin
 			-webkit-transform-origin: 50% 50%;
 							transform-origin: 50% 50%;
-				transition: top .3s .3s ease, -webkit-transform .3s ease;
-				transition: top .3s .3s ease, transform .3s ease;
+				transition: top .3s .6s ease, -webkit-transform .3s ease;
+				transition: top .3s .6s ease, transform .3s ease;
 			}
 		}
 }
