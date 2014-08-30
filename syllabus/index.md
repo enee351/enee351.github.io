@@ -8,7 +8,7 @@ published: true
 
 *Syllabus*
 
-Download a copy of the syllabus [here](http://enee459c.github.io/syllabus/syllabus-ENEE-459-c.pdf).
+
 
 ##ENEE459C: Computer Security
 
@@ -64,3 +64,5 @@ Slides and selected research papers will be provided.
 1. Introduction to Computer Security (Goodrich and Tamassia, Addison Wesley, 2011).
 2. Introduction to Modern Cryptography (Katz and Lindell, Chapman & Hall/CRC, 2007).
 3. Handbook of Applied Cryptography (Menezes, van Oorschot, Vanstone, CRC press, 1996).
+
+Download a copy of the syllabus [here](http://enee459c.github.io/syllabus/syllabus-ENEE-459-c.pdf).
