@@ -1,6 +1,11 @@
 // TYPOGRAPHY
 // --------------------------------------------------
 
+html,
+body {
+	height: 100%;
+}
+
 body {
 	font-family: $base-font;
 	color: $text-color;
