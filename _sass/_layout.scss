@@ -98,7 +98,8 @@
     display: block;
     width: 100%;
     content: ' ';
-    z-index: 2;
+    z-index: 999;
+    position: relative;
  }
 
 
@@ -191,7 +192,7 @@
 	padding: 0 $gutter; // add white space for smaller screens
 	@include size(100% 100%);
 	-webkit-overflow-scrolling: touch;
-	z-index: 1;
+	z-index: 2;
 	@include transform(translate(0,0));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
 	&.slide {
