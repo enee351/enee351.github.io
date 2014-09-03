@@ -12,13 +12,13 @@ published: true
 ECE Department
 Email: cpap at umd.edu
 Office: 3409 A.V. Williams Building
-Office hours: TBA
+Office hours: Tuesday 2pm-3pm
 
 ###TA
 Sailunsi Chen
 Email: sailunsi at umd.edu
 Office: 1145 A.V. Williams Building
-Office hours: 6pm-7pm
+Office hours: Thursday 6pm-7pm
 
 ###Administrivia
 
