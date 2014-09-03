@@ -17,8 +17,8 @@ Office hours: TBA
 ###TA
 Sailunsi Chen
 Email: sailunsi at umd.edu
-Office: TBA
-Office hours: TBA
+Office: 1145 A.V. Williams Building
+Office hours: 6pm-7pm
 
 ###Administrivia
 
@@ -27,4 +27,4 @@ Office hours: TBA
 *	Homework and programming assignments will be published on [this webpage](http://enee459c.github.io/homeworks/), but should be submitted through [Canvas](https://umd.instructure.com/login). No late submissions will be accepted.
 *	Read and strictly adhere to [academic integrity](http://www.faculty.umd.edu/teach/integrity.html). 
 *	Discussions will be managed on [Canvas](https://umd.instructure.com/login). Please do use the discussions on Canvas and do not email the instructor or the TA individually with course-related questions.
-*	Course prerequisites: ENEE150 or CMSC132 (the course will have a significant programming component). 
+*	Course prerequisites: ENEE150 or CMSC132 (the course will have a significant programming component).
