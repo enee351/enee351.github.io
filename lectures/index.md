@@ -8,7 +8,7 @@ published: true
 
 *Lectures*
 
-**Note:** Fonts in Lecture 1 will be fixed by 1pm today.
+**Note:** Fonts in Lecture 1 fixed as of 12:10pm.
 
  Date | Lecture                                                        | Slides     | Readings                            |
 ------|----------------------------------------------------------------|------------|-------------------------------------|
