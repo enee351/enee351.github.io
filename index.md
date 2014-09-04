@@ -8,7 +8,7 @@ published: true
 *Home*
 
 ###Instructor
-[Charalampos (Babis) Papamanthou](http://www.ece.umd.edu/~cpap) 
+Prof. [Charalampos (Babis) Papamanthou](http://www.ece.umd.edu/~cpap) 
 ECE Department
 Email: cpap at umd.edu
 Office: 3409 A.V. Williams Building
