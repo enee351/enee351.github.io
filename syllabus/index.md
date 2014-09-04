@@ -38,8 +38,8 @@ Knowledge of programming and basic knowledge of algorithms and data structures.
 2. Basic tools in computer security (symmetric and asymmetric encryption, message authentication, digital signatures, access control).
 3. Security protocols (key exchange, secure and private communication, anonymous communication).
 4. Systems security (permissions in Windows/Unix, buffer overflow, password-based authentication).
-5. Cloud security (authenticated data structures, verifiable computation, homomorphic encryption).
 6. Network security (basic internet technology, DNS, denial of service, WiFi security).
+5. Cloud security (authenticated data structures, verifiable computation, homomorphic encryption).
 7. Web security (XSS attacks, browser vulnerabilities, SQL injection attacks).
 8. Applications security (digital rights management (DRM), email security, e-cash).
 9. Malicious software (backdoors, viruses, worms, rootkits, static and dynamic analysis).
@@ -63,7 +63,7 @@ Slides and selected research papers will be provided.
 
 1. Introduction to Computer Security (Goodrich and Tamassia, Addison Wesley, 2011).
 2. Introduction to Modern Cryptography (Katz and Lindell, Chapman & Hall/CRC, 2007).
-3. Cryptography and Network Security: Principles and Practice (Stallings, Pearson, Sixth Edition, 2014) 
+3. Cryptography and Network Security: Principles and Practice (Stallings, Pearson, Sixth Edition, 2014).
 
 <br />
 
