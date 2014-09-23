@@ -17,11 +17,7 @@ Date | Lecture | Slides | Readings
 09/16/14 | Message authentication codes.  | [Lecture 5](http://enee459c.github.io/lectures/week3/09_16_14.pdf) | [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.4 
 09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.2
 09/18/14 | Introduction to public key encryption. Number theory basics.  | [Lecture 7](http://enee459c.github.io/lectures/week3/09_23_14.pdf) | [GT](http://www.securitybook.net/) 8.2
-
-
-
 10/23/14 | Midterm.  | No lecture. | 
-
 11/04/14 | Invited lecture.  |  |
 11/06/14 | Invited lecture.  |  |
 
