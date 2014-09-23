@@ -16,9 +16,26 @@ Date | Lecture | Slides | Readings
 09/11/14 | Cryptographic hash functions.  | [Lecture 4](http://enee459c.github.io/lectures/week2/09_11_14.pdf) | [GT](http://www.securitybook.net/) 8.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.6 
 09/16/14 | Message authentication codes.  | [Lecture 5](http://enee459c.github.io/lectures/week3/09_16_14.pdf) | [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.4 
 09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.2
-09/18/14 | Introduction to public key encryption. Number theory basics.  | [Lecture 7](http://enee459c.github.io/lectures/week3/09_23_14.pdf) | [GT](http://www.securitybook.net/) 8.2
-||||
+09/23/14 | Introduction to public key encryption. Number theory basics.  | [Lecture 7](http://enee459c.github.io/lectures/week3/09_23_14.pdf) | [GT](http://www.securitybook.net/) 8.2
+09/25/14||||
+09/30/14||||
+10/02/14||||
+10/07/14||||
+10/09/14||||
+10/14/14||||
+10/16/14||||
+10/21/14||||
 10/23/14 | Midterm.  | No lecture. | |
-11/04/14 | Invited lecture.  |  | |
-11/06/14 | Invited lecture.  |  | |
-
+10/28/14||||
+10/30/14||||
+11/04/14 |   |  | |
+11/06/14 |   |  | |
+11/13/14 |  |  | |
+11/18/14 |  |  | |
+11/20/14 |  |  | |
+11/25/14 |   |  | |
+11/27/14 | Thanksgiving recess.  | No lecture.  | |
+12/02/14 |   |  | |
+12/04/14 |   |  | |
+12/09/14 |   |  | |
+12/11/14 |   |  | |
