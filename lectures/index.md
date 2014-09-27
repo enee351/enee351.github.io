@@ -35,7 +35,7 @@ Date | Lecture | Slides | Readings
 11/20/14 |  |  | |
 11/25/14 |   |  | |
 11/27/14 | Thanksgiving recess.  | No lecture.  | |
-12/02/14 |   |  | |
+12/02/14 |  Invited lecture by [Andrew Miller](http://www.cs.umd.edu/~amiller): Bitcoin.  |  | |
 12/04/14 |   |  | |
 12/09/14 |   |  | |
 12/11/14 |   |  | |
