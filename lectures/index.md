@@ -28,8 +28,8 @@ Date | Lecture | Slides | Readings
 10/23/14 | Midterm.  | No lecture. | |
 10/28/14||||
 10/30/14||||
-11/04/14 | Invited lecture ([Andrew Ruef](http://www.cs.umd.edu/~awruef)).   |  | |
-11/06/14 | Invited lecture (TBD).  |  | |
+11/04/14 | Invited lecture by [Andrew Ruef](http://www.cs.umd.edu/~awruef): Recent vulnerabilities (Shellshock and goto fail).  |  | |
+11/06/14 | Invited lecture by [Jeff McKinney](http://www.ece.umd.edu/staff/mckinney): Password breach at UMD and how we reacted.   |  | |
 11/13/14 |  |  | |
 11/18/14 |  |  | |
 11/20/14 |  |  | |
