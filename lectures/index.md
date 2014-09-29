@@ -29,7 +29,7 @@ Date | Lecture | Slides | Readings
 10/28/14||||
 10/30/14||||
 11/04/14 | Invited lecture by [Andrew Ruef](http://www.cs.umd.edu/~awruef): Recent vulnerabilities (Shellshock and goto fail).  |  | |
-11/06/14 | Invited lecture by [Jeff McKinney](http://www.ece.umd.edu/staff/mckinney): Password breach at UMD and how we reacted.   |  | |
+11/06/14 | Invited lecture by [Jeff McKinney](http://www.ece.umd.edu/staff/mckinney): Exploring the UMD data breach.   |  | |
 11/13/14 |  |  | |
 11/18/14 |  |  | |
 11/20/14 |  |  | |
