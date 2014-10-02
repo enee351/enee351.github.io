@@ -19,7 +19,7 @@ Date | Lecture | Slides | Readings
 09/23/14 | Introduction to public key encryption (PKE). Number theory basics.  | [Lecture 7](http://enee459c.github.io/lectures/week4/09_23_14.pdf) | [GT](http://www.securitybook.net/) 8.2, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 4
 09/25/14| Algorithms for PKE: Euclidean algorithm and multiplicative inverses.|  [Lecture 8](http://enee459c.github.io/lectures/week4/09_25_14.pdf)  | [KL](http://www.cs.umd.edu/~jkatz/imc.html) 7.1, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 7.3  |
 09/30/14| RSA and ElGamal encryption. |  [Lecture 9](http://enee459c.github.io/lectures/week5/09_30_14.pdf)  | [GT](http://www.securitybook.net/) 8.5.2, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 9, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 10.2 |
-10/02/14||||
+10/02/14|||| Digital signatures and certificates. | [Lecture 10](http://enee459c.github.io/lectures/week5/10_02_14.pdf) | [GT](http://www.securitybook.net/) 1.3.5, [GT](http://www.securitybook.net/) 8.4 
 10/07/14||||
 10/09/14||||
 10/14/14||||
