@@ -22,7 +22,7 @@ Date | Lecture | Slides | Readings
 10/02/14| Digital signatures and certificates. | [Lecture 10](http://enee459c.github.io/lectures/week5/10_02_14.pdf) | [GT](http://www.securitybook.net/) 1.3.5, [GT](http://www.securitybook.net/) 8.4 |
 10/07/14|Certification authorities. Kerberos authentication. | [Lecture 11](http://enee459c.github.io/lectures/week6/10_07_14.pdf)| [GT](http://www.securitybook.net/) 7.1.2, [GT](http://www.securitybook.net/) 9.6 |
 10/09/14| Diffie-Hellman key exchange. Zero knowledge. Anonymous communication/Tor. | [Lecture 12](http://enee459c.github.io/lectures/week6/10_09_14.pdf) | [GT](http://www.securitybook.net/) 8.2.4|
-10/14/14| Passoword authentication. |[Lecture 13](http://enee459c.github.io/lectures/week6/10_14_14.pdf)| [GT](http://www.securitybook.net/) 1.4.2 |
+10/14/14| Password authentication. |[Lecture 13](http://enee459c.github.io/lectures/week6/10_14_14.pdf)| [GT](http://www.securitybook.net/) 1.4.2 |
 10/16/14||||
 10/21/14||||
 10/23/14 | Midterm.  | No lecture. | |
