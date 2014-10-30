@@ -24,12 +24,12 @@ Date | Lecture | Slides | Readings
 10/09/14| Diffie-Hellman key exchange. Zero knowledge. Anonymous communication/Tor. | [Lecture 12](http://enee459c.github.io/lectures/week6/10_09_14.pdf) | [GT](http://www.securitybook.net/) 8.2.4|
 10/14/14| Password authentication. |[Lecture 13](http://enee459c.github.io/lectures/week7/10_14_14.pdf)| [GT](http://www.securitybook.net/) 1.4.2 |
 10/16/14|Password cracking with rainbow tables. | [Lecture 14](http://enee459c.github.io/lectures/week7/10_16_14.pdf) |[GT](http://www.securitybook.net/) 3.3.2|
-10/21/14| Midterm review. | [Lecture 15]()| |
+10/21/14| Midterm review. | No lecture. | |
 10/23/14 | Midterm.  | No lecture. | |
-10/28/14| Access control and information flow. | [Lecture 16](http://enee459c.github.io/lectures/week8/10_21_14.pdf)| [GT](http://www.securitybook.net/) 1.2, [GT](http://www.securitybook.net/) 3.4.6|
-10/30/14| OS security and buffer overflow attacks. | [Lecture 17](http://enee459c.github.io/lectures/week8/10_30_14.pdf)| [GT](http://www.securitybook.net/) 3.4|
-11/04/14 | Recent vulnerabilities: Shellshock and goto fail (invited lecture by [Andrew Ruef](http://www.cs.umd.edu/~awruef)) .  | [Lecture 18]() | |
-11/06/14 | Exploring the 2014 UMD data breach (invited lecture by [Jeff McKinney](http://www.ece.umd.edu/staff/mckinney)).    |  [Lecture 19]() | |
+10/28/14| Access control and information flow. | [Lecture 15](http://enee459c.github.io/lectures/week9/10_28_14.pdf)| [GT](http://www.securitybook.net/) 1.2, [GT](http://www.securitybook.net/) 3.4.6|
+10/30/14| OS security and buffer overflow attacks. | [Lecture 16](http://enee459c.github.io/lectures/week9/10_30_14.pdf)| [GT](http://www.securitybook.net/) 3.4|
+11/04/14 | Recent vulnerabilities: Shellshock and goto fail (invited lecture by [Andrew Ruef](http://www.cs.umd.edu/~awruef)) .  | [Lecture 17]() | |
+11/06/14 | Exploring the 2014 UMD data breach (invited lecture by [Jeff McKinney](http://www.ece.umd.edu/staff/mckinney)).    |  [Lecture 18]() | |
 11/13/14 |  |  | |
 11/18/14 |  |  | |
 11/20/14 |  |  | |
