@@ -28,14 +28,14 @@ Date | Lecture | Slides | Readings
 10/23/14 | Midterm.  | No lecture. | |
 10/28/14| Access control and information flow. | [Lecture 16](http://enee459c.github.io/lectures/week9/10_28_14.pdf)| [GT](http://www.securitybook.net/) 1.2, [GT](http://www.securitybook.net/) 3.4.6|
 10/30/14| OS security and buffer overflow attacks. | [Lecture 17](http://enee459c.github.io/lectures/week9/10_30_14.pdf)| [GT](http://www.securitybook.net/) 3.4|
-11/04/14 | Recent vulnerabilities: Shellshock and goto fail (invited lecture by [Andrew Ruef](http://www.cs.umd.edu/~awruef)) .  | [Lecture 18]() | |
-11/06/14 | Exploring the 2014 UMD data breach (invited lecture by [Jeff McKinney](http://www.ece.umd.edu/staff/mckinney)).    |  [Lecture 19]() | |
+11/04/14 | Recent vulnerabilities: Shellshock and goto fail (invited lecture by [Andrew Ruef](http://www.cs.umd.edu/~awruef)) .  | Lecture 18 | |
+11/06/14 | Exploring the 2014 UMD data breach (invited lecture by [Jeff McKinney](http://www.ece.umd.edu/staff/mckinney)).    |  Lecture 19 | |
 11/13/14 |  |  | |
 11/18/14 |  |  | |
 11/20/14 |  |  | |
 11/25/14 |   |  | |
 11/27/14 | Thanksgiving recess.  | No lecture.  | |
-12/02/14 | Bitcoin (invited lecture by [Andrew Miller](http://www.cs.umd.edu/~amiller)).  | [Lecture 24]()  | |
+12/02/14 | Bitcoin (invited lecture by [Andrew Miller](http://www.cs.umd.edu/~amiller)).  | Lecture 24 | |
 12/04/14 |   |  | |
 12/09/14 |   |  | |
 12/11/14 |   |  | |
