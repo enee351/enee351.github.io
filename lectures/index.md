@@ -28,7 +28,7 @@ Date | Lecture | Slides | Readings
 10/23/14 | Midterm.  | No lecture. | |
 10/28/14| Access control and information flow. | [Lecture 16](http://enee459c.github.io/lectures/week8/10_21_14.pdf)| [GT](http://www.securitybook.net/) 1.2, [GT](http://www.securitybook.net/) 3.4.6|
 10/30/14| OS security and buffer overflow attacks. | [Lecture 17](http://enee459c.github.io/lectures/week8/10_30_14.pdf)| [GT](http://www.securitybook.net/) 1.2, [GT](http://www.securitybook.net/) 3.4|
-11/04/14 | Invited lecture by [Andrew Ruef](http://www.cs.umd.edu/~awruef): Recent vulnerabilities (Shellshock and goto fail).  |  | |
+11/04/14 | Recent vulnerabilities: Shellshock and goto fail.  | [Lecture 18](Invited lecture by [Andrew Ruef](http://www.cs.umd.edu/~awruef)  | |
 11/06/14 | Invited lecture by [Jeff McKinney](http://www.ece.umd.edu/staff/mckinney): Exploring the UMD data breach.   |  | |
 11/13/14 |  |  | |
 11/18/14 |  |  | |
