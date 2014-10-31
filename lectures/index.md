@@ -30,12 +30,13 @@ Date | Lecture | Slides | Readings
 10/30/14| OS security and buffer overflow attacks. | [Lecture 17](http://enee459c.github.io/lectures/week9/10_30_14.pdf)| [GT](http://www.securitybook.net/) 3.4|
 11/04/14 | Recent vulnerabilities: Shellshock and goto fail (invited lecture by [Andrew Ruef](http://www.cs.umd.edu/~awruef)) .  | [Lecture 18]() | |
 11/06/14 | Exploring the 2014 UMD data breach (invited lecture by [Jeff McKinney](http://www.ece.umd.edu/staff/mckinney)).    |  [Lecture 19]() | |
+11/11/14 |  |  | |
 11/13/14 |  |  | |
 11/18/14 |  |  | |
-11/20/14 |  |  | |
+11/20/14 |   |  | |
 11/25/14 |   |  | |
 11/27/14 | Thanksgiving recess.  | No lecture.  | |
-12/02/14 | Bitcoin (invited lecture by [Andrew Miller](http://www.cs.umd.edu/~amiller)).  | Lecture 24 | |
+12/02/14 | Bitcoin (invited lecture by [Andrew Miller](http://www.cs.umd.edu/~amiller)).  | Lecture 25 | |
 12/04/14 |   |  | |
 12/09/14 |   |  | |
 12/11/14 |   |  | |
