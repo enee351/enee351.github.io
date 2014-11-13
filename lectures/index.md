@@ -30,8 +30,8 @@ Date | Lecture | Slides | Readings
 10/30/14| OS security and buffer overflow attacks. | [Lecture 17](http://enee459c.github.io/lectures/week9/10_30_14.pdf)| [GT](http://www.securitybook.net/) 3.4|
 11/04/14 | Recent vulnerabilities: Shellshock and goto fail (invited lecture by [Andrew Ruef](http://www.cs.umd.edu/~awruef)) .  | [Lecture 18]() | |
 11/06/14 | Exploring the 2014 UMD data breach (invited lecture by [Jeff McKinney](http://www.ece.umd.edu/staff/mckinney)).    |  [Lecture 19]() | |
-11/11/14 | Computer networking basics. | [Lecture 20](http://enee459c.github.io/lectures/week11/11_11_14.pdf)| [GT](http://www.securitybook.net/) 5.1-5.4 |
-11/13/14 | Link layer and transport layer vulnerabilities.  | [Lecture 21](http://enee459c.github.io/lectures/week11/11_13_14.pdf)  | [GT](http://www.securitybook.net/) 5.5 |
+11/11/14 | Network security: Computer networking basics. | [Lecture 20](http://enee459c.github.io/lectures/week11/11_11_14.pdf)| [GT](http://www.securitybook.net/) 5.1-5.4 |
+11/13/14 | Network security: Link layer and transport layer vulnerabilities.  | [Lecture 21](http://enee459c.github.io/lectures/week11/11_13_14.pdf)  | [GT](http://www.securitybook.net/) 5.5 |
 11/18/14 |  |  | |
 11/20/14 |   |  | |
 11/25/14 |   |  | |
