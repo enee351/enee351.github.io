@@ -32,7 +32,7 @@ Date | Lecture | Slides | Readings
 11/06/14 | Exploring the 2014 UMD data breach (invited lecture by [Jeff McKinney](http://www.ece.umd.edu/staff/mckinney)).    |  [Lecture 19]() | |
 11/11/14 | Network security: Computer networking basics. | [Lecture 20](http://enee459c.github.io/lectures/week11/11_11_14.pdf)| [GT](http://www.securitybook.net/) 5.1-5.4 |
 11/13/14 | Network security: Link layer and transport layer vulnerabilities.  | [Lecture 21](http://enee459c.github.io/lectures/week11/11_13_14.pdf)  | [GT](http://www.securitybook.net/) 5.5 |
-11/18/14 | Web security: XSS and SQL injection attacks.  | [Lecture 22](http://enee459c.github.io/lectures/week11/11_18_14.pdf)  | [GT](http://www.securitybook.net/) 7 |
+11/18/14 | Web security: XSS and SQL injection attacks.  | [Lecture 22](http://enee459c.github.io/lectures/week12/11_18_14.pdf)  | [GT](http://www.securitybook.net/) 7 |
 11/20/14 |   |  | |
 11/25/14 |   |  | |
 11/27/14 | Thanksgiving recess.  | No lecture.  | |
