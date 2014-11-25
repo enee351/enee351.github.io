@@ -34,7 +34,7 @@ Date | Lecture | Slides | Readings
 11/13/14 | Network security: Link layer and transport layer vulnerabilities.  | [Lecture 21](http://enee459c.github.io/lectures/week11/11_13_14.pdf)  | [GT](http://www.securitybook.net/) 5.5 |
 11/18/14 | Web security: XSS and SQL injection attacks.  | [Lecture 22](http://enee459c.github.io/lectures/week12/11_18_14.pdf)  | [GT](http://www.securitybook.net/) 7 |
 11/20/14 | Malware.  |  [Lecture 23](http://enee459c.github.io/lectures/week12/11_20_14.pdf) | [GT](http://www.securitybook.net/) 4 |
-11/25/14 |   |  | |
+11/25/14 | Secure storage.  | [Lecture 24](http://enee459c.github.io/lectures/week12/11_25_14.pdf)  | |
 11/27/14 | Thanksgiving recess.  | No lecture.  | |
 12/02/14 | Bitcoin (invited lecture by [Andrew Miller](http://www.cs.umd.edu/~amiller)).  | Lecture 25 | |
 12/04/14 |   |  | |
