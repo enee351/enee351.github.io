@@ -40,3 +40,4 @@ Date | Lecture | Slides | Readings
 12/04/14 |   | [Lecture 26]() | |
 12/09/14 |   | [Lecture 27]() | |
 12/11/14 | Final review.  | [Lecture 28]() | |
+12/19/14 | Final exam: 1.30pm to 3.30pm | No lecture. |
