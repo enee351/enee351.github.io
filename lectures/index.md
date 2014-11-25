@@ -37,6 +37,6 @@ Date | Lecture | Slides | Readings
 11/25/14 | Secure storage.  | [Lecture 24](http://enee459c.github.io/lectures/week12/11_25_14.pdf)  | |
 11/27/14 | Thanksgiving recess.  | No lecture.  | |
 12/02/14 | Bitcoin (invited lecture by [Andrew Miller](http://www.cs.umd.edu/~amiller)).  | [Lecture 25]() | |
-12/04/14 |   |  | |
-12/09/14 |   |  | |
-12/11/14 |   |  | |
+12/04/14 |   | [Lecture 26]() | |
+12/09/14 |   | [Lecture 27]() | |
+12/11/14 | Final review.  | [Lecture 28]() | |
