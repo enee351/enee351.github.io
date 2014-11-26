@@ -263,8 +263,7 @@ The first step is to identify where the buffer overflows are. To do that you wil
 
 After looking over the code to see how it works, answer the following four questions:
 
-*   There is a stack-based overflow in the program. What is the name
-of the stack-allocated variable that contains the overflowed buffer?
+*   There is a stack-based overflow in the program. What is the name of the stack-allocated variable that contains the overflowed buffer?
 *   Consider the buffer you just identified: Running what line of code will overflow the buffer? (We want the line number, not the code itself.)
 *   There is another overflow, <em>not dependent at all on the first</em>, of a <em>non</em>-stack-allocated
 buffer. What variable contains this buffer?
