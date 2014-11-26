@@ -1,3 +1,12 @@
+---
+layout: article
+title: ""
+date: null
+modified: null
+published: true
+toc: false
+---
+
 ##Exploiting Buffer Overflows in C
 
 This problem will give you some hands-on experience to understand
