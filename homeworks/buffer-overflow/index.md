@@ -23,15 +23,15 @@ The first step is to install VirtualBox on your computer. There are specific ins
 
 <br />
 
-The next step is to download the virtual machine image, in OVF format, that we will use for the project. It has extension `.ova` meaning it is an <em>archive</em> with all of the relevant materials in it. The file can be found [here](https://d28rh4a8wq0iu5.cloudfront.net/softwaresec/virtual_machine/mooc-vm.ova?response-content-type=application%2Foctet-stream&amp;a=1&amp;response-content-disposition=attachment). This virtual machine runs a version of [Ubuntu Linux](http://www.ubuntu.com/).
+The next step is to download the virtual machine image, in OVF format, that we will use for the project. It has extension `.ova` meaning it is an <em>archive</em> with all of the relevant materials in it. The file can be found [here](https://d28rh4a8wq0iu5.cloudfront.net/softwaresec/virtual_machine/mooc-vm.ova?response-content-type=application%2Foctet-stream&a=1&response-content-disposition=attachment). This virtual machine runs a version of [Ubuntu Linux](http://www.ubuntu.com/).
 
 <br />
 
-Finally, you must import this OVF file, which is called `mooc-vm.ova`, and run it. To import it, it should be as simple as double-clicking the `.ova` file. Doing so will start VirtualBox and ask you whether to import it the image. You should then click &#8220;import&#8221;. Alternatively, rather than double clicking the archive file, you can select &#8220;File&#8221; -&gt; &#8220;Import appliance&#8221; from the Manager window and select the file. Further instructions are available [here](https://www.virtualbox.org/manual/ch01.html#ovf).
+Finally, you must import this OVF file, which is called `mooc-vm.ova`, and run it. To import it, it should be as simple as double-clicking the `.ova` file. Doing so will start VirtualBox and ask you whether to import it the image. You should then click "import". Alternatively, rather than double clicking the archive file, you can select "File" -> "Import appliance" from the Manager window and select the file. Further instructions are available [here](https://www.virtualbox.org/manual/ch01.html#ovf).
 
 <br />
 
-Having imported the VM, you should see it in your list of VMs. Select it and click &#8220;Start&#8221;. This will open a window running the virtual machine, starting up Ubuntu Linux. When you get to a login screen, use username &#8220;seed&#8221; and password is &#8220;dees&#8221; (but without quotes). Then start up a terminal window &#8211; there is an icon in the menu bar at the top for doing so (it looks like a computer monitor).
+Having imported the VM, you should see it in your list of VMs. Select it and click "Start". This will open a window running the virtual machine, starting up Ubuntu Linux. When you get to a login screen, use username "seed" and password is "dees" (but without quotes). Then start up a terminal window - there is an icon in the menu bar at the top for doing so (it looks like a computer monitor).
 
 <br />
 
@@ -48,64 +48,64 @@ seed@seed-desktop:~/projects/1$ ./wisdom-alt
 Hello there
 1. Receive wisdom
 2. Add wisdom
-Selection &gt;
+Selection >
 ```
 
-At this point, it is waiting for the user to type something in. Typing the number 1 allows you to &#8220;receive wisdom&#8221; and typing 2 allows you to &#8220;add wisdom&#8221;. Extending the interaction, suppose we type 1 (and a carriage return).
+At this point, it is waiting for the user to type something in. Typing the number 1 allows you to "receive wisdom" and typing 2 allows you to "add wisdom". Extending the interaction, suppose we type 1 (and a carriage return).
 
 ```
 seed@seed-desktop:~/projects/1$ ./wisdom-alt
 Hello there
 1. Receive wisdom
 2. Add wisdom
-Selection &gt;1
+Selection >1
 no wisdom
 Hello there
 1. Receive wisdom
 2. Add wisdom
-Selection &gt;
+Selection >
 ```
 
 Notice that it outputs no wisdom and then repeats the greeting. Now if we type 2 we can try to add some wisdom; here's what happens:
 
 ```
-Selection &gt;2
+Selection >2
 Enter some wisdom
 ```
 
 Now the program is waiting for the user to type something in. Suppose we type in `sleep is important` and press return. Then we will get the standard greeting again. If we type 1 at that point we will get the following:
 
 ```
-Selection &gt;2
+Selection >2
 Enter some wisdom
 sleep is important 
 Hello there
 1. Receive wisdom
 2. Add wisdom
-Selection &gt;1
+Selection >1
 sleep is important
 Hello there
 1. Receive wisdom
 2. Add wisdom
-Selection &gt;
+Selection >
 ```
 
 We can continue to add wisdom, by typing 2. For example, if we did this sequence again, with the entry `exercise is useful`, we would get:
 
 ```
-Selection &gt;2
+Selection >2
 Enter some wisdom
 exercise is useful
 Hello there
 1. Receive wisdom
 2. Add wisdom
-Selection &gt;1
+Selection >1
 sleep is important
 exercise is useful
 Hello there
 1. Receive wisdom
 2. Add wisdom
-Selection &gt;
+Selection >
 ```
 
 We can keep doing this as long as we like. We can terminate interacting with the program by typing control-D.
@@ -119,7 +119,7 @@ seed@seed-desktop:~/projects/1$ ./wisdom-alt
 Hello there
 1. Receive wisdom
 2. Add wisdom
-Selection &gt;156
+Selection >156
 
 Segmentation fault
 ```
@@ -147,21 +147,21 @@ seed@seed-desktop:~/projects/1$ ./runbin.sh
 Hello there
 1. Receive wisdom
 2. Add wisdom
-Selection &gt;2
+Selection >2
 Enter some wisdom
 \x41\x41
 Hello there
 1. Receive wisdom
 2. Add wisdom
-Selection &gt;1
+Selection >1
 AA
 ```
 
-In the above, `\x41\x41` represents two bytes, defined in hexadecial format. 41 in hex is 65 in decimal, which in ASCII is the character `A`. As a result, when we ask for wisdom, the program prints `AA`. Entering something like `\x07` would be a byte 7. This is not a printable character, but is the &#8220;bell&#8221;. So when it &#8220;prints,&#8221; you would actually hear a sound (if sound were enabled on this VM).
+In the above, `\x41\x41` represents two bytes, defined in hexadecial format. 41 in hex is 65 in decimal, which in ASCII is the character `A`. As a result, when we ask for wisdom, the program prints `AA`. Entering something like `\x07` would be a byte 7. This is not a printable character, but is the "bell". So when it "prints," you would actually hear a sound (if sound were enabled on this VM).
 
 <br />
 
-To exploit the program, you will have to enter sequences of binary bytes that contain addresses, which are 4-byte (i.e., 32-bit) words on the VM. The x86 architecture is &#8220;little-endian&#8221;, meaning that the bytes in a word are stored from least significant to most significant. That means that the hexadecimal address 0xabcdef00 would be entered as individual bytes in reverse order, i.e., \x00\xef\xbc\xab. Here is a [refresher on endianness](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html), if you need it.
+To exploit the program, you will have to enter sequences of binary bytes that contain addresses, which are 4-byte (i.e., 32-bit) words on the VM. The x86 architecture is "little-endian", meaning that the bytes in a word are stored from least significant to most significant. That means that the hexadecimal address 0xabcdef00 would be entered as individual bytes in reverse order, i.e., \x00\xef\xbc\xab. Here is a [refresher on endianness](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html), if you need it.
 
 <br />
 
@@ -200,11 +200,11 @@ seed@seed-desktop:~/projects/1$ gdb -p `pgrep wisdom-alt`
 
 GNU gdb 6.8-debian
 Copyright (C) 2008 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later &lt;http://gnu.org/licenses/gpl.html&gt;
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.  Type &quot;show copying&quot;
-and &quot;show warranty&quot; for details.
-This GDB was configured as &quot;i486-linux-gnu&quot;.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i486-linux-gnu".
 Attaching to process 29727
 Reading symbols from /home/seed/projects/1/wisdom-alt...done.
 Reading symbols from /lib/tls/i686/cmov/libc.so.6...done.
@@ -233,13 +233,13 @@ Breakpoint 1, main () at wisdom-alt.c:100
 101            fptr tmp = ptrs[s];
 (gdb) print s
 $1 = 2
-(gdb) print &amp;r
+(gdb) print &r
 $2 = (int *) 0xbffff530
 (gdb) cont
 Continuing.
 ```
 
-Above, we control the program by stepping using &#8220;next&#8221;, which executes the current line of code, proceeding to the next. Then we print the contents of variable `s` with &#8220;print&#8221;, and it displays the value we entered in the other terminal. Then we print the address of the variable `r`. Finally, we continue execution by entering &#8220;cont&#8221;. In the other terminal we see the prompt to enter some wisdom.
+Above, we control the program by stepping using "next", which executes the current line of code, proceeding to the next. Then we print the contents of variable `s` with "print", and it displays the value we entered in the other terminal. Then we print the address of the variable `r`. Finally, we continue execution by entering "cont". In the other terminal we see the prompt to enter some wisdom.
 
 <br />
 
@@ -247,7 +247,7 @@ When you are done working with gdb (perhaps when you've terminated the other pro
 
 <br />
 
-The basic GDB commands you will want to use are those we have already demonstrated: setting break points, stepping through execution, and printing values. If you are not familiar with GDB already, a quick GDB reference is available [here](http://www.cs.umd.edu/class/spring2014/cmsc414-0201/downloads/gdb-refcard.pdf), and a more in depth GDB tutorial is available [here](http://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf"). You would find it helpful to be familiar with the &#8220;print&#8221;, &#8220;break&#8221;, and &#8220;step&#8221; commands. A full [GDB user's manual](http://www.gnu.org/software/gdb/documentation/) is also available.
+The basic GDB commands you will want to use are those we have already demonstrated: setting break points, stepping through execution, and printing values. If you are not familiar with GDB already, a quick GDB reference is available [here](http://www.cs.umd.edu/class/spring2014/cmsc414-0201/downloads/gdb-refcard.pdf), and a more in depth GDB tutorial is available [here](http://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf"). You would find it helpful to be familiar with the "print", "break", and "step" commands. A full [GDB user's manual](http://www.gnu.org/software/gdb/documentation/) is also available.
 
 <br />
 
@@ -257,7 +257,7 @@ You are now ready to start your process of developing an exploit.
 
 <br />
 
-The first step is to identify where the buffer overflows are. To do that you will have to look through the code of `wisdom-alt.c`. You can do this by using an editor on Linux virtual machine, like `vi` or `emacs`, both of which are installed. Alternatively you can look through the file on your own machine outside of the VM, in an editor of your choice &#8212; the file is available [here](https://d28rh4a8wq0iu5.cloudfront.net/softwaresec/project1/wisdom-alt.c?response-content-type=application%2Foctet-stream&amp;a=1&amp;response-content-disposition=attachment).
+The first step is to identify where the buffer overflows are. To do that you will have to look through the code of `wisdom-alt.c`. You can do this by using an editor on Linux virtual machine, like `vi` or `emacs`, both of which are installed. Alternatively you can look through the file on your own machine outside of the VM, in an editor of your choice &#8212; the file is available [here](https://d28rh4a8wq0iu5.cloudfront.net/softwaresec/project1/wisdom-alt.c?response-content-type=application%2Foctet-stream&a=1&response-content-disposition=attachment).
 
 <br />
 
@@ -272,7 +272,7 @@ buffer. What variable contains this buffer?</li>
 <li>Consider the buffer you just identified: Running what line of code overflows the buffer? (We want the number here, not the code itself.)</li>
 </ul>
 
-Now use GDB to examine the running the program and answer the following questions. These questions are basically going to walk you through constructing an exploit of the non-stack-based overflow vulnerability you just identified. We will do less &#8220;hand holding&#8221; when asking about exploiting the stack-allocated buffer.
+Now use GDB to examine the running the program and answer the following questions. These questions are basically going to walk you through constructing an exploit of the non-stack-based overflow vulnerability you just identified. We will do less "hand holding" when asking about exploiting the stack-allocated buffer.
 
 <br />
 
@@ -280,20 +280,20 @@ Write your answers to the questions on your PDF submission for this homework.
 
 <br />
 
-<strong>Important</strong>: When carrying out the lab, you must follow the instructions given above for running the program (using `runbin.sh`) and using GDB (attaching to `wisdom-alt` in a separate terminal) <strong>exactly</strong> or else the answers you get may not match the ones we are expecting. In particular, the addresses of stack variables may be different. These addresses might also be different if you have altered any environment variables in the Ubuntu terminal. To confirm that things are as they should be, recall the GDB interaction above, where we print the address `&amp;r` with the result being `0xbffff530` &#8211; if you are not getting that result when you reproduce that interaction then something is wrong. You should restart fresh terminals and begin from scratch, following the instructions exactly.
+<strong>Important</strong>: When carrying out the lab, you must follow the instructions given above for running the program (using `runbin.sh`) and using GDB (attaching to `wisdom-alt` in a separate terminal) <strong>exactly</strong> or else the answers you get may not match the ones we are expecting. In particular, the addresses of stack variables may be different. These addresses might also be different if you have altered any environment variables in the Ubuntu terminal. To confirm that things are as they should be, recall the GDB interaction above, where we print the address `&r` with the result being `0xbffff530` - if you are not getting that result when you reproduce that interaction then something is wrong. You should restart fresh terminals and begin from scratch, following the instructions exactly.
 
 <br />
 
 On to the first exploit:
 
 <ul>
-<li>What is the address of `buf` (the local variable in the main function)? Enter the answer in either hexadecimal format (a `0`x followed by 8 &#8220;digits&#8221; 0&#8211;9 or a-f, like `0xbfff0014`) or decimal format. Note here that we want the address of `buf`, not its contents.</li>
+<li>What is the address of `buf` (the local variable in the main function)? Enter the answer in either hexadecimal format (a `0`x followed by 8 "digits" 0-9 or a-f, like `0xbfff0014`) or decimal format. Note here that we want the address of `buf`, not its contents.</li>
 <li>What is the address of `ptrs` (the global variable) ? As with the previous question, use hex or decimal format.</li>
 <li>What is the address of `write_secret` (the function) ? Use hex or decimal.</li>
 <li>What is the address of `p` (the local variable in the `main` function) ? Use hex, or decimal format.</li>
-<li>What input do you provide to the program so that `ptrs[s]` reads (and then tries to execute) the contents of local variable `p` instead of a function pointer stored in the buffer pointed to by `ptrs`? You can determine the answer by performing a little arithmetic on the addresses you have already gathered above &#8211; be careful that you take into account the size of a pointer when doing pointer arithmetic. If successful, you will end up executing the `pat_on_back` function. Enter your answer as an (unsigned) integer.</li>
+<li>What input do you provide to the program so that `ptrs[s]` reads (and then tries to execute) the contents of local variable `p` instead of a function pointer stored in the buffer pointed to by `ptrs`? You can determine the answer by performing a little arithmetic on the addresses you have already gathered above - be careful that you take into account the size of a pointer when doing pointer arithmetic. If successful, you will end up executing the `pat_on_back` function. Enter your answer as an (unsigned) integer.</li>
 <li>What do you enter so that `ptrs[s]` reads (and then tries to execute) starting from the 65th byte in `buf`, i.e., the location at `buf[64]`? Enter your answer as an (unsigned) integer.</li>
-<li>What do you replace `\xEE\xEE\xEE\xEE` with in the following input to the program (which due to the overflow will be filling in the 65th&#8211;68th bytes of `buf`) so that the `ptrs[s]` operation executes the `write_secret` function, thus dumping the secret? (Hint: Be sure to take endianness into account.) `771675175\x00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\xEE\xEE\xEE\xEE`</li>
+<li>What do you replace `\xEE\xEE\xEE\xEE` with in the following input to the program (which due to the overflow will be filling in the 65th-68th bytes of `buf`) so that the `ptrs[s]` operation executes the `write_secret` function, thus dumping the secret? (Hint: Be sure to take endianness into account.) `771675175\x00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\xEE\xEE\xEE\xEE`</li>
 </ul>
 
 Now let's consider the other vulnerability:
@@ -302,4 +302,4 @@ Now let's consider the other vulnerability:
 <li>Suppose you wanted to overflow the `wis` variable to perform a stack smashing attack. You could do this by entering 2 to call `get_wisdom`, and then enter enough bytes to overwrite the return address of that function, replacing it with the address of `write_secret`. How many bytes do you need to enter prior to the address of `write_secret`?</li>
 </ul>
 
-To work out the answer here, you might find it useful to use the GDB `backtrace` command, which prints out the current stack, and the `x` command, which prints a &#8220;hex dump&#8221; of the bytes at a given address. For example, by typing `x/48xw $esp` you would print out 48 words (the `w`) in hexadecimal format (the `x`) starting at the address stored in register `$esp`. 
+To work out the answer here, you might find it useful to use the GDB `backtrace` command, which prints out the current stack, and the `x` command, which prints a "hex dump" of the bytes at a given address. For example, by typing `x/48xw $esp` you would print out 48 words (the `w`) in hexadecimal format (the `x`) starting at the address stored in register `$esp`. 
