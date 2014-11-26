@@ -263,14 +263,12 @@ The first step is to identify where the buffer overflows are. To do that you wil
 
 After looking over the code to see how it works, answer the following four questions:
 
-<ul>
 *   There is a stack-based overflow in the program. What is the name
 of the stack-allocated variable that contains the overflowed buffer?
 *   Consider the buffer you just identified: Running what line of code will overflow the buffer? (We want the line number, not the code itself.)
 *   There is another overflow, <em>not dependent at all on the first</em>, of a <em>non</em>-stack-allocated
 buffer. What variable contains this buffer?
 *   Consider the buffer you just identified: Running what line of code overflows the buffer? (We want the number here, not the code itself.)
-</ul>
 
 Now use GDB to examine the running the program and answer the following questions. These questions are basically going to walk you through constructing an exploit of the non-stack-based overflow vulnerability you just identified. We will do less "hand holding" when asking about exploiting the stack-allocated buffer.
 
