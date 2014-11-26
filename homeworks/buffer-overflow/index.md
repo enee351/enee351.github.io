@@ -11,6 +11,8 @@ toc: false
 
 This problem will give you some hands-on experience to understand buffer overflows and how to exploit them. You will carry out the project using a virtual machine, on your own computer. In carrying it out, you will have to answer specific questions, given at the bottom, to show that you have followed each of the necessary steps.
 
+<br />
+
 ###Installing and running the Virtual Machine
 
 This problem will use a virtual machine in the [VirtualBox](https://www.virtualbox.org/) format. The overall VirtualBox manual is available [here](https://www.virtualbox.org/manual/UserManual.html).
@@ -30,6 +32,8 @@ Finally, you must import this OVF file, which is called <code>mooc-vm.ova</code>
 <br />
 
 Having imported the VM, you should see it in your list of VMs. Select it and click &#8220;Start&#8221;. This will open a window running the virtual machine, starting up Ubuntu Linux. When you get to a login screen, use username &#8220;seed&#8221; and password is &#8220;dees&#8221; (but without quotes). Then start up a terminal window &#8211; there is an icon in the menu bar at the top for doing so (it looks like a computer monitor).
+
+<br />
 
 ###The vulnerable program
 
@@ -226,6 +230,8 @@ When you are done working with gdb (perhaps when you've terminated the other pro
 <br />
 
 The basic GDB commands you will want to use are those we have already demonstrated: setting break points, stepping through execution, and printing values. If you are not familiar with GDB already, a quick GDB reference is available [here](http://www.cs.umd.edu/class/spring2014/cmsc414-0201/downloads/gdb-refcard.pdf), and a more in depth GDB tutorial is available [here](http://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf"). You would find it helpful to be familiar with the &#8220;print&#8221;, &#8220;break&#8221;, and &#8220;step&#8221; commands. A full [GDB user's manual](http://www.gnu.org/software/gdb/documentation/) is also available.
+
+<br />
 
 ##Questions
 
