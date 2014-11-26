@@ -15,6 +15,7 @@ This problem will give you some hands-on experience to understand buffer overflo
 
 This problem will use a virtual machine in the [VirtualBox](https://www.virtualbox.org/) format. The overall VirtualBox manual is available [here](https://www.virtualbox.org/manual/UserManual.html).
 
+
 The first step is to install VirtualBox on your computer. There are specific instructions for doing so for computers running [Windows](https://www.virtualbox.org/manual/ch02.html#installation_windows), [Linux](https://www.virtualbox.org/manual/ch02.html#install-linux-host), and [Mac OSX](https://www.virtualbox.org/manual/ch02.html#idp52693904).
 
 The next step is to download the virtual machine image, in OVF format, that we will use for the project. It has extension <code>.ova</code> meaning it is an <em>archive</em> with all of the relevant materials in it. The file can be found [here](https://d28rh4a8wq0iu5.cloudfront.net/softwaresec/virtual_machine/mooc-vm.ova?response-content-type=application%2Foctet-stream&amp;a=1&amp;response-content-disposition=attachment). This virtual machine runs a version of [Ubuntu Linux](http://www.ubuntu.com/).
