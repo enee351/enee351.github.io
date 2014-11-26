@@ -9,6 +9,8 @@ toc: false
 
 ##Exploiting Buffer Overflows in C
 
+*Project developed by [Michael Hicks](http://www.cs.umd.edu/~mwh/)*
+
 This problem will give you some hands-on experience to understand buffer overflows and how to exploit them. You will carry out the project using a virtual machine, on your own computer. In carrying it out, you will have to answer specific questions, given at the bottom, to show that you have followed each of the necessary steps.
 
 <br />
