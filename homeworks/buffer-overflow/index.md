@@ -182,7 +182,7 @@ To exploit the program, you will have to learn some information about how it is 
 To attach `gdb` to `wisdom-alt`, you should first invoke the above command line, and then, in a separate terminal, from the `projects/1` directory invoke the following line: 
 
 ```
-gdb -p `pgrep wisdom-alt
+gdb -p `pgrep wisdom-alt`
 ````
 
 Should you encounter any errors running the above line, you can first `pgrep wisdom-alt` to obtain the PID of `wisdom-alt`, and then run `gdb -p <PID>`.
@@ -264,12 +264,12 @@ The first step is to identify where the buffer overflows are. To do that you wil
 After looking over the code to see how it works, answer the following four questions:
 
 <ul>
-<li>There is a stack-based overflow in the program. What is the name
-of the stack-allocated variable that contains the overflowed buffer?</li>
-<li>Consider the buffer you just identified: Running what line of code will overflow the buffer? (We want the line number, not the code itself.)</li>
-<li>There is another overflow, <em>not dependent at all on the first</em>, of a <em>non</em>-stack-allocated
-buffer. What variable contains this buffer?</li>
-<li>Consider the buffer you just identified: Running what line of code overflows the buffer? (We want the number here, not the code itself.)</li>
+*   There is a stack-based overflow in the program. What is the name
+of the stack-allocated variable that contains the overflowed buffer?
+*   Consider the buffer you just identified: Running what line of code will overflow the buffer? (We want the line number, not the code itself.)
+*   There is another overflow, <em>not dependent at all on the first</em>, of a <em>non</em>-stack-allocated
+buffer. What variable contains this buffer?
+*   Consider the buffer you just identified: Running what line of code overflows the buffer? (We want the number here, not the code itself.)
 </ul>
 
 Now use GDB to examine the running the program and answer the following questions. These questions are basically going to walk you through constructing an exploit of the non-stack-based overflow vulnerability you just identified. We will do less "hand holding" when asking about exploiting the stack-allocated buffer.
@@ -286,20 +286,16 @@ Write your answers to the questions on your PDF submission for this homework.
 
 On to the first exploit:
 
-<ul>
-<li>What is the address of `buf` (the local variable in the main function)? Enter the answer in either hexadecimal format (a `0`x followed by 8 "digits" 0-9 or a-f, like `0xbfff0014`) or decimal format. Note here that we want the address of `buf`, not its contents.</li>
-<li>What is the address of `ptrs` (the global variable) ? As with the previous question, use hex or decimal format.</li>
-<li>What is the address of `write_secret` (the function) ? Use hex or decimal.</li>
-<li>What is the address of `p` (the local variable in the `main` function) ? Use hex, or decimal format.</li>
-<li>What input do you provide to the program so that `ptrs[s]` reads (and then tries to execute) the contents of local variable `p` instead of a function pointer stored in the buffer pointed to by `ptrs`? You can determine the answer by performing a little arithmetic on the addresses you have already gathered above - be careful that you take into account the size of a pointer when doing pointer arithmetic. If successful, you will end up executing the `pat_on_back` function. Enter your answer as an (unsigned) integer.</li>
-<li>What do you enter so that `ptrs[s]` reads (and then tries to execute) starting from the 65th byte in `buf`, i.e., the location at `buf[64]`? Enter your answer as an (unsigned) integer.</li>
-<li>What do you replace `\xEE\xEE\xEE\xEE` with in the following input to the program (which due to the overflow will be filling in the 65th-68th bytes of `buf`) so that the `ptrs[s]` operation executes the `write_secret` function, thus dumping the secret? (Hint: Be sure to take endianness into account.) `771675175\x00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\xEE\xEE\xEE\xEE`</li>
-</ul>
+*   What is the address of `buf` (the local variable in the main function)? Enter the answer in either hexadecimal format (a `0`x followed by 8 "digits" 0-9 or a-f, like `0xbfff0014`) or decimal format. Note here that we want the address of `buf`, not its contents.
+*   What is the address of `ptrs` (the global variable) ? As with the previous question, use hex or decimal format.
+*   What is the address of `write_secret` (the function) ? Use hex or decimal.
+*   What is the address of `p` (the local variable in the `main` function) ? Use hex, or decimal format.
+*   What input do you provide to the program so that `ptrs[s]` reads (and then tries to execute) the contents of local variable `p` instead of a function pointer stored in the buffer pointed to by `ptrs`? You can determine the answer by performing a little arithmetic on the addresses you have already gathered above - be careful that you take into account the size of a pointer when doing pointer arithmetic. If successful, you will end up executing the `pat_on_back` function. Enter your answer as an (unsigned) integer.
+*   What do you enter so that `ptrs[s]` reads (and then tries to execute) starting from the 65th byte in `buf`, i.e., the location at `buf[64]`? Enter your answer as an (unsigned) integer.
+*   What do you replace `\xEE\xEE\xEE\xEE` with in the following input to the program (which due to the overflow will be filling in the 65th-68th bytes of `buf`) so that the `ptrs[s]` operation executes the `write_secret` function, thus dumping the secret? (Hint: Be sure to take endianness into account.) `771675175\x00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\xEE\xEE\xEE\xEE`
 
 Now let's consider the other vulnerability:
 
-<ul>
-<li>Suppose you wanted to overflow the `wis` variable to perform a stack smashing attack. You could do this by entering 2 to call `get_wisdom`, and then enter enough bytes to overwrite the return address of that function, replacing it with the address of `write_secret`. How many bytes do you need to enter prior to the address of `write_secret`?</li>
-</ul>
+*   Suppose you wanted to overflow the `wis` variable to perform a stack smashing attack. You could do this by entering 2 to call `get_wisdom`, and then enter enough bytes to overwrite the return address of that function, replacing it with the address of `write_secret`. How many bytes do you need to enter prior to the address of `write_secret`?
 
 To work out the answer here, you might find it useful to use the GDB `backtrace` command, which prints out the current stack, and the `x` command, which prints a "hex dump" of the bytes at a given address. For example, by typing `x/48xw $esp` you would print out 48 words (the `w`) in hexadecimal format (the `x`) starting at the address stored in register `$esp`. 
