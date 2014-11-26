@@ -9,11 +9,7 @@ toc: false
 
 ##Exploiting Buffer Overflows in C
 
-This problem will give you some hands-on experience to understand
-buffer overflows and how to exploit them. You will carry out the
-project using a virtual machine, on your own computer. In carrying it
-out, you will have to answer specific questions, given at the bottom,
-to show that you have followed each of the necessary steps.
+This problem will give you some hands-on experience to understand buffer overflows and how to exploit them. You will carry out the project using a virtual machine, on your own computer. In carrying it out, you will have to answer specific questions, given at the bottom, to show that you have followed each of the necessary steps.
 
 ###Installing and running the Virtual Machine
 
@@ -29,21 +25,11 @@ Having imported the VM, you should see it in your list of VMs. Select it and cli
 
 ###The vulnerable program
 
-We have placed a C program <code>wisdom-alt.c</code> in the
-<code>projects/1</code> directory in the virtual machine.
-Type <code>cd projects/1</code> to change into this directory.
-If you type <code>ls</code> you will see that also in this
-directory is a compiled version of the program, called
-<code>wisdom-alt</code>. This executable was produced by invoking
-<code>gcc -fno-stack-protector -ggdb -m32 wisdom-alt.c -o wisdom-alt</code>
-(in case you accidentally delete it and need to reproduce it).
+We have placed a C program <code>wisdom-alt.c</code> in the <code>projects/1</code> directory in the virtual machine. Type <code>cd projects/1</code> to change into this directory. If you type <code>ls</code> you will see that also in this directory is a compiled version of the program, called <code>wisdom-alt</code>. This executable was produced by invoking <code>gcc -fno-stack-protector -ggdb -m32 wisdom-alt.c -o wisdom-alt</code> (in case you accidentally delete it and need to reproduce it).
 
 ####Running the program
 
-The program reads data from the <code>stdin</code> (i.e., the keyboard)
-and writes to <code>stdout</code> (i.e., the terminal).
-You can run the program by typing <code>./wisdom-alt</code> on the command prompt.
-When we do this, we see the following greeting:
+The program reads data from the <code>stdin</code> (i.e., the keyboard) and writes to <code>stdout</code> (i.e., the terminal). You can run the program by typing <code>./wisdom-alt</code> on the command prompt. When we do this, we see the following greeting:
 
 <pre><code>seed@seed-desktop:~/projects/1$ ./wisdom-alt
 Hello there
@@ -52,10 +38,7 @@ Hello there
 Selection &gt;
 </code></pre>
 
-At this point, it is waiting for the user to type something
-in. Typing the number 1 allows you to &#8220;receive wisdom&#8221; and typing 2
-allows you to &#8220;add wisdom&#8221;. Extending the interaction, suppose we
-type 1 (and a carriage return).
+At this point, it is waiting for the user to type something in. Typing the number 1 allows you to &#8220;receive wisdom&#8221; and typing 2 allows you to &#8220;add wisdom&#8221;. Extending the interaction, suppose we type 1 (and a carriage return).
 
 <pre><code>seed@seed-desktop:~/projects/1$ ./wisdom-alt
 Hello there
@@ -69,18 +52,13 @@ Hello there
 Selection &gt;
 </code></pre>
 
-Notice that it outputs no wisdom and then repeats the
-greeting. Now if we type 2 we can try to add some wisdom;
-here's what happens:
+Notice that it outputs no wisdom and then repeats the greeting. Now if we type 2 we can try to add some wisdom; here's what happens:
 
 <pre><code>Selection &gt;2
 Enter some wisdom
 </code></pre>
 
-Now the program is waiting for the user to type something in. Suppose
-we type in <code>sleep is important</code> and press return. Then we will
-get the standard greeting again. If we type 1 at that point
-we will get the following:
+Now the program is waiting for the user to type something in. Suppose we type in <code>sleep is important</code> and press return. Then we will get the standard greeting again. If we type 1 at that point we will get the following:
 
 <pre><code>Selection &gt;2
 Enter some wisdom
@@ -96,9 +74,7 @@ Hello there
 Selection &gt;
 </code></pre>
 
-We can continue to add wisdom, by typing 2. For example, if
-we did this sequence again, with the entry <code>exercise is
-useful</code>, we would get:
+We can continue to add wisdom, by typing 2. For example, if we did this sequence again, with the entry <code>exercise is useful</code>, we would get:
 
 <pre><code>Selection &gt;2
 Enter some wisdom
@@ -115,14 +91,11 @@ Hello there
 Selection &gt;
 </code></pre>
 
-We can keep doing this as long as we like. We can terminate
-interacting with the program by typing control-D.
+We can keep doing this as long as we like. We can terminate interacting with the program by typing control-D.
 
 ####Crash!
 
-This program is vulnerable to a buffer overflow. It is easy to see
-there is a problem, by typing in something other than 1 or 2. For
-example, type in 156.
+This program is vulnerable to a buffer overflow. It is easy to see there is a problem, by typing in something other than 1 or 2. For example, type in 156.
 
 <pre><code>seed@seed-desktop:~/projects/1$ ./wisdom-alt
 Hello there
@@ -133,10 +106,7 @@ Selection &gt;156
 Segmentation fault
 </code></pre>
 
-In fact, the program has at least <em>two</em> vulnerabilities; the
-above is demonstrating one of them, but there is one other. Your job
-in this lab is to find and exploit both vulnerabilities. The lab will
-guide you through steps to do so, and you will answer questions as you go along.
+In fact, the program has at least <em>two</em> vulnerabilities; the above is demonstrating one of them, but there is one other. Your job in this lab is to find and exploit both vulnerabilities. The lab will guide you through steps to do so, and you will answer questions as you go along.
 
 ###Exploiting the program
 
@@ -144,8 +114,7 @@ We are now going to show you some tools you'll need to exploit this program.
 
 ####Entering binary data
 
-To exploit the program, you will need to enter non-printable characters, i.e., <em>binary data</em>.
-To input binary data to the program, use the following command line instead:
+To exploit the program, you will need to enter non-printable characters, i.e., <em>binary data</em>. To input binary data to the program, use the following command line instead:
 
 <pre><code>./runbin.sh</code></pre>
 
@@ -165,53 +134,29 @@ Selection &gt;1
 AA
 </code></pre>
 
-In the above, <code>\x41\x41</code> represents two bytes, defined in hexadecial format.
-41 in hex is 65 in decimal, which in ASCII is the character <code>A</code>. As a result,
-when we ask for wisdom, the program prints <code>AA</code>. Entering something like
-<code>\x07</code> would be a byte 7. This is not a printable character, but is the &#8220;bell&#8221;.
-So when it &#8220;prints,&#8221; you would actually hear a sound (if sound were enabled on this VM). 
+In the above, <code>\x41\x41</code> represents two bytes, defined in hexadecial format. 41 in hex is 65 in decimal, which in ASCII is the character <code>A</code>. As a result, when we ask for wisdom, the program prints <code>AA</code>. Entering something like <code>\x07</code> would be a byte 7. This is not a printable character, but is the &#8220;bell&#8221;. So when it &#8220;prints,&#8221; you would actually hear a sound (if sound were enabled on this VM). 
 
-To exploit the program, you will have to enter sequences of binary bytes that contain addresses,
-which are 4-byte (i.e., 32-bit) words on the VM. The x86 architecture is &#8220;little-endian&#8221;,
-meaning that the bytes in a word are stored from least significant to most significant. That means
-that the hexadecimal address 0xabcdef00 would be entered as individual bytes in reverse order,
-i.e., \x00\xef\xbc\xab.
-Here is a [refresher on endianness](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html),
-if you need it.
+To exploit the program, you will have to enter sequences of binary bytes that contain addresses, which are 4-byte (i.e., 32-bit) words on the VM. The x86 architecture is &#8220;little-endian&#8221;, meaning that the bytes in a word are stored from least significant to most significant. That means that the hexadecimal address 0xabcdef00 would be entered as individual bytes in reverse order, i.e., \x00\xef\xbc\xab. Here is a [refresher on endianness](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html), if you need it.
 
 <em>Note</em>: <code>runbin.sh</code> is a shell script that is just a wrapper around the following code:
 
 <pre><code>while read -r line; do echo -e $line; done | ./wisdom-alt</code></pre>
 
-This is what is converting the hex digits into binary before passing them to the
-<code>wisdom-alt</code> program. When carrying out the lab, please use the
-<code>runbin.sh</code> program, and not the above code directly, or your answers
-may be slightly off, as discussed at the end.
+This is what is converting the hex digits into binary before passing them to the <code>wisdom-alt</code> program. When carrying out the lab, please use the <code>runbin.sh</code> program, and not the above code directly, or your answers may be slightly off, as discussed at the end.
 
 ####Using GDB
 
-To exploit the program, you will have to learn some information about how it is laid out in memory.
-You can find out this information using the <code>gdb</code> program debugger. You can <em>attach</em>
-<code>gdb</code> to your running program, and then use it to print information about the state of
-that program, and step through executions of that program. 
+To exploit the program, you will have to learn some information about how it is laid out in memory. You can find out this information using the <code>gdb</code> program debugger. You can <em>attach</em> <code>gdb</code> to your running program, and then use it to print information about the state of that program, and step through executions of that program. 
 
-To attach <code>gdb</code> to <code>wisdom-alt</code>, you should first invoke the above command line,
-and then, in a separate terminal, from the <code>projects/1</code> directory invoke the following line: 
+To attach <code>gdb</code> to <code>wisdom-alt</code>, you should first invoke the above command line, and then, in a separate terminal, from the <code>projects/1</code> directory invoke the following line: 
 
 <pre><code>gdb -p `pgrep wisdom-alt`</code></pre>
 
-Should you encounter any errors running the above line, you can first <code>pgrep wisdom-alt</code> to
-obtain the PID of <code>wisdom-alt</code>, and then run <code>gdb -p [PID]</code>.
+Should you encounter any errors running the above line, you can first <code>pgrep wisdom-alt</code> to obtain the PID of <code>wisdom-alt</code>, and then run <code>gdb -p [PID]</code>.
 
-The <code>-p</code> option to <code>gdb</code> tells it to attach to a running program with the
-PID given to the option. The command <code>pgrep wisdom-alt</code> searches the process table
-to find the PID of the <code>wisdom-alt</code> program; this PID is then fed as the argument to
-<code>-p</code>. <em>Be warned</em>: If you have multiple <code>wisdom-alt</code> programs running,
-you may not attach to the one you expect! Make sure they are all killed (perhaps by killing and
-restarting the terminals you started them in) if you run into trouble.
+The <code>-p</code> option to <code>gdb</code> tells it to attach to a running program with the PID given to the option. The command <code>pgrep wisdom-alt</code> searches the process table to find the PID of the <code>wisdom-alt</code> program; this PID is then fed as the argument to <code>-p</code>. <em>Be warned</em>: If you have multiple <code>wisdom-alt</code> programs running, you may not attach to the one you expect! Make sure they are all killed (perhaps by killing and restarting the terminals you started them in) if you run into trouble.
 
-Once you have connected to the process, you can start using <code>gdb</code> commands to start
-examining its state and controlling it. For example: 
+Once you have connected to the process, you can start using <code>gdb</code> commands to start examining its state and controlling it. For example: 
 
 <pre><code>seed@seed-desktop:~/projects/1$ gdb -p `pgrep wisdom-alt`
 
@@ -232,9 +177,7 @@ Loaded symbols for /lib/ld-linux.so.2
 (gdb) 
 </code></pre>
 
-This shows starting <code>gdb</code> and attaching it to a running <code>wisdom-alt</code> process.
-Then the <code>gdb</code> command prompt comes up. At this point, the execution of that program is
-paused, and we can start entering commands. For example:
+This shows starting <code>gdb</code> and attaching it to a running <code>wisdom-alt</code> process. Then the <code>gdb</code> command prompt comes up. At this point, the execution of that program is paused, and we can start entering commands. For example:
 
 <pre><code>(gdb) break wisdom-alt.c:100
 Breakpoint 1 at 0x80487ea: file wisdom-alt.c, line 100.
@@ -242,12 +185,7 @@ Breakpoint 1 at 0x80487ea: file wisdom-alt.c, line 100.
 Continuing.
 </code></pre>
 
-Here we enter a command to set a breakpoint at line 100 of <code>wisdom-alt.c</code>.
-Then we enter command <code>cont</code> (which is short for <code>continue</code>) to
-tell the program to resume its execution. In the other terminal, running <code>wisdom-alt</code>
-we enter <code>2</code> and press return. This causes execution to reach line 100, so the
-breakpoint fires, and the <code>gdb</code> command prompt comes up again, pausing the program
-in the process. 
+Here we enter a command to set a breakpoint at line 100 of <code>wisdom-alt.c</code>. Then we enter command <code>cont</code> (which is short for <code>continue</code>) to tell the program to resume its execution. In the other terminal, running <code>wisdom-alt</code> we enter <code>2</code> and press return. This causes execution to reach line 100, so the breakpoint fires, and the <code>gdb</code> command prompt comes up again, pausing the program in the process. 
 
 <pre><code>Breakpoint 1, main () at wisdom-alt.c:100
 100            int s = atoi(buf);
@@ -261,35 +199,17 @@ $2 = (int *) 0xbffff530
 Continuing.
 </code></pre>
 
-Above, we control the program by stepping using &#8220;next&#8221;, which executes the
-current line of code, proceeding to the next. Then we print the contents of variable
-<code>s</code> with &#8220;print&#8221;, and it displays the value we entered in the
-other terminal. Then we print the address of the variable <code>r</code>. Finally, we
-continue execution by entering &#8220;cont&#8221;. In the other terminal we see the
-prompt to enter some wisdom.
+Above, we control the program by stepping using &#8220;next&#8221;, which executes the current line of code, proceeding to the next. Then we print the contents of variable <code>s</code> with &#8220;print&#8221;, and it displays the value we entered in the other terminal. Then we print the address of the variable <code>r</code>. Finally, we continue execution by entering &#8220;cont&#8221;. In the other terminal we see the prompt to enter some wisdom.
 
-When you are done working with gdb (perhaps when you've terminated the other program),
-just type <code>quit</code> to exit.
+When you are done working with gdb (perhaps when you've terminated the other program), just type <code>quit</code> to exit.
 
-The basic GDB commands you will want to use are those we have already demonstrated:
-setting break points, stepping through execution, and printing values. If you are
-not familiar with GDB already, a quick GDB reference is available
-[here](http://www.cs.umd.edu/class/spring2014/cmsc414-0201/downloads/gdb-refcard.pdf),
-and a more in depth GDB tutorial is available [here](http://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf").
-You would find it helpful to be familiar with the &#8220;print&#8221;, &#8220;break&#8221;,
-and &#8220;step&#8221; commands. A full [GDB user's manual](http://www.gnu.org/software/gdb/documentation/)
-is also available.
+The basic GDB commands you will want to use are those we have already demonstrated: setting break points, stepping through execution, and printing values. If you are not familiar with GDB already, a quick GDB reference is available [here](http://www.cs.umd.edu/class/spring2014/cmsc414-0201/downloads/gdb-refcard.pdf), and a more in depth GDB tutorial is available [here](http://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf"). You would find it helpful to be familiar with the &#8220;print&#8221;, &#8220;break&#8221;, and &#8220;step&#8221; commands. A full [GDB user's manual](http://www.gnu.org/software/gdb/documentation/) is also available.
 
 ##Questions
 
 You are now ready to start your process of developing an exploit.
 
-The first step is to identify where the buffer overflows are. To do that you will have
-to look through the code of <code>wisdom-alt.c</code>. You can do this by using an editor
-on Linux virtual machine, like <code>vi</code> or <code>emacs</code>, both of which are
-installed. Alternatively you can look through the file on your own machine outside of the VM,
-in an editor of your choice &#8212; the file is available
-[here](https://d28rh4a8wq0iu5.cloudfront.net/softwaresec/project1/wisdom-alt.c?response-content-type=application%2Foctet-stream&amp;a=1&amp;response-content-disposition=attachment).
+The first step is to identify where the buffer overflows are. To do that you will have to look through the code of <code>wisdom-alt.c</code>. You can do this by using an editor on Linux virtual machine, like <code>vi</code> or <code>emacs</code>, both of which are installed. Alternatively you can look through the file on your own machine outside of the VM, in an editor of your choice &#8212; the file is available [here](https://d28rh4a8wq0iu5.cloudfront.net/softwaresec/project1/wisdom-alt.c?response-content-type=application%2Foctet-stream&amp;a=1&amp;response-content-disposition=attachment).
 
 After looking over the code to see how it works, answer the following four questions.
 
@@ -302,23 +222,11 @@ buffer. What variable contains this buffer?</li>
 <li>Consider the buffer you just identified: Running what line of code overflows the buffer? (We want the number here, not the code itself.)</li>
 </ul>
 
-Now use GDB to examine the running the program and answer the following questions.
-These questions are basically going to walk you through constructing an exploit
-of the non-stack-based overflow vulnerability you just identified. We will do
-less &#8220;hand holding&#8221; when asking about exploiting the stack-allocated buffer.
+Now use GDB to examine the running the program and answer the following questions. These questions are basically going to walk you through constructing an exploit of the non-stack-based overflow vulnerability you just identified. We will do less &#8220;hand holding&#8221; when asking about exploiting the stack-allocated buffer.
 
 Write your answers to the questions on your PDF submission for this homework. 
 
-<strong>Important</strong>: When carrying out the lab, you must follow the instructions
-given above for running the program (using <code>runbin.sh</code>) and using GDB
-(attaching to <code>wisdom-alt</code> in a separate terminal) <strong>exactly</strong>
-or else the answers you get may not match the ones we are expecting. In particular,
-the addresses of stack variables may be different. These addresses might also be different
-if you have altered any environment variables in the Ubuntu terminal. To confirm that
-things are as they should be, recall the GDB interaction above, where we print the
-address <code>&amp;r</code> with the result being <code>0xbffff530</code> &#8211; if you
-are not getting that result when you reproduce that interaction then something is wrong.
-You should restart fresh terminals and begin from scratch, following the instructions exactly.
+<strong>Important</strong>: When carrying out the lab, you must follow the instructions given above for running the program (using <code>runbin.sh</code>) and using GDB (attaching to <code>wisdom-alt</code> in a separate terminal) <strong>exactly</strong> or else the answers you get may not match the ones we are expecting. In particular, the addresses of stack variables may be different. These addresses might also be different if you have altered any environment variables in the Ubuntu terminal. To confirm that things are as they should be, recall the GDB interaction above, where we print the address <code>&amp;r</code> with the result being <code>0xbffff530</code> &#8211; if you are not getting that result when you reproduce that interaction then something is wrong. You should restart fresh terminals and begin from scratch, following the instructions exactly.
 
 On to the first exploit:
 
@@ -338,8 +246,4 @@ Now let's consider the other vulnerability:
 <li>Suppose you wanted to overflow the <code>wis</code> variable to perform a stack smashing attack. You could do this by entering 2 to call <code>get_wisdom</code>, and then enter enough bytes to overwrite the return address of that function, replacing it with the address of <code>write_secret</code>. How many bytes do you need to enter prior to the address of <code>write_secret</code>?</li>
 </ul>
 
-To work out the answer here, you might find it useful to use the GDB <code>backtrace</code> command,
-which prints out the current stack, and the <code>x</code> command, which prints a &#8220;hex dump&#8221;
-of the bytes at a given address. For example, by typing <code>x/48xw $esp</code> you would print out 48
-words (the <code>w</code>) in hexadecimal format (the <code>x</code>) starting at the address stored in
-register <code>$esp</code>. 
+To work out the answer here, you might find it useful to use the GDB <code>backtrace</code> command, which prints out the current stack, and the <code>x</code> command, which prints a &#8220;hex dump&#8221; of the bytes at a given address. For example, by typing <code>x/48xw $esp</code> you would print out 48 words (the <code>w</code>) in hexadecimal format (the <code>x</code>) starting at the address stored in register <code>$esp</code>. 
