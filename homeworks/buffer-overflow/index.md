@@ -257,7 +257,7 @@ You are now ready to start your process of developing an exploit.
 
 <br />
 
-The first step is to identify where the buffer overflows are. To do that you will have to look through the code of `wisdom-alt.c`. You can do this by using an editor on Linux virtual machine, like `vi` or `emacs`, both of which are installed. Alternatively you can look through the file on your own machine outside of the VM, in an editor of your choice &#8212; the file is available [here](https://d28rh4a8wq0iu5.cloudfront.net/softwaresec/project1/wisdom-alt.c?response-content-type=application%2Foctet-stream&a=1&response-content-disposition=attachment).
+The first step is to identify where the buffer overflows are. To do that you will have to look through the code of `wisdom-alt.c`. You can do this by using an editor on Linux virtual machine, like `vi` or `emacs`, both of which are installed. Alternatively you can look through the file on your own machine outside of the VM, in an editor of your choice &#8212; the file is available [here](http://enee459c.github.io/homeworks/code/wisdom-alt.c).
 
 <br />
 
