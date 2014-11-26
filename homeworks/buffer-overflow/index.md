@@ -31,7 +31,7 @@ Finally, you must import this OVF file, which is called `mooc-vm.ova`, and run i
 
 <br />
 
-Having imported the VM, you should see it in your list of VMs. Select it and click "Start". This will open a window running the virtual machine, starting up Ubuntu Linux. When you get to a login screen, use username "seed" and password is "dees" (but without quotes). Then start up a terminal window - there is an icon in the menu bar at the top for doing so (it looks like a computer monitor).
+Having imported the VM, you should see it in your list of VMs. Select it and click "Start". This will open a window running the virtual machine, starting up Ubuntu Linux. When you get to a login screen, use username "seed" and password is "dees" (but without quotes). Then start up a terminal window; there is an icon in the menu bar at the top for doing so (it looks like a computer monitor).
 
 <br />
 
