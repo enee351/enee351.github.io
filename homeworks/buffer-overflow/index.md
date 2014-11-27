@@ -293,8 +293,10 @@ On to the first exploit:
 *   What do you enter so that `ptrs[s]` reads (and then tries to execute) starting from the 65th byte in `buf`, i.e., the location at `buf[64]`? Enter your answer as an (unsigned) integer.
 *   What do you replace `\xEE\xEE\xEE\xEE` with in the following input to the program (which due to the overflow will be filling in the 65th-68th bytes of `buf`) so that the `ptrs[s]` operation executes the `write_secret` function, thus dumping the secret? (Hint: Be sure to take endianness into account.) `771675175\x00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\xEE\xEE\xEE\xEE`
 
-Now let's consider the other vulnerability:
+*Note:* Anything not preceded by `\x` is a 1 byte ASCII character. The `\x00` in ASCII is the NUL character, meaning it is a null terminator. So `771675175` is 9 bytes of ASCII, `\x00` is 1 byte of hex, and there are 54 bytes of the character `A` in the above input.
+
+<!--Now let's consider the other vulnerability:
 
 *   Suppose you wanted to overflow the `wis` variable to perform a stack smashing attack. You could do this by entering 2 to call `get_wisdom`, and then enter enough bytes to overwrite the return address of that function, replacing it with the address of `write_secret`. How many bytes do you need to enter prior to the address of `write_secret`?
 
-To work out the answer here, you might find it useful to use the GDB `backtrace` command, which prints out the current stack, and the `x` command, which prints a "hex dump" of the bytes at a given address. For example, by typing `x/48xw $esp` you would print out 48 words (the `w`) in hexadecimal format (the `x`) starting at the address stored in register `$esp`. 
+To work out the answer here, you might find it useful to use the GDB `backtrace` command, which prints out the current stack, and the `x` command, which prints a "hex dump" of the bytes at a given address. For example, by typing `x/48xw $esp` you would print out 48 words (the `w`) in hexadecimal format (the `x`) starting at the address stored in register `$esp`.-->
