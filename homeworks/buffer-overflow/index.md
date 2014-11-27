@@ -271,7 +271,7 @@ After looking over the code to see how it works, answer the following four quest
 buffer. What variable contains this buffer?
 *   Consider the buffer you just identified: Running what line of code overflows the buffer? (We want the number here, not the code itself.)
 
-Now use GDB to examine the running the program and answer the following questions. These questions are basically going to walk you through constructing an exploit of the non-stack-based overflow vulnerability you just identified. We will do less "hand holding" when asking about exploiting the stack-allocated buffer.
+Now use GDB to examine the running the program and answer the following questions. These questions are basically going to walk you through constructing an exploit of the non-stack-based overflow vulnerability you just identified.
 
 <br />
 
@@ -283,7 +283,7 @@ Write your answers to the questions on your PDF submission for this homework.
 
 <br />
 
-On to the first exploit:
+On to the exploit:
 
 *   What is the address of `buf` (the local variable in the main function)? Enter the answer in either hexadecimal format (a `0`x followed by 8 "digits" 0-9 or a-f, like `0xbfff0014`) or decimal format. Note here that we want the address of `buf`, not its contents.
 *   What is the address of `ptrs` (the global variable) ? As with the previous question, use hex or decimal format.
