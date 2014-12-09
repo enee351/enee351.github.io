@@ -38,6 +38,6 @@ Date | Lecture | Slides | Readings
 11/27/14 | Thanksgiving recess.  | No lecture.  | |
 12/02/14 | Bitcoin (invited lecture by [Andrew Miller](http://www.cs.umd.edu/~amiller)).  | [Lecture 25](https://docs.google.com/presentation/d/1g3j8LsY3smEFe0s7acALaAN2SayOlhtgeeDc-4_cUuk/edit?usp=sharing) | |
 12/04/14 | Secure storage with number-theoretic assumptions.  | [Lecture 26](http://enee459c.github.io/lectures/week13/12_4_14.pdf)| |
-12/09/14 |   | [Lecture 27]() | |
+12/09/14 | Private cloud processing with homomorphic encryption.   | [Lecture 27]((http://enee459c.github.io/lectures/week13/12_9_14.pdf)) | |
 12/11/14 | Final review.  | [Lecture 28]() | |
 12/19/14 | Final exam: 1.30pm to 3.30pm. | No lecture. |
