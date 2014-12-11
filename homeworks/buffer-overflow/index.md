@@ -285,7 +285,7 @@ Write your answers to the questions on your PDF submission for this homework.
 
 On to the exploit:
 
-*   What is the address of `buf` (the local variable in the main function)? Enter the answer in either hexadecimal format (a `0`x followed by 8 "digits" 0-9 or a-f, like `0xbfff0014`) or decimal format. Note here that we want the address of `buf`, not its contents.
+*   What is the address of `buf` (the local variable in the main function)? Enter the answer in either hexadecimal format (a `0x` followed by 8 "digits" 0-9 or a-f, like `0xbfff0014`) or decimal format. Note here that we want the address of `buf`, not its contents.
 *   What is the address of `ptrs` (the global variable) ? As with the previous question, use hex or decimal format.
 *   What is the address of `write_secret` (the function) ? Use hex or decimal.
 *   What is the address of `p` (the local variable in the `main` function) ? Use hex, or decimal format.
