@@ -11,7 +11,7 @@ published: true
 Prof. [Charalampos (Babis) Papamanthou](http://www.ece.umd.edu/~cpap) 
 ECE Department
 Email: cpap at umd.edu
-Office: 3409 A.V. Williams Building
+Office: q3409 A.V. Williams Building
 Office hours: Tuesday 2pm-3pm
 
 ###TA
