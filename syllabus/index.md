@@ -16,10 +16,8 @@ published: true
 <br />
 
 **Course description:**
-
-
 Computer systems have become a vital part of our everyday professional and personal life and are being used for several critical tasks (e.g., online banking, social networking). These tasks can however expose the users to various security threats (e.g., credit card number theft, personal information leakage). Therefore there is a need for designing secure computer systems.
-<br />
+
 This course teaches both theoretical and practical concepts of computer systems security. Topics include symmetric/asymmetric encryption, message authentication, digital signatures, access control, as well as network security, web security and cloud security. The class will provide students with the necessary tools for designing secure computer systems and programs and for defending against malicious threats (e.g., viruses, worms, denial of service). The class is designed to be accessible to students of various backgrounds and majors (such as EE, CE, CS).
 
 
