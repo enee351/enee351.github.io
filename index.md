@@ -7,7 +7,7 @@ published: true
 
 *Home*
 
-###Instructor
+### Instructor
 Prof. [Charalampos (Babis) Papamanthou](http://www.ece.umd.edu/~cpap) 
 ECE Department
 Email: cpap at umd.edu
@@ -29,7 +29,7 @@ Office hours: TBA
 
 
 
-###Administrivia
+### Administrivia
 
 *	Lectures will be held on Monday and Wednesday from 11:00am to 12:15pm in EGR 108.
 *	Lectures will be published on [this webpage](http://enee459c.github.io/lectures/) just before class.
