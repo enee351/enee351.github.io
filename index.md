@@ -19,7 +19,7 @@ Office hours: Monday 2pm-3pm
 * Mitchell Arnett
 Email: mitchell.arnett at gmail.com
 Office: TBA
-Office hours: TBA
+Office hours: Wed 1pm-2pm
 
 
 
