@@ -64,7 +64,7 @@ Slides and selected research papers will be provided.
 **References:**
 
 1. Introduction to Computer Security (Goodrich and Tamassia, Addison Wesley, 2011).
-2. Introduction to Modern Cryptography (Katz and Lindell, Chapman & Hall/CRC, 2007).
+2. Introduction to Modern Cryptography (Katz and Lindell, Chapman & Hall/CRC, 2014).
 3. Cryptography and Network Security: Principles and Practice (Stallings, Pearson, Sixth Edition, 2014).
 
 <br />
