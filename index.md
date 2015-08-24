@@ -19,7 +19,7 @@ Office hours: Monday 2pm-3pm
 * Mitchell Arnett
 Email: marnett at umd.edu
 Office: TBA
-Office hours: Wed 1pm-2pm
+Office hours: TBA
 
 
 
@@ -27,7 +27,7 @@ Office hours: Wed 1pm-2pm
 * Evripidis Paraskevas
 Email: evripar at umd.edu
 Office: TBA
-Office hours: TBA
+Office hours: Wed 1pm-2pm
 
 
 
