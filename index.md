@@ -15,7 +15,6 @@ Office: 3409 A.V. Williams Building
 Office hours: Monday 2pm-3pm
 
 ###Teaching Assistants
-
 Mitchell Arnett
 Email: mitchell.arnett at gmail.com
 Office: TBA
