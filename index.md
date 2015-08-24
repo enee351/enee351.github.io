@@ -16,7 +16,7 @@ Office hours: Monday 2pm-3pm
 
 ### Teaching Assistants
 
-*Mitchell Arnett
+* Mitchell Arnett
 Email: mitchell.arnett at gmail.com
 Office: TBA
 Office hours: TBA
@@ -24,7 +24,7 @@ Office hours: TBA
 
 
 
-*Evripidis Paraskevas
+* Evripidis Paraskevas
 Email: evripar at umd.edu
 Office: TBA
 Office hours: TBA
