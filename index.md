@@ -17,7 +17,7 @@ Office hours: Monday 2pm-3pm
 ### Teaching Assistants
 
 * Mitchell Arnett
-Email: mitchell.arnett at gmail.com
+Email: marnett at umd.edu
 Office: TBA
 Office hours: Wed 1pm-2pm
 
