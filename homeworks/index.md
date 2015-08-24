@@ -11,7 +11,7 @@ toc: false
 
 Assignment | Date Posted | Due Date
 ---------- | ----------- | --------
-[Homework 1]() | 09/11/14         | 09/14/15 11:59pm
+[Homework 1]() | 09/09/15         | 09/16/15 11:59pm
 <!--
 
      
