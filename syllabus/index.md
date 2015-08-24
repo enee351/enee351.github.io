@@ -12,13 +12,16 @@ published: true
 
 ##ENEE459C: Computer Security
 
-###Fall 2014
+###Fall 2015
 <br />
 
 **Course description:**
+
+
 Computer systems have become a vital part of our everyday professional and personal life and are being used for several critical tasks (e.g., online banking, social networking). These tasks can however expose the users to various security threats (e.g., credit card number theft, personal information leakage). Therefore there is a need for designing secure computer systems.
 <br />
-This course teaches both theoretical and practical concepts of computer systems security. It covers symmetric/asymmetric encryption, message authentication, digital signatures, access control, as well as network security, web security and cloud security. The class will provide the students with the necessary tools for designing secure computer systems and programs and for defending against malicious threats (e.g., viruses, worms, denial of service).
+This course teaches both theoretical and practical concepts of computer systems security. Topics include symmetric/asymmetric encryption, message authentication, digital signatures, access control, as well as network security, web security and cloud security. The class will provide students with the necessary tools for designing secure computer systems and programs and for defending against malicious threats (e.g., viruses, worms, denial of service). The class is designed to be accessible to students of various backgrounds and majors (such as EE, CE, CS).
+
 
 <br />
 
@@ -34,15 +37,16 @@ Knowledge of programming and basic knowledge of algorithms and data structures.
 
 **Core topics:**
 
-1. Introduction to computer security (threat model, attacks, defenses).
-2. Basic tools in computer security (symmetric and asymmetric encryption, message authentication, digital signatures, access control).
-3. Security protocols (key exchange, secure and private communication, anonymous communication).
-4. Systems security (permissions in Windows/Unix, buffer overflow, password-based authentication).
-6. Network security (basic internet technology, DNS, denial of service, WiFi security).
-5. Cloud security (authenticated data structures, verifiable computation, homomorphic encryption).
-7. Web security (XSS attacks, browser vulnerabilities, SQL injection attacks).
-8. Applications security (digital rights management (DRM), email security, e-cash).
-9. Malicious software (backdoors, viruses, worms, rootkits, static and dynamic analysis).
+1.	Introduction to computer security (threat model, attacks, defenses).
+2.	Basic tools in computer security (symmetric and asymmetric encryption, message authentication, digital signatures, access control).
+3.	Security protocols (key exchange, secure and private communication, anonymous communication).
+4.	Systems security (permissions in Windows/Unix, buffer overflow, password-based authentication).
+5.	Network security (basic internet technology, DNS, denial of service, WiFi security).
+6.	Web security (XSS attacks, browser vulnerabilities, SQL injection attacks)
+7.	Applications security (email security, e-cash, Bitcoin).
+8.	Cloud security (authenticated data structures, verifiable computation, homomorphic encryption).
+9.	Malicious software (backdoors, viruses, worms, rootkits, static and dynamic analysis).
+
 
 <br />
 
@@ -67,4 +71,3 @@ Slides and selected research papers will be provided.
 
 <br />
 
-Download a copy of the syllabus [here](http://enee459c.github.io/syllabus/syllabus-ENEE-459-c.pdf).
