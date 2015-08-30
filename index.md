@@ -26,7 +26,7 @@ Office hours: TBA
 
 * Evripidis Paraskevas
 Email: evripar at umd.edu
-Office: TBA
+Office: AVW 1143
 Office hours: Wed 1pm-2pm
 
 
