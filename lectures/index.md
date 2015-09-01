@@ -9,7 +9,7 @@ published: true
 *Lectures*
 
 Date | Lecture | Slides | Readings
---------- |---------- | --------- | ----------
+-----|---------| -------| --------
 08/31/15 | Security goals and tools. Attacks from the real world. | [Lecture 1](http://enee459c.github.io/lectures/week1/08_31_15.pdf) | [GT](http://www.securitybook.net/) 1.1
 
 <!-- 
