@@ -19,7 +19,7 @@ Office hours: Monday 2pm-3pm
 * Mitchell Arnett
 Email: marnett at umd.edu
 Office: AVW 3412
-Office hours: Thursday 9am-10pm
+Office hours: Thursday 9am-10am
 
 
 
