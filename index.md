@@ -11,15 +11,15 @@ published: true
 Prof. [Charalampos (Babis) Papamanthou](http://www.ece.umd.edu/~cpap) 
 ECE Department
 Email: cpap at umd.edu
-Office: 3409 A.V. Williams Building
+Office: AVW 3409 
 Office hours: Monday 2pm-3pm
 
 ### Teaching Assistants
 
 * Mitchell Arnett
 Email: marnett at umd.edu
-Office: TBA
-Office hours: TBA
+Office: AVW 3412
+Office hours: Thursday 9am-10pm
 
 
 
