@@ -33,7 +33,7 @@ Office hours: Wed 1pm-2pm
 
 ### Administrivia
 
-*	Lectures will be held on Monday and Wednesday from 11:00am to 12:15pm in EGR 108.
+*	Lectures will be held on Monday and Wednesday from 11:00am to 12:15pm in EGR 1104 (classroom change effective 9/14/15).
 *	Lectures will be published on [this webpage](http://enee459c.github.io/lectures/) just before class.
 *	Homework and programming assignments will be published on [this webpage](http://enee459c.github.io/homeworks/), but should be submitted through [Canvas](https://umd.instructure.com/login). No late submissions will be accepted.
 *	Read and strictly adhere to [academic integrity](http://www.faculty.umd.edu/teach/integrity.html). 
