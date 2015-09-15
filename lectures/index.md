@@ -14,7 +14,8 @@ Date | Lecture | Slides | Readings
 09/02/15 | Security principles. Introduction to confidentiality, integrity and availability tools. | [Lecture 2](http://enee459c.github.io/lectures/week1/09_02_15.pdf) | [GT](http://www.securitybook.net/) 8.1
 09/07/15 | Labor day.  | No lecture. | |
 09/09/15 | Symmetric encryption.  | [Lecture 3](http://enee459c.github.io/lectures/week2/09_09_15.pdf) |[GT](http://www.securitybook.net/) 8.5.1, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 3.6, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 5.3 |
-09/14/15 | DES and AES algorithms. | [Lecture 4](http://enee459c.github.io/lectures/week2/09_14_15.pdf) | [GT](http://www.securitybook.net/) 8.5.1, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 3.6, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 5.3
+09/14/15 | DES and AES algorithms. | [Lecture 4](http://enee459c.github.io/lectures/week2/09_14_15.pdf) | [GT](http://www.securitybook.net/) 8.5.1, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 3.6, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 5.3 |
+
 <!--
 09/11/14 | Cryptographic hash functions.  | [Lecture 4](http://enee459c.github.io/lectures/week2/09_11_14.pdf) | [GT](http://www.securitybook.net/) 8.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.6 
 09/16/14 | Message authentication codes.  | [Lecture 5](http://enee459c.github.io/lectures/week3/09_16_14.pdf) | [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.4 
