@@ -4,7 +4,6 @@ title: ""
 date: null
 modified: null
 published: true
-toc: false
 ---
 
 *Lectures*
