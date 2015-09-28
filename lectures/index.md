@@ -18,6 +18,7 @@ Date | Lecture | Slides | Readings
 09/16/15 | Cryptographic hash functions with applications.  | [Lecture 5](http://enee459c.github.io/lectures/week3/09_16_15.pdf) | [GT](http://www.securitybook.net/) 8.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.6
 09/21/15 | Birthday paradox and Merkle-Damgard transformation | [Lecture 6](http://enee459c.github.io/lectures/week4/9_21_15_scribe.pdf) | 
 09/23/15 | Passwords (Ksenia) | [Lecture7](http://enee459c.github.io/lectures/week4/Secure_Password_Storage_AUS.pdf) | 
+
 <!--
 09/16/14 | Message authentication codes.  | [Lecture 5](http://enee459c.github.io/lectures/week3/09_16_14.pdf) | [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.4 
 09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.1.4
