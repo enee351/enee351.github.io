@@ -10,7 +10,6 @@ published: true
 
 Date | Lecture | Slides | Readings
 -----|---------| -------| --------
-
 08/31/15 | Security goals and tools. Attacks from the real world. | [Lecture 1](http://enee459c.github.io/lectures/week1/08_31_15.pdf) | [GT](http://www.securitybook.net/) 1.1
 09/02/15 | Security principles. Introduction to confidentiality, integrity and availability tools. | [Lecture 2](http://enee459c.github.io/lectures/week1/09_02_15.pdf) | [GT](http://www.securitybook.net/) 8.1
 09/07/15 | Labor day.  | No lecture. | |
