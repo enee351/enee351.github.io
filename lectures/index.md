@@ -19,7 +19,6 @@ Date | Lecture | Slides | Readings
 09/21/15 | Birthday paradox and Merkle-Damgard transformation | [Lecture 6](http://enee459c.github.io/lectures/week4/9_21_15_scribe.pdf) | 
 09/23/15 | Passwords (Ksenia Dmitrieva, Cigital) | [Lecture 7](http://enee459c.github.io/lectures/week4/Secure_Password_Storage_AUS.pdf) | 
 09/28/15 | Message authentication codes.  | [Lecture 8](http://enee459c.github.io/lectures/week5/09_28_15.pdf) | [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.4 
-
 <!--
 09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.1.4
 09/23/14 | Introduction to public key encryption (PKE). Number theory basics.  | [Lecture 7](http://enee459c.github.io/lectures/week4/09_23_14.pdf) | [GT](http://www.securitybook.net/) 8.2, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 4
