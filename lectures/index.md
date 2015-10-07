@@ -20,6 +20,7 @@ Date | Lecture | Slides | Readings
 09/23/15 | Passwords (Ksenia Dmitrieva, Cigital) | [Lecture 7](http://enee459c.github.io/lectures/week4/Secure_Password_Storage_AUS.pdf) | 
 09/28/15 | Message authentication codes.  | [Lecture 8](http://enee459c.github.io/lectures/week5/09_28_15.pdf) | [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.4 
 09/30/15 | Crash course on number theory and random number generation.  | [Lecture 9](http://enee459c.github.io/lectures/week5/09_30_15.pdf) | [GT](http://www.securitybook.net/) 8.1.4
+10/05/15| Public Key Encryption: RSA and ElGamal. |  [Lecture 10](http://enee459c.github.io/lectures/week6/10_05_15.pdf)  | [GT](http://www.securitybook.net/) 8.5.2, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 9, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 10.2 |
 
 <!--
 09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.1.4
