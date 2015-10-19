@@ -23,6 +23,7 @@ Date | Lecture | Slides | Readings
 10/05/15| Public Key Encryption: RSA and ElGamal. |  [Lecture 10](http://enee459c.github.io/lectures/week6/10_05_15.pdf)  | [GT](http://www.securitybook.net/) 8.5.2, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 9, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 10.2 |
 10/07/15| Digital signatures and certificates. | [Lecture 11](http://enee459c.github.io/lectures/week6/10_07_15.pdf) | [GT](http://www.securitybook.net/) 1.3.5, [GT](http://www.securitybook.net/) 8.4 |
 10/12/15 | Empirical security measures and theoretical bases (Andrew Ruef, UMD) | [Lecture 12](http://enee459c.github.io/lectures/week7/ScienceTheoryDataSecurity.pdf) | 
+10/12/15 | Password hack at UMD (Jeff McKinney, UMD) | [Lecture 13]() | 
 
 <!--
 09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.1.4
