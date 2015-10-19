@@ -16,14 +16,14 @@ Date | Lecture | Slides | Readings
 09/09/15 | Symmetric encryption.  | [Lecture 3](http://enee459c.github.io/lectures/week2/09_09_15.pdf) |[GT](http://www.securitybook.net/) 8.5.1, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 3.6, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 5.3 
 09/14/15 | DES and AES algorithms. | [Lecture 4](http://enee459c.github.io/lectures/week3/09_14_15.pdf) | [GT](http://www.securitybook.net/) 8.5.1, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 3.6, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 5.3 
 09/16/15 | Cryptographic hash functions with applications.  | [Lecture 5](http://enee459c.github.io/lectures/week3/09_16_15.pdf) | [GT](http://www.securitybook.net/) 8.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.6
-09/21/15 | Birthday paradox and Merkle-Damgard transformation | [Lecture 6](http://enee459c.github.io/lectures/week4/9_21_15_scribe.pdf) | 
-09/23/15 | Passwords (Ksenia Dmitrieva, Cigital) | [Lecture 7](http://enee459c.github.io/lectures/week4/Secure_Password_Storage_AUS.pdf) | 
+09/21/15 | Birthday paradox and Merkle-Damgard transformation. | [Lecture 6](http://enee459c.github.io/lectures/week4/9_21_15_scribe.pdf) | 
+09/23/15 | Passwords (Ksenia Dmitrieva, Cigital). | [Lecture 7](http://enee459c.github.io/lectures/week4/Secure_Password_Storage_AUS.pdf) | 
 09/28/15 | Message authentication codes.  | [Lecture 8](http://enee459c.github.io/lectures/week5/09_28_15.pdf) | [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.4 
 09/30/15 | Crash course on number theory and random number generation.  | [Lecture 9](http://enee459c.github.io/lectures/week5/09_30_15.pdf) | [GT](http://www.securitybook.net/) 8.1.4
 10/05/15| Public Key Encryption: RSA and ElGamal. |  [Lecture 10](http://enee459c.github.io/lectures/week6/10_05_15.pdf)  | [GT](http://www.securitybook.net/) 8.5.2, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 9, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 10.2 |
 10/07/15| Digital signatures and certificates. | [Lecture 11](http://enee459c.github.io/lectures/week6/10_07_15.pdf) | [GT](http://www.securitybook.net/) 1.3.5, [GT](http://www.securitybook.net/) 8.4 |
-10/12/15 | Empirical security measures and theoretical bases (Andrew Ruef, UMD) | [Lecture 12](http://enee459c.github.io/lectures/week7/ScienceTheoryDataSecurity.pdf) | 
-10/14/15 | Password hack at UMD (Jeff McKinney, UMD) | [Lecture 13]() | 
+10/12/15 | Empirical security measures and theoretical bases (Andrew Ruef, UMD). | [Lecture 12](http://enee459c.github.io/lectures/week7/ScienceTheoryDataSecurity.pdf) | 
+10/14/15 | Password hack at UMD (Jeff McKinney, UMD). | [Lecture 13]() | 
 10/19/15 | Security protocols: Key exchange, proofs of knowledge, Tor. | [Lecture 14]() | 
 10/21/15 | Midterm exam. | No lecture. | 
 
