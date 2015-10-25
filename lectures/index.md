@@ -24,7 +24,7 @@ Date | Lecture | Slides | Readings
 10/07/15| Digital signatures and certificates. | [Lecture 11](http://enee459c.github.io/lectures/week6/10_07_15.pdf) | [GT](http://www.securitybook.net/) 1.3.5, [GT](http://www.securitybook.net/) 8.4 |
 10/12/15 | Empirical security measures and theoretical bases (Andrew Ruef, UMD). | [Lecture 12](http://enee459c.github.io/lectures/week7/ScienceTheoryDataSecurity.pdf) | 
 10/14/15 | Password hack at UMD (Jeff McKinney, UMD). | [Lecture 13]() | 
-10/19/15 | Security protocols: Key exchange, proofs of knowledge, Tor. | [Lecture 14]() | 
+10/19/15 | Security protocols: Key exchange, proofs of knowledge, Tor. | [Lecture 14](http://enee459c.github.io/lectures/week8/10_19_15.pdf) | 
 10/21/15 | Midterm exam. | No lecture. | 
 
 <!--
