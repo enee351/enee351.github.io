@@ -26,6 +26,8 @@ Date | Lecture | Slides | Readings
 10/14/15 | Password hack at UMD (Jeff McKinney, UMD). | [Lecture 13]() | 
 10/19/15 | Security protocols: Key exchange, proofs of knowledge, Tor. | [Lecture 14](http://enee459c.github.io/lectures/week8/10_19_15.pdf) | 
 10/21/15 | Midterm exam. | No lecture. | 
+10/26/15 | Midterm review. | 
+10/28/15 | Password cracking and rainbow tables. | [Lecture 15](http://enee459c.github.io/lectures/week9/10_28_15.pdf) | 
 
 <!--
  09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.1.4
