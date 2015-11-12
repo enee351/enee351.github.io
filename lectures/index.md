@@ -31,7 +31,7 @@ Date | Lecture | Slides | Readings
 11/02/15| Access control and information flow. | [Lecture 17](http://enee459c.github.io/lectures/week10/11_2_15.pdf)| [GT](http://www.securitybook.net/) 1.2, [GT](http://www.securitybook.net/) 3.4.6|
 11/04/15| Buffer overflow attacks (material taken from Prof. Kevin Du's SEED labs). | [Lecture 18](http://enee459c.github.io/lectures/week10/11_4_15.pdf)| [GT](http://www.securitybook.net/) 3.4|
 11/09/15| Buffer overflow countermeasures (material taken from Prof. Kevin Du's SEED labs). | [Lecture 19](http://www.cis.syr.edu/~wedu/Teaching/IntrCompSec/LectureNotes_New/Buffer_Overflow.pdf)| [GT](http://www.securitybook.net/) 3.4|
-11/11/14 | Network security: Computer networking basics. | [Lecture 21](http://enee459c.github.io/lectures/week11/11_11_14.pdf)| [GT](http://www.securitybook.net/) 5.1-5.4 |
+11/11/14 | Network security: Computer networking basics. | [Lecture 20](http://enee459c.github.io/lectures/week11/11_11_14.pdf)| [GT](http://www.securitybook.net/) 5.1-5.4 |
 
 <!--
  09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.1.4
