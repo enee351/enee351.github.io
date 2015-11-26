@@ -34,7 +34,7 @@ Date | Lecture | Slides | Readings
 11/11/15 | Network security I: Computer networking basics. | [Lecture 20](http://enee459c.github.io/lectures/week11/11_11_14.pdf)| [GT](http://www.securitybook.net/) 5.1-5.4 |
 11/16/15 | Network security II: Transport layer attacks and countermeasures. | [Lecture 21](http://enee459c.github.io/lectures/week11/11_13_14.pdf)| [GT](http://www.securitybook.net/) 5.5 |
 11/18/15 | Network security III: DNS and DNSSEC. | [Lecture 22]()| Read I.A and I.B of [this paper](http://eprint.iacr.org/2014/582.pdf) |
-11/23/15 | Bitcoin and Cryptocurrencies. | [Lecture 23]((http://enee459c.github.io/lectures/week13/bitcoin.pdf))| 
+11/23/15 | Bitcoin and Cryptocurrencies. | [Lecture 23](http://enee459c.github.io/lectures/week13/bitcoin.pdf)| 
 
 <!--
  09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.1.4
