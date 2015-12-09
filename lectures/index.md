@@ -37,6 +37,9 @@ Date | Lecture | Slides | Readings
 11/23/15 | Bitcoin and Cryptocurrencies. | [Lecture 23](http://enee459c.github.io/lectures/week13/Bitcoin-Copy.pdf)| 
 11/25/15 | No lecture.  | | |
 11/30/15 | Web Security.  | [Lecture 24](http://enee459c.github.io/lectures/week14/web_security.pdf)  | [GT](http://www.securitybook.net/) 7 |
+12/02/15 | Secure storage: Merkle Hash Trees.  | [Lecture 25](http://enee459c.github.io/lectures/week14/merkle.pdf)  | |
+12/07/15 | Secure Storage: RSA accumulators.  | [Lecture 26](http://enee459c.github.io/lectures/week14/rsa.pdf)  | |
+12/09/15 | Projects presentations: Pmail.  | | |
 
 
 <!--
