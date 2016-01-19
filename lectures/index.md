@@ -9,10 +9,6 @@ published: true
 *Lectures*
 
 Date | Lecture | Slides | Readings
------|---------| -------| --------
-
-
-
 <!--
  09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.1.4
  09/23/14 | Introduction to public key encryption (PKE). Number theory basics.  | [Lecture 7](http://enee459c.github.io/lectures/week4/09_23_14.pdf) | [GT](http://www.securitybook.net/) 8.2, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 4
