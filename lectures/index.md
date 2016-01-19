@@ -10,36 +10,7 @@ published: true
 
 Date | Lecture | Slides | Readings
 -----|---------| -------| --------
-08/31/15 | Security goals and tools. Attacks from the real world. | [Lecture 1](http://enee459c.github.io/lectures/week1/08_31_15.pdf) | [GT](http://www.securitybook.net/) 1.1
-09/02/15 | Security principles. Introduction to confidentiality, integrity and availability tools. | [Lecture 2](http://enee459c.github.io/lectures/week1/09_02_15.pdf) | [GT](http://www.securitybook.net/) 8.1
-09/07/15 | Labor day.  | No lecture. | |
-09/09/15 | Symmetric encryption.  | [Lecture 3](http://enee459c.github.io/lectures/week2/09_09_15.pdf) |[GT](http://www.securitybook.net/) 8.5.1, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 3.6, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 5.3 
-09/14/15 | DES and AES algorithms. | [Lecture 4](http://enee459c.github.io/lectures/week3/09_14_15.pdf) | [GT](http://www.securitybook.net/) 8.5.1, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 3.6, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 5.3 
-09/16/15 | Cryptographic hash functions with applications.  | [Lecture 5](http://enee459c.github.io/lectures/week3/09_16_15.pdf) | [GT](http://www.securitybook.net/) 8.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.6
-09/21/15 | Birthday paradox and Merkle-Damgard transformation. | [Lecture 6](http://enee459c.github.io/lectures/week4/9_21_15_scribe.pdf) | 
-09/23/15 | Passwords (Ksenia Dmitrieva, Cigital). | [Lecture 7](http://enee459c.github.io/lectures/week4/Secure_Password_Storage_AUS.pdf) | 
-09/28/15 | Message authentication codes.  | [Lecture 8](http://enee459c.github.io/lectures/week5/09_28_15.pdf) | [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.3, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 4.4 
-09/30/15 | Crash course on number theory and random number generation.  | [Lecture 9](http://enee459c.github.io/lectures/week5/09_30_15.pdf) | [GT](http://www.securitybook.net/) 8.1.4
-10/05/15| Public Key Encryption: RSA and ElGamal. |  [Lecture 10](http://enee459c.github.io/lectures/week6/10_05_15.pdf)  | [GT](http://www.securitybook.net/) 8.5.2, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 9, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 10.2 |
-10/07/15| Digital signatures and certificates. | [Lecture 11](http://enee459c.github.io/lectures/week6/10_07_15.pdf) | [GT](http://www.securitybook.net/) 1.3.5, [GT](http://www.securitybook.net/) 8.4 |
-10/12/15 | Empirical security measures and theoretical bases (Andrew Ruef, UMD). | [Lecture 12](http://enee459c.github.io/lectures/week7/ScienceTheoryDataSecurity.pdf) | 
-10/14/15 | Password hack at UMD (Jeff McKinney, UMD). | [Lecture 13]() | 
-10/19/15 | Security protocols: Key exchange, proofs of knowledge, Tor. | [Lecture 14](http://enee459c.github.io/lectures/week8/10_19_15.pdf) | 
-10/21/15 | Midterm exam. | No lecture. | 
-10/26/15 | Midterm review. | [Lecture 15]() |
-10/28/15 | Password cracking and rainbow tables. | [Lecture 16](http://enee459c.github.io/lectures/week9/10_28_15.pdf) | 
-11/02/15| Access control and information flow. | [Lecture 17](http://enee459c.github.io/lectures/week10/11_2_15.pdf)| [GT](http://www.securitybook.net/) 1.2, [GT](http://www.securitybook.net/) 3.4.6|
-11/04/15| Buffer overflow attacks (material taken from Prof. Kevin Du's SEED labs). | [Lecture 18](http://enee459c.github.io/lectures/week10/11_4_15.pdf)| [GT](http://www.securitybook.net/) 3.4|
-11/09/15| Buffer overflow countermeasures (material taken from Prof. Kevin Du's SEED labs). | [Lecture 19](http://www.cis.syr.edu/~wedu/Teaching/IntrCompSec/LectureNotes_New/Buffer_Overflow.pdf)| [GT](http://www.securitybook.net/) 3.4|
-11/11/15 | Network security I: Computer networking basics. | [Lecture 20](http://enee459c.github.io/lectures/week11/11_11_14.pdf)| [GT](http://www.securitybook.net/) 5.1-5.4 |
-11/16/15 | Network security II: Transport layer attacks and countermeasures. | [Lecture 21](http://enee459c.github.io/lectures/week11/11_13_14.pdf)| [GT](http://www.securitybook.net/) 5.5 |
-11/18/15 | Network security III: DNS and DNSSEC. | [Lecture 22]()| Read I.A and I.B of [this paper](http://eprint.iacr.org/2014/582.pdf) |
-11/23/15 | Bitcoin and Cryptocurrencies. | [Lecture 23](http://enee459c.github.io/lectures/week13/Bitcoin-Copy.pdf)| 
-11/25/15 | No lecture.  | | |
-11/30/15 | Web Security.  | [Lecture 24](http://enee459c.github.io/lectures/week14/web_security.pdf)  | [GT](http://www.securitybook.net/) 7 |
-12/02/15 | Secure storage: Merkle Hash Trees.  | [Lecture 25](http://enee459c.github.io/lectures/week14/merkle.pdf)  | |
-12/07/15 | Secure Storage: RSA accumulators.  | [Lecture 26](http://enee459c.github.io/lectures/week14/rsa.pdf)  | |
-12/09/15 | Projects presentations: Pmail.  | | |
+
 
 
 <!--
