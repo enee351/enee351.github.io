@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: ENEE459C
-sub-title: Computer Security
-semester: Fall 2015
+title: ENEE351
+sub-title: Theoretical Foundations of Computer Engineering
+semester: Spring 2016
 description:
 locale:
-url: //enee459c.github.io
+url: //enee351.github.io
 
 # Jekyll configuration
 
