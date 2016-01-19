@@ -9,9 +9,13 @@ published: true
 *Lectures*
 
 Date | Lecture | Slides | Readings
----- | ------- | ------ | --------
+-----|---------| -------| --------
+08/31/15 | Security goals and tools. Attacks from the real world. | [Lecture 1](http://enee459c.github.io/lectures/week1/08_31_15.pdf) | [GT](http://www.securitybook.net/) 1.1
+
+
+
+<!--
  09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.1.4
- <!--
  09/23/14 | Introduction to public key encryption (PKE). Number theory basics.  | [Lecture 7](http://enee459c.github.io/lectures/week4/09_23_14.pdf) | [GT](http://www.securitybook.net/) 8.2, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 4
  09/25/14| Algorithms for PKE: Euclidean algorithm and multiplicative inverses.|  [Lecture 8](http://enee459c.github.io/lectures/week4/09_25_14.pdf)  | [KL](http://www.cs.umd.edu/~jkatz/imc.html) 7.1, [KL](http://www.cs.umd.edu/~jkatz/imc.html) 7.3  |
  09/30/14| RSA and ElGamal encryption. |  [Lecture 9](http://enee459c.github.io/lectures/week5/09_30_14.pdf)  | [GT](http://www.securitybook.net/) 8.5.2, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 9, [WS](http://faculty.mu.edu.sa/public/uploads/1360993259.0858Cryptography%20and%20Network%20Security%20Principles%20and%20Practice,%205th%20Edition.pdf) 10.2 |
