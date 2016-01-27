@@ -1,9 +1,9 @@
 # Site wide configuration
 
 title: ENEE351
-sub-title: Theoretical Foundations of Computer Engineering 
+sub-title:  
 semester: Spring 2016
-description:
+description: Theoretical Foundations of Computer Engineering
 locale:
 url: //enee351.github.io
 
