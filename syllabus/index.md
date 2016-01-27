@@ -8,7 +8,7 @@ published: true
 
 *Syllabus*
 
-The syllabus for the course may be found [here](http://enee351.github.io/syllabus/syllabusSpring16)
+The syllabus for the course may be found [here](http://enee351.github.io/syllabus/syllabusSpring16.pdf)
 
 <!--
 
