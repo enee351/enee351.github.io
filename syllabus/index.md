@@ -10,62 +10,54 @@ published: true
 
 
 
-##ENEE459C: Computer Security
+##ENEE351: Theoretical Foundations of Computer Engineering
 
-###Fall 2015
+###Spring 2015
 <br />
 
-**Course description:**
-Computer systems have become a vital part of our everyday professional and personal life and are being used for several critical tasks (e.g., online banking, social networking). These tasks can however expose the users to various security threats (e.g., credit card number theft, personal information leakage). Therefore there is a need for designing secure computer systems.
-
-This course teaches both theoretical and practical concepts of computer systems security. Topics include symmetric/asymmetric encryption, message authentication, digital signatures, access control, as well as network security, web security and cloud security. The class will provide students with the necessary tools for designing secure computer systems and programs and for defending against malicious threats (e.g., viruses, worms, denial of service). The class is designed to be accessible to students of various backgrounds and majors (such as EE, CE, CS).
-
+**Course Goals:**
+This course teaches fundamental concepts in computer engineering, including topics in discrete math, data structures and algorithms. The course will also include a hands-on programming component. This course will provide students with the tools to design modular, time and space-efficient algorithms for real-world problems.
 
 <br />
 
 **Course prerequisites:**
-ENEE150 or CMSC132 or permission of the instructor.
+ENEE150 and ENEE244
 
 <br />
 
 **Topic prerequisites:**
-Knowledge of programming and basic knowledge of algorithms and data structures.
+C programming
 
 <br />
 
 **Core topics:**
 
-1.	Introduction to computer security (threat model, attacks, defenses).
-2.	Basic tools in computer security (symmetric and asymmetric encryption, message authentication, digital signatures, access control).
-3.	Security protocols (key exchange, secure and private communication, anonymous communication).
-4.	Systems security (permissions in Windows/Unix, buffer overflow, password-based authentication).
-5.	Network security (basic internet technology, DNS, denial of service, WiFi security).
-6.	Web security (XSS attacks, browser vulnerabilities, SQL injection attacks)
-7.	Applications security (email security, e-cash, Bitcoin).
-8.	Cloud security (authenticated data structures, verifiable computation, homomorphic encryption).
-9.	Malicious software (backdoors, viruses, worms, rootkits, static and dynamic analysis).
+1.	Fundamental Concepts: Mathematical induction; Recursion; Combinatorics (counting); Discrete probability; Recurrence relations; Concepts and tools for analyzing algorithmic performance such as: work-depth, asymptotic notation, worst case, randomized and probabilistic complexity. 
+2.	Core Data Structures: Stacks; Queues; Graphs; Trees; B-trees; Binary-search trees; Hash tables;Dictionaries; Heaps.
+3.	Sorting Algorithms and their Analysis: Sorting: Insertion sort; Merge sort; Quicksort; Radix sort.
+4.	Graph algorithms: Depth-first search; Breadth-first search; Shortest path; Minimum spanning tree; Topological sort;Fast Fourier Transform (FFT).
+5.	Algorithmic approaches: brute-force algorithms; greedy algorithms; divide-and-conquer; dynamic programming.
+6.	Advanced Topics: Advanced (Tree) Data Structures, Max-flow/Min-cut, NP-Completeness, Parallel Computing.
+
+<br />
+
+**Tentative Topics for Programming Projects:**
+1. Sorting (Radix Sort)
+2. Dynamic Programming
+3. Hash tables
+4. Graph algorithms
+5. FFT
 
 
 <br />
 
 **Grading policy:**
-Class participation: 10%
-5 Homeworks: 40%
-Midterm exam: 20%
-Final exam: 30%
+5 Homeworks: 30%
+4 Programming Projects: 40%
+1 Midterm Exam: 10%
+Final exam: 20%
 
 <br />
 
-**Readings:**
-Slides and selected research papers will be provided.
 
-<br />
-
-**References:**
-
-1. Introduction to Computer Security (Goodrich and Tamassia, Addison Wesley, 2011).
-2. Introduction to Modern Cryptography (Katz and Lindell, Chapman & Hall/CRC, 2014).
-3. Cryptography and Network Security: Principles and Practice (Stallings, Pearson, Sixth Edition, 2014).
-
-<br />
 
