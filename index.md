@@ -14,12 +14,12 @@ Email: cpap at umd.edu
 Office: AVW 3409 
 Office hours: Monday 1pm-2pm
 
-### Teaching Assistants
+### Teaching Assistant
 
-* Mitchell Tracy
+Mitchell Tracy
 Email: mittracy7 at gmail.com
-Office: TBD
-Office hours: TBD
+Office: AVW 1145
+Office hours: Tuesday 3:30pm-4:30pm
 
 
 ### Administrivia
