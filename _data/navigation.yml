@@ -6,8 +6,11 @@
 - title: Lectures
   url: /lectures
   
-- title: Homeworks & Programming Projects
+- title: Homeworks 
   url: /homeworks
+  
+  title: Projects
+  url: /projects
   
 - title: Syllabus
   url: /syllabus
