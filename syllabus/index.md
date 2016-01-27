@@ -8,7 +8,9 @@ published: true
 
 *Syllabus*
 
+The syllabus for the course may be found [here](http://enee351.github.io/syllabus/syllabusSpring16)
 
+<!--
 
 ### ENEE351: Theoretical Foundations of Computer Engineering
 
@@ -61,6 +63,8 @@ C programming
 Final exam: 20%
 
 <br />
+
+-->
 
 
 
