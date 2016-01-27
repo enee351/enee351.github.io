@@ -77,8 +77,8 @@
 	color: $white;
     line-height: .5 * $masthead-height; // half the height to center vertically
 	font-family: $alt-font;
-	font-weight: 400;
-	@include font-size(10, no);
+	font-weight: 500;
+	@include font-size(11, no);
 	text-transform: uppercase;
     &:hover,
     &:hover > span {
