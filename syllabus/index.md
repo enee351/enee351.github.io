@@ -10,9 +10,12 @@ published: true
 
 
 
-##ENEE351: Theoretical Foundations of Computer Engineering
+### ENEE351: Theoretical Foundations of Computer Engineering
 
-###Spring 2015
+### Spring 2016
+
+### Credits: 4
+
 <br />
 
 **Course Goals:**
