@@ -16,7 +16,7 @@ Office hours: Monday 1pm-2pm
 
 ### Teaching Assistant
 
-Mitchell Tracy
+Mitchell Tracy 1 
 Email: mittracy7 at gmail.com
 Office: AVW 1145
 Office hours: Tuesday 3:30pm-4:30pm
