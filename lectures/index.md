@@ -8,13 +8,15 @@ published: true
 
 *Lectures*
 
-<!--
+
 
 Date | Lecture | Slides | Readings
 -----|---------| -------| --------
-08/31/15 | Security goals and tools. Attacks from the real world. | [Lecture 1](http://enee459c.github.io/lectures/week1/08_31_15.pdf) | [GT](http://www.securitybook.net/) 1.1
+01/25/16 | No lecture (cancelled due to snowstorm). | [Lecture 1]() | 
+01/27/16 | Introduction. What are algorithms? What are data structures? What are NP-hard problems? What are undecidable problems? | [Lecture 2]() | CLRS Chapter 1
 
 
+<!--
 
 
  09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.1.4
