@@ -12,5 +12,6 @@ toc: false
 Handout | Date Posted
 ---------- | -----------
 [Insertion sort and mergesort](http://enee351.github.io/discussions/week2/lab.pdf) | 02/02/16
+[Induction](http://enee351.github.io/discussions/week2/discussion.pdf) | 02/04/16
 
 
