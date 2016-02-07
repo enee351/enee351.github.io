@@ -15,7 +15,7 @@ Date | Lecture | Lecture | Readings
 01/25/16 | No lecture (cancelled due to snowstorm). | [Lecture 1]() | 
 01/27/16 | Introduction: What are algorithms? What are data structures? What are NP-hard problems? What are undecidable problems? | [Lecture 2]() | CLRS Chapter 1
 02/01/16 | Insertion Sort and Merge Sort | [Lecture 3]() | CLRS Chapter 2
-02/03/16 | Asymptotic Notation | [Lecture 4] () | CLRS Chapter 3
+02/03/16 | Asymptotic Notation | [Lecture 4]() | CLRS Chapter 3
 
 
 <!--
