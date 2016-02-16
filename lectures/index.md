@@ -12,10 +12,14 @@ published: true
 
 Date | Lecture | Lecture | Readings
 -----|---------| -------| --------
-01/25/16 | No lecture (cancelled due to snowstorm). | [Lecture 1]() | 
-01/27/16 | Introduction: What are algorithms? What are data structures? What are NP-hard problems? What are undecidable problems? | [Lecture 2]() | CLRS Chapter 1
-02/01/16 | Insertion Sort and Merge Sort | [Lecture 3]() | CLRS Chapter 2
-02/03/16 | Asymptotic Notation | [Lecture 4]() | CLRS Chapter 3
+01/25/16 | No lecture (cancelled due to snowstorm). | [No Lecture]() | 
+01/27/16 | Introduction: What are algorithms? What are data structures? What are NP-hard problems? What are undecidable problems? | [Lecture 1]() | CLRS Chapter 1
+02/01/16 | Warm-up: Insertion Sort and Merge Sort | [Lecture 2]() | CLRS Chapter 2
+02/03/16 | Asymptotic Notation | [Lecture 3]() | CLRS Chapter 3
+02/08/16 | Divide and Conquer: Maximum Subarray | [Lecture 4]() | CLRS Chapter 4.1
+02/10/16 | Divide and Conquer: Matrix Multiplication | [Lecture 5]() | CLRS Chapter 4.2
+02/15/16 | No lecture (cancelled due to snowstorm). | [No Lecture]() |
+
 
 
 <!--
