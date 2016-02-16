@@ -18,7 +18,7 @@ Date | Lecture | Lecture | Readings
 02/03/16 | Asymptotic Notation | [Lecture 3]() | CLRS Chapter 3
 02/08/16 | Divide and Conquer: Maximum Subarray | [Lecture 4]() | CLRS Chapter 4.1
 02/10/16 | Divide and Conquer: Matrix Multiplication | [Lecture 5]() | CLRS Chapter 4.2
-01/15/16 | No lecture (cancelled due to snowstorm). | [No Lecture]() |
+02/15/16 | No lecture (cancelled due to snowstorm). | [No Lecture]() |
 
 
 
