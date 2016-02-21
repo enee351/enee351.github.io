@@ -9,6 +9,8 @@ toc: false
 
 *Programming Projects*
 
-Programming projects will be posted here when they are assigned. 
+Project | Date Posted | Due Date
+---------- | ----------- | --------
+[Project 1](http://enee351.github.io/projects/project1.pdf) | 02/20/16         | 03/02/16 11:59pm
 
 
