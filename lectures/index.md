@@ -19,7 +19,7 @@ Date | Lecture | Lecture | Readings
 02/08/16 | Divide and Conquer: Maximum Subarray | [Lecture 4]() | CLRS Chapter 4.1
 02/10/16 | Divide and Conquer: Matrix Multiplication | [Lecture 5]() | CLRS Chapter 4.2
 02/15/16 | No lecture (cancelled due to snowstorm). | [No Lecture]() |
-
+02/17/16 | Solving Recurrences: Master Theorem. | [No Lecture]() |
 
 
 <!--
