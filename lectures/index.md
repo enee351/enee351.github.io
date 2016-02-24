@@ -20,6 +20,8 @@ Date | Lecture | Lecture | Readings
 02/10/16 | Divide and Conquer: Matrix Multiplication with Strassen's Algorithm. | [Lecture 5]() | CLRS Chapter 4.2
 02/15/16 | No lecture (cancelled due to snowstorm). | [No Lecture]() |
 02/17/16 | Solving Recurrences: Master Theorem. | [Lecture 6]() | CLRS Chapter 4.5
+02/22/16 | Master Theorem Proof. | [Lecture 7]() | CLRS Chapter 4.6
+02/24/16 | Randomized Algorithms. Encrypted Max, Polynomial Identity and Min-Cut | [Lecture 8]() | CLRS Chapter 5.1 and 5.2
 
 
 <!--
