@@ -21,7 +21,7 @@ Date | Lecture | Lecture | Readings
 02/15/16 | No lecture (cancelled due to snowstorm). | [No Lecture]() |
 02/17/16 | Solving Recurrences I: Master Theorem. | [Lecture 6]() | CLRS Chapter 4.5
 02/22/16 | Solving Recurrences II: Master Theorem Proof. | [Lecture 7]() | CLRS Chapter 4.6
-02/24/16 | Randomized Algorithms I: Encrypted Max, Polynomial Identity and Min-Cut. | [Lecture 8]() | CLRS Chapter 5.1 and 5.2
+02/24/16 | Randomized Algorithms I: Encrypted Max, Polynomial Identity. | [Lecture 8]() | CLRS Chapter 5.1 and 5.2
 02/29/16 | Randomized Algorithms II: Karger's Algorithm for Min-Cut. |[Lecture 9]()| [Wikipedia Entry](https://en.wikipedia.org/wiki/Karger%27s_algorithm)
 
 
