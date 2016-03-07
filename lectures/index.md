@@ -23,9 +23,11 @@ Date | Lecture | Lecture | Readings
 02/22/16 | Solving Recurrences II: Master Theorem Proof. | [Lecture 7]() | CLRS Chapter 4.6
 02/24/16 | Randomized Algorithms I: Encrypted Max, Polynomial Identity. | [Lecture 8]() | CLRS Chapter 5.1 and 5.2
 02/29/16 | Randomized Algorithms II: Karger's Algorithm for Min-Cut. |[Lecture 9]()| [Wikipedia Entry](https://en.wikipedia.org/wiki/Karger%27s_algorithm)
+03/02/16 | Sorting Algorithms I: Heapsort and Priority Queues. |[Lecture 10]()| CLRS Chapter 6
+03/29/16 | MIDTERM. | [No Lecture]()|
+<!-- 03/07/16 | Sorting Algorithms II: Quicksort. |[Lecture 11]()| CLRS Chapter 7
 
 
-<!--
 
 
  09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.1.4
