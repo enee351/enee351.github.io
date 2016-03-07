@@ -12,7 +12,7 @@ toc: false
 Assignment | Date Posted | Due Date
 ---------- | ----------- | --------
 [Homework 1](http://enee351.github.io/homeworks/hw1.pdf) | 02/08/16         | 02/17/16 11:59pm
-
+[Homework 2](http://enee351.github.io/homeworks/hw2.pdf) | 03/07/16         | 03/21/16 11:59pm
 
 
 
