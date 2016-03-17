@@ -27,7 +27,7 @@ Date | Lecture | Lecture | Readings
 03/07/16 | Sorting Algorithms II: Quicksort. |[Lecture 11]()| CLRS Chapter 7
 03/09/16 | Sorting Algorithms III: Quicksort Analysis. | [Lecture 12]()| CLRS Exercise 7-3
 03/14/16 | SPRING BREAK. | [No Lecture]() |
-03/16/16 | SPRING BREAK:[No Lecture]() |
+03/16/16 | SPRING BREAK. | [No Lecture]() |
 03/21/16 | Sorting Algorithms IV: Sorting in Linear Time. | [Lecture 13]()| CLRS Chapter 8
 03/23/16 | MIDTERM. | [No Lecture]()|
 
