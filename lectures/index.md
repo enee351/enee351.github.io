@@ -36,7 +36,7 @@ Date | Lecture | Lecture | Readings
 04/06/16 | Order-Based Data Structures: Binary Search Trees. | [Lecture 17]()| CLRS Chapters 12.1-12.3 
 04/11/16 | Introduction to Red-Black Trees. | [Lecture 18]()| CLRS Chapter 13
 04/13/16 | Red-Black Tree insertion and deletion. | [Lecture 19]()| CLRS Chapter 13
-04/11/16 | Introduction to Dynamic Programming. Rod cutting. | [Lecture 20]()| CLRS Chapter 15.1
+04/18/16 | Introduction to Dynamic Programming. Rod cutting. | [Lecture 20]()| CLRS Chapter 15.1
 
 
 
