@@ -28,9 +28,15 @@ Date | Lecture | Lecture | Readings
 03/09/16 | Sorting Algorithms III: Quicksort Analysis. | [Lecture 12]()| CLRS Exercise 7-3
 03/14/16 | SPRING BREAK. | [No Lecture]() |
 03/16/16 | SPRING BREAK. | [No Lecture]() |
-03/21/16 | Sorting Algorithms IV: Sorting in Linear Time. | [Lecture 13]()| CLRS Chapter 8
+03/21/16 | Sorting Algorithms IV: Sorting in Linear Time. Selection Algorithms. | [Lecture 13]()| CLRS Chapter 8 and 9.2
 03/23/16 | MIDTERM. | [No Lecture]()|
-
+03/28/16 | Elementary Data Structures: Stacks, Queues, Trees, Lists. Implementation with Pointers. | [Lecture 14]()| CLRS Chapter 10
+03/30/16 | Dictionary Data Structures: Direct-Address Hash Tables.  | [Lecture 15]()| CLRS Chapter 11.2
+04/04/16 | Universal Collection of Hash Funtions: Searching in Expected Constant Time.  | [Lecture 16]()| CLRS Chapter 11.3.3
+04/06/16 | Order-Based Data Structures: Binary Search Trees. | [Lecture 17]()| CLRS Chapters 12.1-12.3 
+04/11/16 | Introduction to Red-Black Trees. | [Lecture 18]()| CLRS Chapter 13
+04/13/16 | Red-Black Tree insertion and deletion. | [Lecture 19]()| CLRS Chapter 13
+04/18/16 | Introduction to Dynamic Programming. Rod cutting. | [Lecture 20]()| CLRS Chapter 15.1
 
 
 
