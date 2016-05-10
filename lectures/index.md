@@ -42,7 +42,7 @@ Date | Lecture | Lecture | Readings
 04/27/16 | Graphs, continued: Minimum Spanning Trees.  | [Lecture 23]()| CLRS Chapter 23
 05/02/16 | Multiplying polynomials with FFT.  | [Lecture 24]()| CLRS Chapter 30
 05/04/16 | Introduction to NP-completeness: P and NP.  | [Lecture 25]()| CLRS Chapter 34
-05/09/16 | Reduction of NP to CIRCUIT-SAT. Reduction of CIRCUIT-SAT to IND-SET.  | [Lecture 25]()| CLRS Chapter 34
+05/09/16 | Reduction of all of NP to CIRCUIT-SAT. Reduction of CIRCUIT-SAT to IND-SET.  | [Lecture 26]()| CLRS Chapter 34
 
 
 <!-- 
