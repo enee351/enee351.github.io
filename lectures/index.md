@@ -38,9 +38,11 @@ Date | Lecture | Lecture | Readings
 04/13/16 | Red-Black Tree insertion and deletion. | [Lecture 19]()| CLRS Chapter 13
 04/18/16 | Introduction to Dynamic Programming. Rod cutting. | [Lecture 20]()| CLRS Chapter 15.1
 04/20/16 | Dynamic Programming, continued: Longest Common Substring | [Lecture 21]()| [Wikipedia Entry](https://en.wikipedia.org/wiki/Longest_common_substring_problem)
-04/25/16 | Introduction to Graphs. BFS and DFS algorithms | [Lecture 22]()| CLRS Chapter 22.1-22.3
-04/27/16 | Graphs, continued: Minimum Spanning Trees  | [Lecture 23]()| CLRS Chapter 23
-
+04/25/16 | Introduction to Graphs. BFS and DFS algorithms. | [Lecture 22]()| CLRS Chapter 22.1-22.3
+04/27/16 | Graphs, continued: Minimum Spanning Trees.  | [Lecture 23]()| CLRS Chapter 23
+05/02/16 | Multiplying polynomials with FFT.  | [Lecture 24]()| CLRS Chapter 30
+05/04/16 | Introduction to NP-completeness: P and NP.  | [Lecture 25]()| CLRS Chapter 34
+05/09/16 | Reduction of all of NP to CIRCUIT-SAT. Reduction of CIRCUIT-SAT to IND-SET.  | [Lecture 26]()| CLRS Chapter 34
 
 
 <!-- 
