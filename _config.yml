@@ -1,9 +1,9 @@
 # Site wide configuration
 
 title: ENEE351
-sub-title: Theoretical Foundations of Computer Engineering  
-semester: Spring 2016
-description: Theoretical Foundations of Computer Engineering
+sub-title: Algorithms and Data Structures  
+semester: Spring 2017
+description: Algorithms and Data Structures
 locale:
 url: //enee351.github.io
 
