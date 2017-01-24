@@ -8,18 +8,18 @@ published: true
 *Home*
 
 ### Instructor
-Prof. [Charalampos (Babis) Papamanthou](http://www.ece.umd.edu/~cpap) 
-ECE Department
-Email: cpap at umd.edu
-Office: AVW 3409 
-Office hours: Monday 1pm-2pm
+Prof. [Charalampos (Babis) Papamanthou](http://www.ece.umd.edu/~cpap)  
+ECE Department  
+Email: cpap at umd.edu  
+Office: AVW 3409  
+Office hours: By appointment
 
 ### Teaching Assistant
 
-Mitchell Tracy
-Email: mittracy7 at gmail.com
-Office: AVW 1145
-Office hours: Tuesday 3:30pm-4:30pm
+Rajdeep Talapatra
+Email: rajdeep at terpmail.umd.edu     
+Office: To be announced
+Office hours: To be announced
 
 
 ### Administrivia
