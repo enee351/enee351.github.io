@@ -9,7 +9,7 @@ published: true
 *Lectures*
 
 
-<!--
+<!---
 Date | Lecture | Lecture | Readings
 -----|---------| -------| --------
 01/25/16 | No lecture (cancelled due to snowstorm). | [No Lecture]() | 
