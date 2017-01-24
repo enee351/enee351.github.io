@@ -24,7 +24,7 @@ Office hours: To be announced
 
 ### Administrivia
 
-*	Lectures will be held on Monday and Wednesday from 11:00am to 12:15pm in CCC 1100.
+*	Lectures will be held on Monday and Wednesday from 11:00am to 12:15pm in CHE 2136.
 *	Lectures will be published on [this webpage](http://enee351.github.io/lectures/) just before class.
 *	Homework and programming assignments will be published on [this webpage](http://enee351.github.io/homeworks/), but should be submitted through [Canvas](https://umd.instructure.com/login). No late submissions will be accepted.
 *	Read and strictly adhere to [academic integrity](http://www.faculty.umd.edu/teach/integrity.html). 
