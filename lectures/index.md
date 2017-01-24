@@ -9,10 +9,9 @@ published: true
 *Lectures*
 
 
-
+<!--
 Date | Lecture | Lecture | Readings
 -----|---------| -------| --------
-<!--
 01/25/16 | No lecture (cancelled due to snowstorm). | [No Lecture]() | 
 01/27/16 | Introduction: What are algorithms? What are data structures? What are NP-hard problems? What are undecidable problems? | [Lecture 1]() | CLRS Chapter 1
 02/01/16 | Warm-up: Insertion Sort and Merge Sort. | [Lecture 2]() | CLRS Chapter 2
