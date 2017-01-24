@@ -16,9 +16,9 @@ Office hours: By appointment
 
 ### Teaching Assistant
 
-Rajdeep Talapatra
-Email: rajdeep at terpmail.umd.edu     
-Office: To be announced
+Rajdeep Talapatra  
+Email: rajdeep at terpmail.umd.edu      
+Office: To be announced  
 Office hours: To be announced
 
 
