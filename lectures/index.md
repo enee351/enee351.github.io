@@ -12,6 +12,7 @@ published: true
 
 Date | Lecture | Lecture | Readings
 -----|---------| -------| --------
+<!--
 01/25/16 | No lecture (cancelled due to snowstorm). | [No Lecture]() | 
 01/27/16 | Introduction: What are algorithms? What are data structures? What are NP-hard problems? What are undecidable problems? | [Lecture 1]() | CLRS Chapter 1
 02/01/16 | Warm-up: Insertion Sort and Merge Sort. | [Lecture 2]() | CLRS Chapter 2
@@ -44,7 +45,7 @@ Date | Lecture | Lecture | Readings
 05/04/16 | Introduction to NP-completeness: P and NP.  | [Lecture 25]()| CLRS Chapter 34
 05/09/16 | Reduction of all of NP to CIRCUIT-SAT. Reduction of CIRCUIT-SAT to IND-SET.  | [Lecture 26]()| CLRS Chapter 34
 
-
+-->
 <!-- 
 03/07/16 | Sorting Algorithms II: Quicksort. |[Lecture 11]()| CLRS Chapter 7
  09/18/14 | Application of message authentication codes. Random number generation.   | [Lecture 6](http://enee459c.github.io/lectures/week3/09_18_14.pdf) | [GT](http://www.securitybook.net/) 8.1.4
