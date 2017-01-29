@@ -8,7 +8,9 @@ published: true
 
 *Lectures*
 
-
+Date | Lecture | Lecture | Readings
+-----|---------| -------| --------
+01/25/17 | Introduction to algorithms and data structures. Euclidean algorithm | [Lecture 1]() | CRLS 31.3
 <!---
 Date | Lecture | Lecture | Readings
 -----|---------| -------| --------
