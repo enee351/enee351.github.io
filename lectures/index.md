@@ -10,7 +10,9 @@ published: true
 
 Date | Lecture | Lecture | Readings
 -----|---------| -------| --------
-01/25/17 | Introduction to algorithms and data structures. Euclidean algorithm | [Lecture 1]() | CRLS 31.3  
+01/25/17 | Introduction to algorithms and data structures. Euclidean algorithm | [Lecture 1]() | CRLS 31.3 
+01/30/17 | Warm-up: Insertion sort and merge sort. | [Lecture 2]() | CRLS 2
+02/01/17 | Analysis of algorithms and asymptotic notation.| [Lecture 3]() | CRLS 3  
 
 <!---
 Date | Lecture | Lecture | Readings
