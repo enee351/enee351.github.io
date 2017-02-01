@@ -18,8 +18,8 @@ Office hours: By appointment
 
 Rajdeep Talapatra  
 Email: rajdeep at terpmail.umd.edu      
-Office: To be announced  
-Office hours: To be announced
+Office: AVW 1143  
+Office hours: Tue 3-4pm
 
 
 ### Administrivia
