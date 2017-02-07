@@ -10,8 +10,8 @@ toc: false
 *Discussion and Lab*
 
 Slides | Date Posted
----------- | -----------
-[GCD Algorithm](http://enee351.github.io/discussions/week1/lab1.pptx) | 02/31/17
+---------- | -----------  
+[GCD Algorithm](http://enee351.github.io/discussions/week1/lab1.pptx) | 02/31/17  
 [Asymptotic Notation](http://enee351.github.io/discussions/week1/discussion1.pptx) | 02/02/17
 
 <!---
