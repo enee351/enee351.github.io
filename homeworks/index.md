@@ -8,10 +8,11 @@ toc: false
 ---
 
 *Homeworks*  
+  
+Assignment | Date Posted | Due Date   
+---------- | ----------- | --------    
+[Homework 1](http://enee351.github.io/homeworks/hw1.pdf) | 02/08/17         | 02/15/17 11:59pm  
 
-Assignment | Date Posted | Due Date  
----------- | ----------- | --------  
-[Homework 1](http://enee351.github.io/homeworks/hw1.pdf) | 02/08/17         | 02/15/17 11:59pm
 <!---
 Assignment | Date Posted | Due Date
 ---------- | ----------- | --------
