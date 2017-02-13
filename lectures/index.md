@@ -13,8 +13,9 @@ Date | Lecture | Lecture | Readings
 01/25/17 | Introduction to algorithms and data structures. Euclidean algorithm. | [Lecture 1]() | CRLS 31.3 
 01/30/17 | Warm-up: Insertion sort and merge sort. | [Lecture 2]() | CRLS 2
 02/01/17 | Analysis of algorithms and asymptotic notation.| [Lecture 3]() | CRLS 3  
-02/06/17 | Divide and conquer: Maximum subarray and Strassen's algorithm.| [Lecture 4]() | CRLS 4.1 and 4.2  
-
+02/06/17 | Divide and conquer I: Maximum subarray.| [Lecture 4]() | CRLS 4.1 
+02/08/17 | Divide and conquer II: Strassen's algorithm.| [Lecture 5]() | CRLS 4.2 
+02/13/17 | Solving recurrences with Master theorem and substitution method. | [Lecture 6]() | CRLS 4.3 and CLRS 4.5
 <!---
 Date | Lecture | Lecture | Readings
 -----|---------| -------| --------
