@@ -1,0 +1,8 @@
+# Default extensions
+page_ext: md
+
+# Found in _templates/
+page_layout: article
+
+# Format titles with titlecase?
+titlecase: true

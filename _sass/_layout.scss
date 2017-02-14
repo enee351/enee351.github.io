@@ -1,0 +1,388 @@
+// MASTHEAD
+// --------------------------------------------------
+
+#masthead {
+	z-index: 5;
+    @include transform(translate(0,0));
+	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
+	&.slide {
+		@include transform(translate(-1600px,0));
+	}
+	.inner-wrap {
+		@include outer-container;
+	}
+    background: rgba(13, 32, 46, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 15px 0px rgba(5, 20, 25, 0.75);
+	-moz-box-shadow:    0px 1px 15px 0px rgba(5, 20, 25, 0.75);
+	box-shadow:         0px 1px 15px 0px rgba(5, 20, 25, 0.75);
+    padding: (.25 * $masthead-height) $gutter;
+}
+.masthead-image {
+	height: 400px;
+    width: 100%;
+    display: block;
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    content: '';
+}
+#masthead-bottom {
+	height: 400px;
+    display: block;
+    background: transparent;
+    position: relative;
+}
+#masthead-bottom .org {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    padding: 10px 10px 10px 70px; 
+    font-family: $alt-font;
+    color: #fe595b;
+    border-radius: 0 4px 4px 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    transition: background-color 0.3s ease;
+    a {
+    	color: rgba(255, 255, 255, 0.9);
+        text-decoration: none;
+        @include font-size(16, no);
+    }
+    ul,
+    ul li {
+    	padding: 0;
+        margin: 0;
+    }
+    &:hover,
+    &:hover a {
+    	color: #fe595b;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    &:hover a:hover {
+        color: #6ee2f3;
+    }
+}
+.site-title {
+	@include row;
+	@include media($large) {
+		@include span-columns(4);
+	}
+	padding: (.15 * $masthead-height) 0 (.35 * $masthead-height); // fourth the height to center vertically
+	height: $masthead-height;
+	text-decoration: none;
+	color: $white;
+    line-height: .5 * $masthead-height; // half the height to center vertically
+	font-family: $alt-font;
+	font-weight: 700;
+	@include font-size(16, no);
+	text-transform: uppercase;
+    &:hover,
+    &:hover > span {
+    	color: $white;
+    }
+}
+.site-title > span {
+	@include font-size(12, no);
+    @include media($medium) {
+    	display: block;
+    }
+}
+
+.space {
+	height: 15px;
+    background: $white;
+    display: block;
+    width: 100%;
+    content: '';
+    z-index: 5;
+    position: relative;
+ }
+
+
+// NAVIGATIONS
+// --------------------------------------------------
+
+.menu {
+	float: right;
+	li {
+		float: left;
+		&:last-child a {
+			@include media($medium) {
+				margin-right: 0; // remove spacing from last menu link
+			}
+		}
+		a {
+			// line hover effect
+			position: relative;
+			display: block;
+			margin-right: $gutter;
+			padding: (.25 * $masthead-height) 0;
+			height: $masthead-height;
+			font-family: $alt-font;
+			&:before,
+			&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 2px;
+				@include transition(width 0.3s);
+			}
+			&:before {
+				width: 100%;
+				background: transparent;
+			}
+			&:after {
+				width: 0;
+				background: $white;
+			}
+			&:active:after,
+			&:hover:after {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.top-menu {
+	display: none;
+	position: relative;
+	@include media($medium) {
+		@include span-columns(12);
+	}
+	@include media($large) {
+		@include span-columns(7);
+		ul {
+			position: absolute;
+			right: 0;
+		}
+	}
+    .home,
+	.sub-menu-item {
+		display: none;
+	}
+	li {
+		a {
+			font-weight: 700;
+			@include font-size(16,no);
+			color: $white;
+            line-height: .5 * $masthead-height; // half the height to center vertically
+			text-transform: uppercase;
+		}
+	}
+}
+.bottom-menu {
+	@include clearfix;
+	font-weight: 700;
+	a {
+		color: lighten($black,60);
+	}
+}
+
+
+// PAGE WRAPPER
+// --------------------------------------------------
+
+#page-wrapper {
+	padding: 0 $gutter; // add white space for smaller screens
+	@include size(100% 100%);
+	-webkit-overflow-scrolling: touch;
+	z-index: 2;
+	@include transform(translate(0,0));
+	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
+	&.slide {
+		@include transform(translate(-60rem,0));
+	}
+    background: $white;
+    padding-top: 30px;
+    display: table;
+    -webkit-box-shadow: 0px -2px 15px 0px rgba(0, 0, 0, 0.85);
+	-moz-box-shadow:    0px -2px 15px 0px rgba(0, 0, 0, 0.85);
+	box-shadow:         0px -2px 15px 0px rgba(0, 0, 0, 0.85);
+}
+
+
+// BROWSER UPGRADE
+// --------------------------------------------------
+
+.upgrade {
+	text-align: center;
+	a {
+		text-decoration: none;
+	}
+}
+
+
+// MAIN
+// --------------------------------------------------
+
+#main {
+	.inner-wrap {
+		@include media($medium) {
+			@include span-columns(12);
+		}
+        float: left;
+	}
+    .toc {
+		@include media($medium) {
+			@include row($direction: RTL);
+		}
+		@include media($large) {
+			@include span-columns(2 of 12);
+		}
+	}
+	.page-title {
+		@include fill-parent;
+	}
+	@at-root {
+		.page-content {
+			@include media($medium) {
+				@include row($direction: RTL);
+				//@include span-columns(10 of 12);
+			}
+			@include media($large) {
+				@include span-columns(10 of 12);
+			}
+			// larger font for intro paragraph
+			> p {
+				&:first-child {
+					@include font-size(20,yes,30);
+				}
+			}
+			// cleaner underlines for links
+			a { text-decoration: none; }
+			p > a,
+			li > a {
+				border-bottom: 1px dotted lighten($link-color, 50);
+				&:hover {
+					border-bottom-style: solid;
+				}
+			}
+			p > a.reversefootnote {
+				border-bottom-width: 0;
+			}
+		}
+	}
+	@at-root {
+		.archive-wrap {
+			@include fill-parent;
+			.page-content {
+				@include reset-all;
+				@include fill-parent;
+			}
+		}
+	}
+}
+// page lead
+.page-lead {
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	color: $white;
+	@include media($large) {
+		background-size: cover;
+	}
+}
+.page-lead-content {
+	padding: 1em;
+	@include media($medium) {
+		padding: 2em;
+	}
+	@include media($large) {
+		padding: 3em;
+	}
+	h1 {
+		@include font-size(48);
+		@include media($medium) {
+			@include font-size(60);
+		}
+		@include media($large) {
+			@include font-size(72);
+		}
+	}
+	h2 {
+		@include font-size(20);
+		@include media($medium) {
+			@include font-size(24);
+		}
+		@include media($large) {
+			@include font-size(32);
+		}
+	}
+}
+// table of contents
+.toc {
+	min-height: 1px;
+	ul {
+		margin-top: $gutter;
+		border: 1px solid $border-color;
+		border-radius: $border-radius;
+	}
+	li {
+		@include media($micro) { @include font-size(16,no,18); }
+    @include media($small) { @include font-size(16,no,18); }
+		@include font-size(12,no,16);
+		border-bottom: 1px solid $border-color;
+	}
+	font-family: $alt-font;
+	a {
+		display: block;
+		padding: (.25 * $gutter) (.5 * $gutter);
+		border-left: 2px solid transparent;
+        color: #222;
+		&:hover,
+		&:focus {
+			/*background: lighten($border-color,5);*/
+            background: #fafafa;
+		}
+	}
+}
+// tiles
+.tile {
+	@include outer-container;
+	margin-bottom: $gutter;
+	@include media($micro) {
+		@include fill-parent;
+	}
+	@include media($small) {
+		@include span-columns(6);
+		@include omega(2n);
+	}
+	@include media($medium) {
+		@include span-columns(3);
+		@include omega(4n);
+	}
+	.entry-date {
+		@include font-size(16,no);
+		color: lighten($text-color,25);
+	}
+	.post-title {
+		@include font-size(18,no);
+	}
+}
+
+
+// FOOTER
+// --------------------------------------------------
+
+#site-footer {
+	@include outer-container;
+	margin-top: (3 * (0px + $doc-line-height));
+	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
+	padding-bottom: $gutter;
+	font-family: $alt-font;
+	.copyright {
+		@include font-size(12);
+		color: lighten($black,60);
+		a {
+			color: lighten($black,60);
+			text-decoration: none;
+		}
+	}
+}

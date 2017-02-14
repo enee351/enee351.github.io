@@ -1,0 +1,15 @@
+<nav role="navigation" class="js-menu sliding-menu-content">
+	<ul class="menu-item">
+		{% for link in site.data.navigation %}<li>
+      {% unless link.url contains 'http' %}
+        {% assign domain = site.url %}
+      {% endunless %}
+			<a href="{{ domain }}{{ link.url }}" class="title">{{ link.title }}</a>
+		</li>{% endfor %}
+	</ul>
+</nav>
+<button type="button" class="js-menu-trigger sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+	<span class="lines"></span>
+</button>
+
+<div class="js-menu-screen menu-screen"></div>
