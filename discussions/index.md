@@ -14,6 +14,9 @@ Slides | Date Posted
 [GCD Algorithm](http://enee351.github.io/discussions/week1/lab1.pptx) | 02/31/17  
 [Asymptotic Notation](http://enee351.github.io/discussions/week1/discussion1.pptx) | 02/02/17  
 [Mathematical Induction](http://enee351.github.io/discussions/week2/discussion2.pptx) | 02/07/17  
+[Probablity Cormen Appendix C.2 C.3]() | 02/09/17  
+[Random Variable Cormen Appendix C.3](http://enee351.github.io/discussions/week3/discussion3.ppt) | 02/14/17  
+  
 
 
 <!---
