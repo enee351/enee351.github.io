@@ -16,7 +16,7 @@ Date | Lecture | Lecture | Readings
 02/06/17 | Divide and conquer I: Maximum subarray.| [Lecture 4]() | CRLS 4.1 
 02/08/17 | Divide and conquer II: Strassen's algorithm.| [Lecture 5]() | CRLS 4.2 
 02/13/17 | Solving recurrences with Master theorem and substitution method. | [Lecture 6]() | CRLS 4.3 and CLRS 4.5  
-02/15/17 | Randomized algorithms: Minimum cut. | [Lecture 7]() | See [here](http://faculty.cs.tamu.edu/klappi/cpsc411s09/minimum_cut.pdf). 
+02/15/17 | Randomized algorithms: Minimum cut. | [Lecture 7]() | See [here](http://faculty.cs.tamu.edu/klappi/cpsc411s09/minimum_cut.pdf)
   
 <!---
 Date | Lecture | Lecture | Readings
