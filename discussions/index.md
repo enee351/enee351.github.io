@@ -19,8 +19,8 @@ Slides | Date Posted
 [Shortest Distance in an Array]((http://enee351.github.io/discussions/week4/distance.c) | 02/21/2017  
 [Karger Algorithm](http://enee351.github.io/discussions/week5/week5.zip) | 02/23/17  
 [Graph representation-Adjacency list](http://enee351.github.io/discussions/week5/week5.zip) | 01/28/17  
- 
- 
+[Shortest Distance in an Array](http://enee351.github.io/discussions/week4/distance.c) | 02/21/2017  
+   
 
 <!---
 Handout | Date Posted
