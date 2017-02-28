@@ -17,7 +17,9 @@ Slides | Date Posted
 [Probablity Cormen Appendix C.2 C.3]() | 02/09/17  
 [Random Variable Cormen Appendix C.3](http://enee351.github.io/discussions/week3/discussion3.ppt) | 02/14/17   
 [Shortest Distance in an Array]((http://enee351.github.io/discussions/week4/distance.c) | 02/21/2017  
-  
+[Karger Algorithm](http://enee351.github.io/discussions/week5/week5.zip) | 02/23/17  
+[Graph representation-Adjacency list](http://enee351.github.io/discussions/week5/week5.zip) | 01/28/17  
+ 
  
 
 <!---
