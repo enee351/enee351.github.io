@@ -20,7 +20,7 @@ Date | Lecture | Lecture | Readings
 02/20/17 | Randomized algorithms II: Balls and bins; Freivald's algorithm for matrix product verification. | [Lecture 8]() | See [here](https://en.wikipedia.org/wiki/Freivalds'_algorithm) and 5.2 from [here](http://www.mscs.dal.ca/~janssen/5340/ToRead/mitzenmacher-upfal.pdf)
 02/22/17 | Sorting I: Heapsort. | [Lecture 9]() | CLRS 6
 02/27/17 | Sorting II: Sorting in linear time: Counting sort and bucket sort. | [Lecture 10]() | CLRS 8
-03/01/17 | Sorting III: Quicksort. | [Lecture 11]() | CLRS 8 and see 3.4.1 from [here](https://www.cs.cmu.edu/afs/cs/academic/class/15451-s07/www/lecture_notes/lect0123.pdf) for the analysis
+03/01/17 | Sorting III: Quicksort. | [Lecture 11]() | CLRS 7 and see 3.4.1 from [here](https://www.cs.cmu.edu/afs/cs/academic/class/15451-s07/www/lecture_notes/lect0123.pdf) for the analysis
 
 
   
