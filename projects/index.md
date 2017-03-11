@@ -12,6 +12,7 @@ toc: false
 Project | Files | Date Posted | Due Date  
 ---------- | ----- | ----------- | --------
 [Project 1](http://enee351.github.io/projects/project1/project1.pdf) | [Files](http://enee351.github.io/projects/project1/files.zip)  | 02/17/17        | 03/03/17 11:59pm  
+[Project 2](http://enee351.github.io/projects/project2/project2.pdf) | [Files](http://enee351.github.io/projects/project2/project2.zip)  | 03/13/17        | 03/29/17 11:59pm  
 
 
 <!---
