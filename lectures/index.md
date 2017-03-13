@@ -22,7 +22,7 @@ Date | Lecture | Lecture | Readings
 02/27/17 | Sorting II: Sorting in linear time: Counting sort and bucket sort. | [Lecture 10]() | CLRS 8
 03/01/17 | Sorting III: Quicksort. | [Lecture 11]() | CLRS 7 and see 3.4.1 from [here](https://www.cs.cmu.edu/afs/cs/academic/class/15451-s07/www/lecture_notes/lect0123.pdf) for the analysis
 03/06/17 | Sorting IV: Quicksort (continued). | [Lecture 12]() | CLRS 7 and see 3.4.1 from [here](https://www.cs.cmu.edu/afs/cs/academic/class/15451-s07/www/lecture_notes/lect0123.pdf) for the analysis
-03/08/17 | Randomized selection in expected linear time. | [Lecture 13]() | CLRS 9.1 and CLRS 9.2
+03/08/17 | Selection in expected linear time. | [Lecture 13]() | CLRS 9.1 and CLRS 9.2
   
 <!---
 Date | Lecture | Lecture | Readings
