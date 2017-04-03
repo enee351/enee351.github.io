@@ -28,8 +28,8 @@ Date | Lecture | Lecture | Readings
 03/20/17 | SRPING BREAK. | no lecture. | 
 03/22/17 | SPRING BREAK. | no lecture. | 
 03/27/17 | Stacks, queues, linked linsts. | [Lecture 15]() | CLRS 10
-03/29/17 | Hash tables I: Universal hashing. | [Lecture 16]() | CLRS 11
-04/03/17 | Hash tables II: Open addressing and perfect hashing. | [Lecture 17]() | CLRS 11
+03/29/17 | Hash tables I: Universal hashing. | [Lecture 16]() | CLRS 11.1-11.3
+04/03/17 | Hash tables II: Open addressing and perfect hashing. | [Lecture 17]() | CLRS 11.4-11.5
   
 <!---
 Date | Lecture | Lecture | Readings
