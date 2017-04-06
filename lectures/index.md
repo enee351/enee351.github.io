@@ -24,6 +24,12 @@ Date | Lecture | Lecture | Readings
 03/06/17 | Sorting IV: Quicksort (continued). | [Lecture 12]() | CLRS 7 and see 3.4.1 from [here](https://www.cs.cmu.edu/afs/cs/academic/class/15451-s07/www/lecture_notes/lect0123.pdf) for the analysis
 03/08/17 | Selection in expected linear time. | [Lecture 13]() | CLRS 9.1 and CLRS 9.2
 03/13/17 | Selection in worst-case linear time. | [Lecture 14]() | CLRS 9.3
+03/15/17 | MIDTERM EXAM. | no lecture. | 
+03/20/17 | SRPING BREAK. | no lecture. | 
+03/22/17 | SPRING BREAK. | no lecture. | 
+03/27/17 | Stacks, queues, linked linsts. | [Lecture 15]() | CLRS 10
+03/29/17 | Hash tables I: Universal hashing. | [Lecture 16]() | CLRS 11.1-11.3
+04/03/17 | Hash tables II: Open addressing and perfect hashing. | [Lecture 17]() | CLRS 11.4-11.5
   
 <!---
 Date | Lecture | Lecture | Readings
