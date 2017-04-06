@@ -21,7 +21,8 @@ Slides | Date Posted
 [Graph representation-Adjacency list](http://enee351.github.io/discussions/week5/week5.zip) | 02/28/17  
 [Quicksort](http://enee351.github.io/discussions/week6/quicksort.c) | 03/07/17  
 [Heapsort](http://enee351.github.io/discussions/week6/heapsort_skeleton.c) | 03/09/17  
- 
+[Hashing](http://enee351.github.io/discussions/week8/hashing_base.c) | 04/06/17  
+
 
 <!---
 Handout | Date Posted
