@@ -30,6 +30,8 @@ Date | Lecture | Lecture | Readings
 03/27/17 | Stacks, queues, linked linsts. | [Lecture 15]() | CLRS 10
 03/29/17 | Hash tables I: Universal hashing. | [Lecture 16]() | CLRS 11.1-11.3
 04/03/17 | Hash tables II: Open addressing and perfect hashing. | [Lecture 17]() | CLRS 11.4-11.5
+04/05/17 | Binary search trees. | [Lecture 18]() | CLRS 12.1-12.3
+04/10/17 | Red-black trees.  | [Lecture 19]() | CLRS 13.1-13.2 and see [here](http://cs.wellesley.edu/~cs231/fall01/red-black.pdf) (except pages 5, 6, 7) for the insertion and deletion algorithms
   
 <!---
 Date | Lecture | Lecture | Readings
