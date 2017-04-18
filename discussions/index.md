@@ -23,6 +23,7 @@ Slides | Date Posted
 [Heapsort](http://enee351.github.io/discussions/week6/heapsort_skeleton.c) | 03/09/17  
 [Hashing](http://enee351.github.io/discussions/week8/week8.zip) | 04/06/17  
 [Hashing - Contd](http://enee351.github.io/discussions/week9/Presentation1.pptx) | 04/13/17  
+[Dynamic Programming](http://enee351.github.io/discussions/week10/week10.zip) | 04/18/17  
 
 
 <!---
