@@ -24,7 +24,7 @@ Slides | Date Posted
 [Hashing](http://enee351.github.io/discussions/week8/week8.zip) | 04/06/17  
 [Hashing - Contd](http://enee351.github.io/discussions/week9/Presentation1.pptx) | 04/13/17  
 [Dynamic Programming](http://enee351.github.io/discussions/week10/week10.zip) | 04/18/17  
-
+[Dijsktra's Algorithm](http://enee351.github.io/discussions/week11/dijsktra_skeleton.c) | 04/25/17  
 
 <!---
 Handout | Date Posted
