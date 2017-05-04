@@ -38,6 +38,7 @@ Date | Lecture | Lecture | Readings
 04/22/17 | Graph algorithms III: Minimum spanning trees.  | [Lecture 23]() | CLRS 23 
 04/24/17 | Number-theoretic algorithms and RSA.  | [Lecture 24]() | CLRS 31
 05/01/17 | Polynomial multiplication using FFT. |[Lecture 25]() | For this lecture see Chapter 2.6 from [here](http://www.cse.iitd.ernet.in/~naveen/courses/CSL630/all.pdf)
+05/03/17 | NP-completeness. |[Lecture 26]() | See [here](https://courses.cs.washington.edu/courses/cse312/11sp/slides/np-completeness.ppt)
 
   
 <!---
