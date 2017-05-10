@@ -39,7 +39,8 @@ Date | Lecture | Lecture | Readings
 04/24/17 | Number-theoretic algorithms and RSA.  | [Lecture 24]() | CLRS 31
 05/01/17 | Polynomial multiplication using FFT. |[Lecture 25]() | For this lecture see Chapter 2.6 from [here](http://www.cse.iitd.ernet.in/~naveen/courses/CSL630/all.pdf)
 05/03/17 | NP-completeness. |[Lecture 26]() | See [here](https://courses.cs.washington.edu/courses/cse312/11sp/slides/np-completeness.ppt)
-
+05/08/17 | Special topics I: Computational geometry (convex hull and 2D closest pair). |[Lecture 27]() | See page 5 from [here](http://jeffe.cs.illinois.edu/teaching/compgeom/notes/01-convexhull.pdf) and [here](https://www.cs.ucsb.edu/~suri/cs235/ClosestPair.pdf)
+05/11/17 | Special topics II: Approximation algorithms (vertex cover and geometric TSP). |[Lecture 28]() |CLRS 35.1-35.2
   
 <!---
 Date | Lecture | Lecture | Readings
