@@ -11,10 +11,10 @@ toc: false
     
 Project | Files | Date Posted | Due Date  
 ---------- | ----- | ----------- | --------
-[Project 1] | [Files]  | 02/10/20        | 02/24/20 11:59pm  
-[Project 2] | [Files] | 03/02/20        | 03/13/20 11:59pm  
-[Project 3] | [Files]  | 03/30/20        | 04/13/20 11:59pm  
-[Project 4]| [Files]  | 04/20/20        | 05/04/20 11:59pm  
+[Programming Project 1] | [Files]  | 02/10/20        | 02/24/20 11:59pm  
+[Programming Project 2] | [Files] | 03/02/20        | 03/13/20 11:59pm  
+[Programming Project 3] | [Files]  | 03/30/20        | 04/13/20 11:59pm  
+[Programming Project 4]| [Files]  | 04/20/20        | 05/04/20 11:59pm  
 
 
 <!---
