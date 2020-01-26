@@ -9,7 +9,7 @@ published: true
 
 ### Instructor
 Prof. [Charalampos (Babis) Papamanthou](http://www.ece.umd.edu/~cpap)  
-ECE Department  
+ECE, UMIACS, MC2 
 Email: cpap at umd.edu  
 Office: IRIBE 5224  
 Office hours: By appointment
