@@ -6,11 +6,12 @@ modified: null
 published: true
 ---
 
-*Lectures*
+*Discusion/Labs*
 
-Date | Lecture | Additional Readings |
+Date | Topic | Materials |
 -----|---------| --------------------|
-01/27/20 | Lecture 1: Introduction. Euclidean algorithm and Fibonacci numbers.  |  CLRS 3.2, CRLS 31.2 |
+01/28/20 | Discussion 1: TBA.  |  TBA |
+01/30/20 | Lab 1: TBA.  |  TBA |
 
 <!--- 01/30/17 | Warm-up: Insertion sort and merge sort. | [Lecture 2]() | CRLS 2
 02/01/17 | Analysis of algorithms and asymptotic notation.| [Lecture 3]() | CRLS 3  
