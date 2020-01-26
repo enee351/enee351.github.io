@@ -9,7 +9,7 @@ published: true
 *Lectures*
 
 Date | Lecture | Additional Readings |
------|---------| --------
+-----|---------| --------------------|
 01/27/20 | Lecture 1: Introduction. Euclidean algorithm and Fibonacci numbers.  |  CLRS 3.2, CRLS 31.2 |
 
 <!--- 01/30/17 | Warm-up: Insertion sort and merge sort. | [Lecture 2]() | CRLS 2
