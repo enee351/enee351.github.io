@@ -11,11 +11,11 @@ toc: false
   
 Assignment | Date Posted | Due Date   
 ---------- | ----------- | --------    
-[Homework 1](http://enee351.github.io/homeworks/hw1.pdf) | 02/08/17         | 02/15/17 11:59pm  
-[Homework 2](http://enee351.github.io/homeworks/hw2.pdf) | 03/01/17         | 03/10/17 11:59pm  
-[Homework 3](http://enee351.github.io/homeworks/hw3.pdf) | 03/29/17         | 04/10/17 11:59pm  
-[Homework 4](http://enee351.github.io/homeworks/hw4.pdf) | 04/25/17         | 05/03/17 11:59pm  
-[Homework 5](http://enee351.github.io/homeworks/hw5.pdf) | 05/08/17         | 05/15/17 11:59pm  
+[Homework 1] | 02/03/20         | 02/10/20 11:59pm  
+[Homework 2] | 02/24/20         | 03/02/20 11:59pm  
+[Homework 3] | 03/23/20         | 03/30/20 11:59pm  
+[Homework 4] | 04/13/20        | 04/20/20 11:59pm  
+[Homework 5] | 05/04/20         | 05/11/20 11:59pm  
 
 <!---
 Assignment | Date Posted | Due Date
