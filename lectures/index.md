@@ -8,9 +8,10 @@ published: true
 
 *Lectures*
 
-Date | Lecture | Additional Readings
+Date | Lecture | Additional Readings |
 -----|---------| --------
 01/27/20 | Lecture 1: Introduction. Euclidean algorithm and Fibonacci numbers.  |  CLRS 3.2, CRLS 31.2 |
+
 <!--- 01/30/17 | Warm-up: Insertion sort and merge sort. | [Lecture 2]() | CRLS 2
 02/01/17 | Analysis of algorithms and asymptotic notation.| [Lecture 3]() | CRLS 3  
 02/06/17 | Divide and conquer I: Maximum subarray.| [Lecture 4]() | CRLS 4.1 
