@@ -23,9 +23,9 @@ Office hours: TBA
 
 ### Administrivia
 
-*	Lectures will be held on Monday and Wednesday from 12:30am to 1:45pm in EGR 2116.
-* Discussion and labs will be held on Thursday from 
-*	You must take notes during lectures and additional reading material will be published on [this webpage](http://enee351.github.io/lectures/). 
+*	Lectures will be held on Monday and Wednesday from 12:30pm to 1:45pm in EGR 2116.
+* Discussions and labs will be held on Tuesday and Thursday respectively from 1pm to 1:50pm in AVW 1442.
+*	The exam material will consist of (i) notes to be taken during lectures; (ii) reading material to be published on [this webpage](http://enee351.github.io/lectures/); (iii) material covered in discussions and labs. 
 *	Homework and programming assignments will be published on [this webpage](http://enee351.github.io/homeworks/), but should be submitted through [Canvas](https://umd.instructure.com/login). No late submissions will be accepted (except for medical reasons for which documentation must be provided).
 *	Read and strictly adhere to [academic integrity](http://www.faculty.umd.edu/teach/integrity.html). 
 *	Discussions will be managed on [Canvas](https://umd.instructure.com/login). Please do use the discussions on Canvas and do not email the instructor or the TA individually with course-related questions.
