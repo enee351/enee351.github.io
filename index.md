@@ -8,8 +8,7 @@ published: true
 *Home*
 
 ### Instructor
-Prof. [Charalampos (Babis) Papamanthou](http://www.ece.umd.edu/~cpap)  
-ECE, UMIACS, MC2 
+Prof. [Charalampos (Babis) Papamanthou](http://www.ece.umd.edu/~cpap)  (ECE, UMIACS, MC2)
 Email: cpap at umd.edu  
 Office: IRIBE 5224  
 Office hours: By appointment
@@ -24,7 +23,8 @@ Office hours: TBA
 
 ### Administrivia
 
-*	Lectures will be held on Monday and Wednesday from 11:00am to 12:15pm in CHE 2136.
+*	Lectures will be held on Monday and Wednesday from 12:30am to 1:45pm in EGR 2116.
+* Discussion and labs will be held on Thursday from 
 *	You must take notes during lectures and additional reading material will be published on [this webpage](http://enee351.github.io/lectures/). 
 *	Homework and programming assignments will be published on [this webpage](http://enee351.github.io/homeworks/), but should be submitted through [Canvas](https://umd.instructure.com/login). No late submissions will be accepted (except for medical reasons for which documentation must be provided).
 *	Read and strictly adhere to [academic integrity](http://www.faculty.umd.edu/teach/integrity.html). 
