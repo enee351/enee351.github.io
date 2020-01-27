@@ -9,6 +9,7 @@ published: true
 
 ### Instructor
 Prof. [Charalampos (Babis) Papamanthou](http://www.ece.umd.edu/~cpap)  (ECE, UMIACS, MC2)
+
 Email: cpap at umd.edu  
 Office: IRIBE 5224  
 Office hours: By appointment
@@ -16,6 +17,7 @@ Office hours: By appointment
 ### Teaching Assistant
 
 [Ioannis Demertzis](http://www.idemertzis.com/) 
+
 Email: yannis at umd.edu      
 Office: TBA  
 Office hours: TBA
