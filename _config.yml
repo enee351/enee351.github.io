@@ -1,9 +1,9 @@
 # Site wide configuration
 
 title: ENEE351
-sub-title: Algorithms and Data Structures  
+sub-title: # Algorithms and Data Structures  
 semester: Spring 2020
-description: Algorithms and Data Structures
+description: # Algorithms and Data Structures
 locale:
 url: //enee351.github.io
 
