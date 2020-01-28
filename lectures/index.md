@@ -10,7 +10,7 @@ published: true
 
 Date | Lecture | Readings and additional material |
 -----|---------| --------------------|
-01/27/20 | Lecture 1: Introduction I: Euclidean algorithm, Fibonacci numbers and computational problems classification .  |  CLRS 3.2, CRLS 31.2, [Fast Fibonacci calculation](https://ronzii.wordpress.com/2011/07/09/using-matrix-exponentiation-to-calculated-nth-fibonacci-number/), [P and NP](https://www.youtube.com/watch?v=YX40hbAHx3s) |
+01/27/20 | Lecture 1: Introduction I: Euclidean algorithm, Fibonacci numbers and computational problems classification.  |  CLRS 3.2, CRLS 31.2, [Fast Fibonacci calculation](https://ronzii.wordpress.com/2011/07/09/using-matrix-exponentiation-to-calculated-nth-fibonacci-number/), [P and NP](https://www.youtube.com/watch?v=YX40hbAHx3s) |
 01/29/20 | Lecture 2: Introduction II: Insertion sort, asymptotic notation, and mergesort.  |  CLRS 2, CRLS 3, [Mergesort bottom-up C code](https://www.techiedelight.com/iterative-merge-sort-algorithm-bottom-up/) |
 
 
