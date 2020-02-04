@@ -13,6 +13,8 @@ Date | Lecture | Readings and additional material |
 01/27/20 | Lecture 1: Introduction I: Euclidean algorithm, Fibonacci numbers and computational problems classification.  |  CLRS 3.2, CRLS 31.2, [Fast Fibonacci calculation](https://ronzii.wordpress.com/2011/07/09/using-matrix-exponentiation-to-calculated-nth-fibonacci-number/), [P and NP](https://www.youtube.com/watch?v=YX40hbAHx3s), [Online C compiler](https://www.onlinegdb.com/online_c_compiler) |
 01/29/20 | Lecture 2: Introduction II: Insertion sort, asymptotic notation and mergesort.  |  CLRS 2, CRLS 3, [Bottom-up mergesort C code](https://www.techiedelight.com/iterative-merge-sort-algorithm-bottom-up/) |
 02/03/20 | Lecture 3: Divide and conquer I: Maximum subarray, substitution method and master theorem.  |  CLRS 4.1, CRLS 4.3, CLRS 4.5, [Recursive mergesort C code](https://www.geeksforgeeks.org/merge-sort/) |
+02/05/20 | Lecture 4: Divide and conquer II: Multiplication of integers (Karatsuba) and matrices (Strassen).
+.  |  CLRS 4.2 |
 
 
 <!--- 01/30/17 | Warm-up: Insertion sort and merge sort. | [Lecture 2]() | CRLS 2
