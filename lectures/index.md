@@ -15,6 +15,8 @@ Date | Lecture | Readings and additional material |
 02/03/20 | Lecture 3: Divide and conquer I: Maximum subarray, substitution method and master theorem.  |  CLRS 4.1, CRLS 4.3, CLRS 4.5, [Recursive mergesort C code](https://www.geeksforgeeks.org/merge-sort/) |
 02/05/20 | Lecture 4: Divide and conquer II: Multiplication of integers (Karatsuba) and matrices (Strassen).  |  CLRS 4.2, [Notes on Karatsuba algorithm](https://www.cs.cmu.edu/~avrim/451f13/lectures/lect0827.pdf) |
 02/10/20 | Lecture 5: Divide and conquer III: Order statistics in linear time.  |  CLRS 9.3, [Notes on linear-time selection](https://www.bowdoin.edu/~ltoma/teaching/cs231/fall09/Lectures/7-selection/selection.pdf) |
+02/12/20 | Lecture 6: Randomized algorithms I: Quicksort.  |  CLRS 7, [Notes on Quicksort analysis](https://github.com/enee351/enee351.github.io/blob/master/lectures/ENEE351_Lec12_RandomizedQuicksort-Expectation.pdf) |
+
 
 
 
