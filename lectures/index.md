@@ -16,7 +16,7 @@ Date | Lecture | Readings and additional material |
 02/05/20 | Lecture 4: Divide and conquer II: Multiplication of integers (Karatsuba) and matrices (Strassen).  |  CLRS 4.2, [Notes on Karatsuba algorithm](https://www.cs.cmu.edu/~avrim/451f13/lectures/lect0827.pdf) |
 02/10/20 | Lecture 5: Divide and conquer III: Order statistics in linear time.  |  CLRS 9.3, [Notes on linear-time selection](https://www.bowdoin.edu/~ltoma/teaching/cs231/fall09/Lectures/7-selection/selection.pdf) |
 02/12/20 | Lecture 6: Randomized algorithms I: Quicksort.  |  CLRS 7, [Notes on Quicksort analysis](https://github.com/enee351/enee351.github.io/blob/master/lectures/material/ENEE351_Lec12_RandomizedQuicksort-Expectation%20(1).pdf) |
-02/17/20 | Lecture 7: Randomized Algorithms II: Balanced allocation (balls and bins), polynomial identity verification (Schwartz–Zippel) and matrix product verification (Freivald). |  [Balls and bins analysis](https://github.com/enee351/enee351.github.io/blob/master/lectures/material/ENEE351_Lec12_RandomizedQuicksort-Expectation%20(1).pdf), [Schwartz–Zippel lemma](https://en.wikipedia.org/wiki/Schwartz%E2%80%93Zippel_lemma), [Freivalds' algorithm](https://en.wikipedia.org/wiki/Freivalds%27_algorithm) |
+02/17/20 | Lecture 7: Randomized Algorithms II: Balanced allocation (balls and bins), polynomial identity verification (Schwartz–Zippel) and matrix product verification (Freivald). |  [Balls and bins analysis](), [Schwartz–Zippel lemma](https://en.wikipedia.org/wiki/Schwartz%E2%80%93Zippel_lemma), [Freivalds' algorithm](https://en.wikipedia.org/wiki/Freivalds%27_algorithm) |
 
 
 
