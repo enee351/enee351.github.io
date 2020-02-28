@@ -17,7 +17,7 @@ Date | Topic | Materials |
 02/13/20 | Discussion 3: Counting sort and bucketsort algorithms.  |  CLRS 8
 02/13/20 | Lab 3: Coding the Counting sort algorithm.  | [CountingSort C code](http://enee351.github.io/discussions/countingsort.c) |
 02/13/20 | Lab 3: Coding the Bucket sort algorithm.  | [Bucketsort C code](http://enee351.github.io/discussions/bucketsort.cpp) |
-02/20/20 | Discussion/Lab 4: Divide and Concquer algorithms (Find the median of two sorted arrays).  |  https://www.geeksforgeeks.org/median-of-two-sorted-arrays/ |
+02/20/20 | Discussion/Lab 4: Divide and Concquer algorithms (Find the median of two sorted arrays).  |  https://www.geeksforgeeks.org/median-of-two-sorted-arrays/
 02/26/20 | Discussion 5: Pseudo Polynomial Time Dynamic Propramming (Knapsack and Partition problem).  | https://en.wikipedia.org/wiki/Pseudo-polynomial_time http://enee351.github.io/discussions/dp-knapsack.pdf https://en.wikipedia.org/wiki/Partition_problem#Pseudo-polynomial_time_algorithm
 02/26/20 | Lab 5: Coding the Knapsack algorithm.  | [Knapsack C code](http://enee351.github.io/discussions/knapsack.cpp) |
 02/26/20 | Lab 5: Coding the Partition algorithm.  | [Partition C code](http://enee351.github.io/discussions/partition-problem.cpp) |
