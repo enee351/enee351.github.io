@@ -17,3 +17,4 @@ Date | Topic | Materials |
 02/13/20 | Discussion 3: Counting sort and bucketsort algorithms.  |  CLRS 8
 02/13/20 | Lab 3: Coding the Counting sort algorithm.  | [CountingSort C code](http://enee351.github.io/discussions/countingsort.c) |
 02/13/20 | Lab 3: Coding the Bucket sort algorithm.  | [Bucketsort C code](http://enee351.github.io/discussions/bucketsort.cpp) |
+02/20/20 | Discussion/Lab 4: Divide and Concquer algorithms (Find the median of two sorted arrays).  |  https://www.geeksforgeeks.org/median-of-two-sorted-arrays/
