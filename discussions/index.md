@@ -15,5 +15,5 @@ Date | Topic | Materials |
 02/06/20 | Discussion 2: Heapsort algorithm.  |  CLRS 6
 02/06/20 | Lab 2: Coding the Heapsort algorithm.  | [Heapsort C code](http://enee351.github.io/discussion/heapsort.c) |
 02/13/20 | Discussion 3: Counting sort and bucketsort algorithms.  |  CLRS 8
-02/13/20 | Lab 3: Coding the Counting sort algorithm.  | [CountingSort C code](http://enee351.github.io/discussion/countingsort.c)) |
+02/13/20 | Lab 3: Coding the Counting sort algorithm.  | [CountingSort C code](http://enee351.github.io/discussion/countingsort.c) |
 02/13/20 | Lab 3: Coding the Bucket sort algorithm.  | [Bucketsort C code](http://enee351.github.io/discussion/bucketsort.c) |
