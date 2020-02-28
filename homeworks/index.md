@@ -11,8 +11,8 @@ toc: false
   
 Assignment | Date Posted | Due Date   
 ---------- | ----------- | --------    
-[Homework 1] | 02/03/20         | 02/10/20 11:59pm  
-[Homework 2] | 02/24/20         | 03/02/20 11:59pm  
+[Homework 1] (http://enee351.github.io/homeworks/hw1.pdf) | 02/03/20         | 02/10/20 11:59pm  
+[Homework 2] (http://enee351.github.io/homeworks/hw2.pdf) | 02/24/20         | 03/02/20 11:59pm  
 [Homework 3] | 03/23/20         | 03/30/20 11:59pm  
 [Homework 4] | 04/13/20        | 04/20/20 11:59pm  
 [Homework 5] | 05/04/20         | 05/11/20 11:59pm  
