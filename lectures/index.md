@@ -22,7 +22,7 @@ Date | Lecture | Readings and additional material |
 02/26/20 | Lecture 10: Dynamic programming II: Longest common subsequence. | [Notes on longest common subsequence](https://www.cs.umd.edu/class/fall2017/cmsc451-0101/Lects/lect11-dp-lcs.pdf) |
 03/02/20 | Lecture 11: Dynamic programming III: Matrix chain multiplication and segmented least squares. | CLRS 15.2, [Notes on segmented least squares](https://homes.cs.washington.edu/~jrl/teaching/cse312au10/lec25.pdf) |
 03/04/20 | Lecture 12: Greedy algorithms I: Activity selection and fractional knapsack. | CLRS 16.1, [Notes on fractional knapsack](https://courses.cs.washington.edu/courses/cse421/04su/slides/fracknap.pdf) |
-03/06/20 | Lecture 13: Greedy algorithms II: Set cover and minimum spanning trees. | [Notes on set cover](
+03/06/20 | Lecture 13: Greedy algorithms II: Set cover and minimum spanning trees. |[Notes on set cover](
 https://www.cs.umd.edu/class/fall2017/cmsc451-0101/Lects/lect09-set-cover.pdf), [Notes on minimum spanning trees](https://courses.cs.washington.edu/courses/cse421/06au/slides/Lecture10/Lecture10.pdf) |
 
 
