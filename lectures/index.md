@@ -24,7 +24,10 @@ Date | Lecture | Readings and additional material |
 03/04/20 | Lecture 12: Greedy algorithms I: Activity selection and fractional knapsack. | CLRS 16.1, [Notes on fractional knapsack](https://courses.cs.washington.edu/courses/cse421/04su/slides/fracknap.pdf) |
 03/06/20 | Lecture 13: Greedy algorithms II: Set cover and minimum spanning trees. | [Notes on set cover](https://www.cs.umd.edu/class/fall2017/cmsc451-0101/Lects/lect09-set-cover.pdf), [Notes on minimum spanning trees](https://courses.cs.washington.edu/courses/cse421/06au/slides/Lecture10/Lecture10.pdf) |
 03/30/20 | Lecture 14: Basic data structures I: Stacks, Queues, Linked Lists. | CLRS 10 |
-04/01/20 | Lecture 15: Basic data structures II: Hash tables. | CLRS 11 |
+04/01/20 | Lecture 15: Basic data structures II: Universal hashing. | CLRS 11 |
+04/06/20 | Lecture 16: Basic data structures III: Open addressing. | CLRS 11 |
+04/08/20 | Lecture 17: Search trees I: Binary search trees. | CLRS 12|
+04/13/20 | Lecture 18: Search trees II: Red-black trees. CLRS 13, [Notes on red-black trees]
 
 
 
