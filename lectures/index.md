@@ -27,7 +27,7 @@ Date | Lecture | Readings and additional material |
 04/01/20 | Lecture 15: Basic data structures II: Universal hashing. | CLRS 11 |
 04/06/20 | Lecture 16: Basic data structures III: Open addressing. | CLRS 11 |
 04/08/20 | Lecture 17: Search trees I: Binary search trees. | CLRS 12|
-04/13/20 | Lecture 18: Search trees II: Red-black trees. CLRS 13, [Notes on red-black trees]
+04/13/20 | Lecture 18: Search trees II: Red-black trees. | CLRS 13, [Notes on red-black trees]
 
 
 
