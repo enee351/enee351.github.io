@@ -31,8 +31,11 @@ Date | Lecture | Readings and additional material |
 04/15/20 | Lecture 19: Search trees III: Red-black trees (deletion). | CLRS 13, [Notes on red-black trees by Lyn Turbak](https://github.com/enee351/enee351.github.io/blob/master/lectures/material/red-black.pdf)|
 04/20/20 | Lecture 20: Graph Algorithms I: Breadth first search. | CLRS 22.2 |
 04/22/20 | Lecture 21: Graph Algorithms II: Dijskta's algorithm. | CLRS 24.3 |
-04/27/20 | Lecture 22: NP-completeness I |CLRS 34 |
-
+04/27/20 | Lecture 22: NP-completeness I: Definitions |CLRS 34 |
+04/29/20 | Lecture 23: NP-completeness II: Reductions |CLRS 34 |
+05/04/20 | Lecture 24: Special Topics I: FFT algorithm ||
+05/06/20 | Lecture 25: Special Topics II: Aproximation algorithms ||
+05/11/20 | Lecture 26: Discussion on the final
 
 
 
