@@ -7,4 +7,4 @@ gem "sass"
 gem "bourbon"
 gem "neat"
 gem 'octopress', '~> 3.0.0.rc.12'
-gem 'redcarpet', '~> 3.1.2'
+gem 'redcarpet', '~> 3.5.1'
